@@ -6,7 +6,7 @@ export function Feature({img, title, description}) {
       <h3 className="text-xl font-bold text-gray-900">
         {title}
       </h3>
-      <p className="text-gray-600">{description}</p>
+      <p className="prose text-gray-600">{description}</p>
     </article>
   );
 }

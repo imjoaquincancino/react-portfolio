@@ -21,7 +21,7 @@ export function Home() {
         <section id="inicio" className="welcome-section bg-black">
           <div className="welcome-background bg-[url('/img/volcan-osorno-bg.webp')] bg-cover bg-center size-full top-0 left-0 absolute"></div>
           <div className="welcome-content text-white text-center h-full flex flex-col items-center justify-center">
-            <div className="p-5">
+            <div className="px-5">
               <h1 className="text-3xl text-slate-200 font-semibold mb-8 animate__animated animate__fadeInUp animate__delay-1s">
                 Joaquín Cancino
               </h1>
@@ -30,8 +30,8 @@ export function Home() {
               </h2>
             </div>
             <div className="cta">
-              <a className="page-scroll p-3 mt-28 text-4xl" href="#about">
-                <ArrowDown />
+              <a className="page-scroll p-3 text-4xl" href="#about">
+                <ArrowDown className="mt-20" />
               </a>
             </div>
           </div>
@@ -41,7 +41,7 @@ export function Home() {
           id="about"
           className="bg-white text-black w-full flex justify-center"
         >
-          <div className="flex items-center justify-between flex-col px-6 md:flex-row gap-10 py-40 container w-3/4">
+          <div className="flex items-center justify-between flex-col px-6 md:flex-row gap-10 py-52 container w-3/4">
             <img
               className="transform hover:scale-110 transition duration-300"
               src="/img/mf-avatar.svg"
@@ -61,9 +61,17 @@ export function Home() {
             </aside>
           </div>
         </section>
-        <section className="bg-[#7610F8] text-white w-full p-16">
-          <h2 className="text-center text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-8 text-white">Características de mi servicio</h2>
-          <div className="container mx-auto px-4 sm:px-6 lg:px-8 grid gap-10 sm:grid-cols-2">
+        <section
+          id="servicios"
+          className="text-white w-full py-16 md:px-16 px-8"
+          style={{
+            background: "linear-gradient(to bottom, #111827, #7610F8)",
+          }}
+        >
+          <h2 className="text-center text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-8 text-white">
+            Características de mi servicio
+          </h2>
+          <div className="container mx-auto grid gap-10 sm:grid-cols-2">
             {features.map((feature) => {
               const featureKey = feature.name
                 .normalize("NFD")
