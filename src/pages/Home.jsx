@@ -18,7 +18,7 @@ export function Home() {
     <>
       <ScrollTop />
       <main>
-        <section id="inicio" className="welcome-section bg-black">
+        <section id="inicio" className="welcome-section bg-[#111827]">
           <div className="welcome-background bg-[url('/img/volcan-osorno-bg.webp')] bg-cover bg-center size-full top-0 left-0 absolute"></div>
           <div className="welcome-content text-white text-center h-full flex flex-col items-center justify-center">
             <div className="px-5">
@@ -40,32 +40,35 @@ export function Home() {
         <section
           id="about"
           className="bg-white text-black w-full flex justify-center"
+          style={{
+            background: "linear-gradient(to bottom, #001, #004)",
+          }}
         >
-          <div className="flex items-center justify-between flex-col px-6 md:flex-row gap-10 py-52 container w-3/4">
-            <img
-              className="transform hover:scale-110 transition duration-300"
-              src="/img/mf-avatar.svg"
-              alt="Avatar de Joaquín"
-            />
-            <aside className="grid text-center gap-2 md:gap-0 md:w-2/4">
-              <h2 className="text-3xl font-semibold prose">
+          <div className="flex items-center justify-between flex-col px-6 gap-10 py-60 container w-3/4">
+            <img className="size-2/4 md:size-1/4" src="/img/logo.png" alt="" />
+            <aside className="grid text-center gap-6 md:gap-6 md:w-2/4">
+              <h2 className="text-3xl font-semibold prose text-gray-100">
                 <span className="waving-hand">👋</span> Hola, soy Joaquín.
               </h2>
-              <p className="text-xl prose">
+              <p className="text-xl prose text-gray-300">
                 Empecé a programar hace 4 años, durante la pandemia del 2020.
                 Con mis conocimientos y habilidades ahora ayudo a emprendedores
                 y empresas locales en Puerto Varas y Ensenada a mejorar su
                 presencia online con sitios web modernos, adaptados a sus
-                necesidades y a <strong>precios accesibles</strong>.
+                necesidades y a <strong className="text-gray-200">precios accesibles</strong>.
               </p>
             </aside>
+            <a className="text-sm page-scroll p-3 mt-20 flex flex-col items-center text-gray-300" href="#servicios">
+                Mis servicios
+                <ArrowDown className="size-10 text-white" />
+            </a>
           </div>
         </section>
         <section
           id="servicios"
           className="text-white w-full py-16 md:px-16 px-8"
           style={{
-            background: "linear-gradient(to bottom, #111827, #7610F8)",
+            background: "linear-gradient(to bottom, #004, #7610F8)",
           }}
         >
           <h2 className="text-center text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-8 text-white">
