@@ -6,6 +6,12 @@ const proyects = [
     url: "https://viveroensenada.cl",
     img: "/img/projects/mockup-viveroensenada.webp",
   },
+  {
+    name: "Mi Portafolio",
+    description: "Mi propia página web, utilizando las mejores tecnologías (React, Tailwind CSS y Express)",
+    url: "https://joaquincancino.dev",
+    img: "/img/projects/mockup-joaquin.webp"
+  }
 ];
 
 export default proyects;
