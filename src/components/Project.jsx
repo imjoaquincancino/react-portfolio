@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 export function Project({ name, description, url, img }) {
   return (
-    <article className="rounded-lg border border-gray-700 bg-gray-800 text-gray-100 shadow-sm">
+    <article className="rounded-lg border border-gray-700 bg-gray-900 text-gray-100 shadow-sm hover:shadow-xl hover:-translate-y-2 transition-transform duration-500">
       <div className="p-4">
         <a href={url} target="_blank">
           <img

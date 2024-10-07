@@ -24,20 +24,20 @@ export function PlanCard({
       id={`plan-${name.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "")}`}
       className="relative w-full"
     >
-      {best && (
-        <img
-          src="/img/anual-best-discount.svg"
-          alt="Mejor Oferta"
-          loading="lazy"
-          width="79"
-          height="80"
-          className="absolute -top-4 -right-4 z-10"
-        />
-      )}
       <div
-        className="p-6 text-center items-center shadow-xl rounded-2xl flex flex-col bg-[#212e36] place-content-stretch text-white w-full"
+        className="p-6 text-center items-center shadow-xl rounded-2xl flex flex-col bg-gray-900 place-content-stretch text-white w-full hover:shadow-xl hover:-translate-y-2 hover:scale-105 transition-transform duration-500"
         style={{ borderTopColor: color, borderTopWidth: "4px" }}
-      >
+        >
+        {best && (
+          <img
+            src="/img/anual-best-discount.svg"
+            alt="Mejor Oferta"
+            loading="lazy"
+            width="79"
+            height="80"
+            className="absolute -top-4 -right-4 z-10"
+          />
+        )}
         <h2 className="text-lg lg:text-2xl font-inter text-neutral-title font-bold leading-headline">
           {name}
         </h2>

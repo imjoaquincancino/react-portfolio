@@ -1,7 +1,6 @@
 const planes = [
   {
     name: "Económico",
-    example: "/ejemplos/plan-economico",
     description:
       "Ideal para pequeños negocios locales que solo necesitan una presencia online rápida y accesible con un diseño profesional y moderno.",
     price: "100.000",

@@ -6,6 +6,7 @@ import projects from "../utils/projects";
 import Project from "../components/Project";
 import packages from "../utils/packages";
 import PlanCard from "../components/Plan";
+import FadeInSection from "../components/FadeIn";
 
 document.addEventListener("DOMContentLoaded", () => {
   setTimeout(() => {
@@ -43,33 +44,39 @@ export function Home() {
 
         <section
           id="about"
-          className="bg-white text-black w-full flex justify-center"
+          className="bg-[#001] text-black w-full flex justify-center"
           style={{
             background: "linear-gradient(to bottom, #001, #004)",
           }}
         >
-          <div className="flex items-center justify-between flex-col px-6 gap-10 py-36 md:py-52 container w-3/4">
-            <img className="size-2/4 md:size-1/4" src="/img/logo.png" alt="" />
-            <aside className="grid text-center gap-6 md:gap-6 md:w-2/4">
-              <h2 className="text-3xl font-semibold prose text-gray-100">
-                <span className="waving-hand">👋</span> Hola, soy Joaquín.
-              </h2>
-              <p className="text-xl prose text-gray-300">
-                Empecé a programar hace 4 años, durante la pandemia del 2020.
-                Con mis conocimientos y habilidades ahora ayudo a emprendedores
-                y empresas locales en Puerto Varas y Ensenada a mejorar su
-                presencia online con sitios web modernos, adaptados a sus
-                necesidades y a{" "}
-                <strong className="text-gray-200">precios accesibles</strong>.
-              </p>
-            </aside>
-            <a
-              className="text-sm page-scroll p-3 mt-20 flex flex-col items-center text-gray-300"
-              href="#beneficios"
-            >
-              <ArrowDown className="size-10 text-white" />
-            </a>
-          </div>
+          <FadeInSection pageSection={"about"}>
+            <div className="flex items-center justify-between flex-col px-6 gap-10 py-36 md:py-52 container w-3/4">
+              <img
+                className="size-2/4 md:size-1/4"
+                src="/img/logo.png"
+                alt=""
+              />
+              <aside className="grid text-center gap-6 md:gap-6 md:w-2/4">
+                <h2 className="text-3xl font-semibold prose text-gray-100">
+                  <span className="waving-hand">👋</span> Hola, soy Joaquín.
+                </h2>
+                <p className="text-xl prose text-gray-300">
+                  Empecé a programar hace 4 años, durante la pandemia del 2020.
+                  Con mis conocimientos y habilidades ahora ayudo a
+                  emprendedores y empresas locales en Puerto Varas y Ensenada a
+                  mejorar su presencia online con sitios web modernos, adaptados
+                  a sus necesidades y a{" "}
+                  <strong className="text-gray-200">precios accesibles</strong>.
+                </p>
+              </aside>
+              <a
+                className="text-sm page-scroll p-3 mt-20 flex flex-col items-center text-gray-300"
+                href="#beneficios"
+              >
+                <ArrowDown className="size-10 text-white" />
+              </a>
+            </div>
+          </FadeInSection>
         </section>
         <section
           id="beneficios"
@@ -142,7 +149,7 @@ export function Home() {
           id="planes"
           className="w-full py-12 md:py-24 lg:py-32"
           style={{
-            background: "linear-gradient(to bottom, #7610F8, #7610F8)",
+            background: "linear-gradient(to bottom, #7610F8, #000F1D)",
           }}
         >
           <div className="container px-4 mx-auto">
@@ -179,23 +186,32 @@ export function Home() {
           </div>
         </section>
         <section
-         id="contacto"
-         className="w-full py-12 md:py-24 lg:py-32"
-         style={{
-          background: "linear-gradient(to bottom, #7610F8, #1f2937)",
-        }}
-         >
-            <div className="container px-4 md:px-6 mx-auto">
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center mb-8 text-white">¿Tienes un proyecto en mente?</h2>
-                <div className="mx-auto max-w-lg flex flex-col justify-items-center">
-                    <p className="text-center text-gray-200 mb-8">
-                        🚀 Contáctame para aclarar dudas o discutir tu proyecto y hacer algo increible.
-                    </p>
-                    <a target="_blank" href="https://wa.me/56965926195" className="inline-flex items-center justify-center text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none border-white border text-white hover:bg-gray-700 rounded-full w-auto h-11 px-8">
-                        Enviar Mensaje
-                    </a>
-                </div>
+          id="contacto"
+          className="w-full py-20 md:py-24 lg:py-32 relative overflow-hidden"
+          style={{
+            background:
+              "url('/img/bg-bright.jpg') no-repeat center center/cover",
+          }}
+        >
+          <div className="absolute inset-0 bg-[#000B1B] opacity-30 backdrop-blur-3xl"></div>
+          <div className="container px-4 md:px-6 mx-auto relative z-10">
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center mb-8 text-white">
+              ¿Tienes un proyecto en mente?
+            </h2>
+            <div className="mx-auto max-w-lg flex flex-col justify-items-center">
+              <p className="text-center text-gray-200 mb-8">
+                🚀 Contáctame para aclarar dudas o discutir tu proyecto y hacer
+                algo increible.
+              </p>
+              <a
+                target="_blank"
+                href="https://wa.me/56965926195"
+                className="inline-flex items-center justify-center text-sm font-medium focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none border-white border text-white rounded-full w-auto h-11 px-8 hover:scale-105 hover:bg-gradient-to-r hover:from-purple-800 hover:to-indigo-800 transition-all duration-500"
+              >
+                Enviar Mensaje
+              </a>
             </div>
+          </div>
         </section>
       </main>
     </>
