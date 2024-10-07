@@ -9,7 +9,7 @@ const proyects = [
   {
     name: "Mi Portafolio",
     description: "Mi propia página web, utilizando las mejores tecnologías (React, Tailwind CSS y Express)",
-    url: "https://joaquincancino.dev",
+    url: "https://github.com/imjoaquincancino/react-portfolio",
     img: "/img/projects/mockup-joaquin.webp"
   }
 ];
