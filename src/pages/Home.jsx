@@ -46,7 +46,7 @@ export function Home() {
           id="about"
           className="bg-[#001] text-black w-full flex justify-center"
           style={{
-            background: "linear-gradient(to bottom, #001, #004)",
+            background: "url('/img/bg-pattern.png') center/cover repeat, linear-gradient(to bottom, #001, #004)",
           }}
         >
           <FadeInSection pageSection={"about"}>
@@ -190,10 +190,10 @@ export function Home() {
           className="w-full py-20 md:py-24 lg:py-32 relative overflow-hidden"
           style={{
             background:
-              "url('/img/bg-bright.jpg') no-repeat center center/cover",
+              "url('/img/bg-pattern.png') center repeat, linear-gradient(to bottom, #000F1D, #004)",
           }}
         >
-          <div className="absolute inset-0 bg-[#000B1B] opacity-30 backdrop-blur-3xl"></div>
+          <div className="absolute inset-0 opacity-30 backdrop-blur-3xl"></div>
           <div className="container px-4 md:px-6 mx-auto relative z-10">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center mb-8 text-white">
               ¿Tienes un proyecto en mente?
