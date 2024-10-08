@@ -53,8 +53,3 @@ body {
     transform: rotate(0deg);
   }
 }
-
-.starry-background {
-  background: radial-gradient(white, rgba(255, 255, 255, 0.2)) 2px 2px, transparent;
-  background-size: 4px 4px;
-}
