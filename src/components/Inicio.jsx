@@ -9,7 +9,7 @@ export function Inicio() {
     >
       <div className="welcome-content relative text-white text-center h-screen flex flex-col items-center justify-center mt-5 mx-auto">
         <div className="px-5 adlam-display-family">
-          <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold mb-6 text-white drop-shadow-lg">
+          <h1 className="text-5xl md:text-6xl font-extrabold mb-6 text-white drop-shadow-lg">
             Páginas Web {" "}
           <ReactTyped
           backSpeed={30}
