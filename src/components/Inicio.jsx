@@ -25,7 +25,7 @@ export function Inicio() {
               loop
             />
           </h1>
-          <p className="text-sm sm:text-lg md:text-xl font-light mb-6 drop-shadow-md">
+          <p className="text-base sm:text-lg md:text-xl font-light mb-6 drop-shadow-md">
             Joaquín Cancino: Programador y Diseñador Web
           </p>
         </div>
