@@ -1,22 +1,22 @@
 const features = [
     {
         name: "Diseño Responsivo",
-        description: "Desarrollo sitios web responsivos que se adaptan a cualquier dispositivo, ya sea laptop, teléfono móvil o tablet. Me aseguro de que tu página web luzca increíble y funcione de manera óptima en todas las plataformas, brindando una experiencia de usuario impecable y adaptable. Ideal para negocios que quieran una imagen profesional y moderna.",
+        description: "Creo sitios web que se adaptan perfectamente a cualquier dispositivo, brindando una experiencia fluida y profesional en móviles, tablets y laptops.",
         img: "/img/emojis/mobile.svg"
     },
     {
         name: "Experiencia de Usuario (UX/UI)",
-        description: "Diseño páginas web fáciles de usar que permiten a los clientes navegar sin complicaciones y encontrar rápidamente lo que necesitan. Además, creo sitios visualmente atractivos que reflejan la identidad única de tu negocio, mejorando la interacción del cliente y el tiempo de permanencia en la página. Perfecto para mejorar la presencia online de negocios locales.",
+        description: "Diseño intuitivo y atractivo que facilita la navegación y refleja la esencia de tu negocio, mejorando la interacción con los clientes.",
         img: "/img/emojis/genial.svg"
     },
     {
         name: "Soluciones personalizadas",
-        description: "Cada negocio enfrenta desafíos únicos. Mi objetivo es crear soluciones tecnológicas personalizadas que resuelvan los problemas específicos de tu negocio, utilizando las últimas tecnologías. Desde sistemas de reservas hasta catálogos de productos, todo adaptado a las necesidades de tu negocio en Ensenada y Puerto Varas.",
+        description: "Cada negocio es único. Ofrezco soluciones tecnológicas a medida, desde sistemas de reservas hasta catálogos, diseñados para resolver los desafíos específicos de tu empresa en Ensenada y Puerto Varas, utilizando las últimas tecnologías.",
         img: "/img/emojis/idea.svg"
     },
     {
         name: "Sistemas a Medida",
-        description: "Desarrollo sistemas personalizados como reservas en línea o catálogos de productos, adaptados específicamente a tu negocio. Estos sistemas te permiten optimizar tus procesos internos y mejorar la experiencia de tus clientes. Perfecto para restaurantes, cabañas y otros negocios en Ensenada y Puerto Varas que buscan soluciones tecnológicas eficientes.",
+        description: "Desarrollo sistemas personalizados como reservas online y catálogos de productos. Estas soluciones optimizan tus procesos y mejoran la experiencia del cliente, ideales para negocios como restaurantes y cabañas en Ensenada y Puerto Varas.",
         img: "/img/emojis/sistemas.svg"
     },
 ];

@@ -27,6 +27,7 @@ export function Projects () {
                   img={project.img}
                   description={project.description}
                   url={project.url}
+                  targetblank={true}
                 />
               );
             })}
@@ -35,6 +36,7 @@ export function Projects () {
               key="tu-propio-sitio-web"
               name="Un Proyecto Increible"
               img="/img/projects/new-web-screenshot.webp"
+              targetblank={false}
               url="/#contacto"
               description="¿Tienes en mente un proyecto? Hagamos algo increible y llevemos tu negocio al siguiente nivel. 🚀"
             />
