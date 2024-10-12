@@ -7,8 +7,8 @@ export function Navbar() {
 
   return (
     <header className="sticky top-0 bg-gray-900 shadow-sm z-40 w-full">
-      <nav className="container mx-auto px-6 py-4 flex justify-between items-center">
-        <a href="/#inicio">
+      <nav className="container mx-auto px-6 py-4 flex justify-between items-center adlam-display-family">
+        <a href="/">
           <img className="h-8 w-auto" src="/img/logo.png" alt="Logo" />
         </a>
         <div className="hidden md:flex space-x-4">
@@ -30,7 +30,7 @@ export function Navbar() {
         </button>
       </nav>
       {isMenuOpen && (
-        <div className="md:hidden bg-gray-900 w-full py-2 flex flex-col items-center">
+        <div className="md:hidden bg-gray-900 w-full py-2 flex flex-col items-center adlam-display-family">
           <NavLink href="#about" mobile>
             Sobre mí
           </NavLink>

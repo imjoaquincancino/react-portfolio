@@ -38,7 +38,7 @@ export function PlanCard({
             className="absolute -top-4 -right-4 z-10"
           />
         )}
-        <h2 className="text-lg lg:text-2xl font-inter text-neutral-title font-bold leading-headline">
+        <h2 className="text-lg lg:text-2xl font-inter text-neutral-title font-bold leading-headline adlam-display-family">
           {name}
         </h2>
 
@@ -49,7 +49,7 @@ export function PlanCard({
         )}
 
         <div className="flex flex-row flex-nowrap items-center mt-6 mb-4">
-          <p className="text-gray-400">{description}</p>
+          <p className="text-gray-400 ">{description}</p>
         </div>
 
         <span>
@@ -72,7 +72,7 @@ export function PlanCard({
         <div className="text-center p-4 sm:p-10">
           <a
             target="_blank"
-            className="rounded-md inline-flex items-center justify-center text-sm font-medium w-auto h-11 px-12 sm:px-24 hover:bg-opacity-70 transition-colors duration-300"
+            className="rounded-md inline-flex items-center justify-center text-sm font-medium w-auto h-11 px-12 sm:px-24 hover:bg-opacity-70 transition-colors duration-300 adlam-display-family"
             style={{ backgroundColor: color }}
             href={wspLink}
           >

@@ -4,18 +4,9 @@ body {
 }
 
 .welcome-section {
-    position: relative;
-    height: 100vh;
-    overflow: hidden;
-}
-.welcome-background {
-    transition: filter 1s ease-in-out;
-}
-.welcome-content {
-    position: relative;
-    z-index: 10;
-    opacity: 0;
-    transition: opacity 1s ease-in-out;
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
 }
 
 /* https://codepen.io/einargudnig/pen/YzNeZOG */
@@ -52,4 +43,9 @@ body {
   100% {
     transform: rotate(0deg);
   }
+}
+
+.adlam-display-family {
+  font-family: "ADLaM Display", system-ui;
+  line-height: 1;
 }
