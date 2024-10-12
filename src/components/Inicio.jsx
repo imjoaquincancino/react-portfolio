@@ -4,7 +4,7 @@ import { ReactTyped } from "react-typed";
 export function Inicio() {
   return (
     <section id="inicio" className="welcome-section bg-[#001]">
-      <div className="welcome-content relative text-white text-center h-screen flex flex-col items-center justify-center mt-5 mx-auto">
+      <div className="welcome-content relative text-white text-center h-screen flex flex-col items-center justify-center mx-auto">
         <div className="px-5 z-20">
           <h1 className="text-5xl md:text-6xl font-extrabold mb-6 text-white drop-shadow-lg adlam-display-family">
             Páginas Web {" "}
