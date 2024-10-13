@@ -11,11 +11,11 @@ export function Inicio() {
             <ReactTyped
               backSpeed={30}
               strings={[
-                "para PYMEs en Puerto Varas y Ensenada",
                 "que atraen Clientes",
-                "Atractivas y Funcionales",
-                "Personalizadas y Efectivas",
-                "Accesibles y Optimizadas",
+                "a precios accesibles",
+                "para Restaurantes",
+                "para Cabañas",
+                "para negocios en Puerto Varas y Ensenada",
               ]}
               typeSpeed={50}
               backDelay={4000}
@@ -27,9 +27,12 @@ export function Inicio() {
           </p>
         </div>
         <div className="flex items-center gap-x-5 gap-y-4 justify-center flex-wrap mt-9">
-            <a className="py-2.5 px-4 justify-center rounded-[10px] font-bold border flex items-center gap-x-2.5 hover:scale-105 transition-transform duration-300 text-white border-[#7610F8] bg-[#7610F8] text-base md:text-xl md:px-6 shadow-button" href="/#planes">
-                Ver Planes
-            </a>
+          <a
+            className="py-2.5 px-4 justify-center rounded-[10px] font-bold border flex items-center gap-x-2.5 hover:scale-105 transition-transform duration-300 text-white border-[#7610F8] bg-[#7610F8] text-base md:text-xl md:px-6"
+            href="/#planes"
+          >
+            Ver Planes
+          </a>
           <a
             href="/#about"
             className="py-2.5 px-4 justify-center rounded-[10px] font-bold border flex items-center gap-x-2.5 hover:scale-105 transition-transform duration-300 bg-transparent text-white border-white text-base md:text-xl md:px-6"

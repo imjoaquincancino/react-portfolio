@@ -1,8 +1,8 @@
 const planes = [
   {
-    name: "Económico",
+    name: "Básico",
     description:
-      "Ideal para pequeños negocios locales que solo necesitan una presencia online rápida y accesible con un diseño profesional y moderno.",
+      "Ideal para quienes buscan establecer una presencia online de manera rápida y asequible, sin sacrificar calidad ni diseño.",
     price: "100.000",
     beforePrice: "150.000",
     best: true,
@@ -10,26 +10,27 @@ const planes = [
       "https://api.whatsapp.com/send?phone=56965926195&text=Hola%2C%20me%20interesa%20el%20plan%20Econ%C3%B3mico.",
     features: [
       "Hosting y Dominio durante 1 año.",
-      "Página web básica de una sola página (landing page).",
-      "Información clave del negocio: descripción, fotos, contacto, ubicación (Google Maps) y botón básico de contacto vía WhatsApp.",
+      "Página web de una sola página (landing page).",
+      "Diseño responsive adaptado para móviles y tablets.",
+      "Información clave: descripción, servicios, contacto, ubicación, y botón de WhatsApp.",
+      "Mapa de ubicación en Google Maps.",
+      "Integración con redes sociales (Facebook, Instagram).",
       "Diseño simple, profesional y moderno.",
-      "Sitio responsive (adaptado para dispositivos móviles).",
-      "🎁 Regalo: 5 Fotos de su negocio de calidad profesional.",
     ],
     mantenimiento: {
-      title: "Mantenimiento básico por 6 meses",
+      title: "Mantenimiento básico (6 meses)",
       features: [
         "Actualización de contenido menor (1 vez al mes)",
         "Copias de seguridad automáticas (mensuales)",
         "Corrección de errores técnicos (bug fixing).",
       ],
     },
-    color: "#A9DFBF",
+    color: "#7F8C8D",
   },
   {
     name: "Avanzado",
     description:
-      "Ideal para negocios como restaurantes o cabañas que necesitan mostrar más detalles de sus servicios y atraer a más clientes online.",
+      "Perfecto para aquellos que desean un sitio web más completo y atractivo, optimizando su presencia online para captar la atención de más visitantes.",
     price: "200.000",
     beforePrice: "300.000",
     wspLink:
@@ -37,44 +38,49 @@ const planes = [
     features: [
       "Hosting y Dominio durante 1 año.",
       "Sitio web de 3 a 5 páginas.",
-      "Incluye: página de servicios, sobre nosotros, catálogo de productos (o menú/carta digitalizada), galería de fotos, testimonios de clientes, contacto, ubicación (Google Maps) y formulario de reservas/pedidos avanzado vía WhatsApp.",
-      "Diseño personalizado para reflejar la identidad de la marca.",
-      "Optimización SEO básica para mejorar el posicionamiento en Google.",
-      "Sitio responsive (adaptado para dispositivos móviles).",
-      "🎁 Regalo: 10 Fotos de su negocio de calidad profesional.",
+      "Diseño responsive adaptado para móviles y tablets.",
+      "Contenidos diversos: incluye catálogo de servicios, galería de fotos, testimonios, formulario de contacto y botón de WhatsApp.",
+      "Diseño personalizado que refleja la identidad de la marca.",
+      "Mapa de ubicación en Google Maps.",
+      "Integración con redes sociales (Facebook, Instagram).",
+      "Optimización SEO local para aumentar visibilidad en Google.",
     ],
     mantenimiento: {
-      title: "Mantenimiento avanzado por 9 meses",
+      title: "Mantenimiento avanzado (6 meses)",
       features: [
         "Actualización de contenido menor (hasta 3 veces al mes).",
         "Copias de seguridad automáticas (semanales).",
         "Corrección de errores técnicos (bug fixing).",
       ],
     },
-    color: "#5DADE2",
+    color: "#8E44AD",
   },
   {
     name: "Full",
     description:
-      "Ideal para empresas que buscan una solución completa y optimizada, con características avanzadas y mayor interacción con los clientes.",
+      "La opción más completa para quienes buscan una solución web altamente personalizada y funcional, con un enfoque en la experiencia del usuario.",
     price: "350.000",
     beforePrice: "400.000",
     wspLink:
       "https://api.whatsapp.com/send?phone=56965926195&text=Hola%2C%20me%20interesa%20el%20plan%20Full.",
     features: [
       "Hosting y Dominio durante 1 año.",
-      "Sitio web completamente personalizado de hasta 10 páginas (Incluye inicio, sobre nosotros, catalogo de productos o menú/carta digitalizada), contacto, ubicación, botón avanzado de contacto Vía WhatsApp.",
-      "Incluye sistema de reservas/pedidos online hecho a medida para su negocio o integración con su plataformas de reservas.",
-      "Blog o sección de noticias para mantener a los clientes informados.",
-      "Optimización SEO avanzada y posicionamiento local en Google.",
-      "Diseño responsive avanzado con una experiencia de usuario fluida y profesional.",
-      "Integración con Google Analytics y herramientas avanzadas de seguimiento de tráfico.",
-      "🎁 Regalo: 15 Fotos de su negocio de calidad profesional.",
+      "Sitio web de hasta 10 páginas.",
+      "Diseño responsive adaptado para móviles y tablets.",
+      "Diseño avanzado con transiciones y efectos.",
+      "Hasta 5 cuentas de correo.",
+      "Perfil de Negocio en Google.",
+      "Mapa de ubicación en Google Maps.",
+      "Campañas de Publicidad en Google Ads.",
+      "Integración con Google Analytics: seguimiento de tráfico y rendimiento.",
+      "Elementos avanzados: sistema de contacto, blog, y optimización SEO avanzada.",
+      "Integración con redes sociales (Facebook, Instagram).",
+      "🎁 Regalo: 10 Fotos de su negocio de calidad profesional.",
     ],
     mantenimiento: {
-      title: "Mantenimiento Premium incluido por 1 año",
+      title: "Mantenimiento Premium (6 meses)",
       features: [
-        "Actualización de contenido (ilimitado dentro de las necesidades del negocio)",
+        "Actualización de contenido (hasta 6 veces al mes)",
         "Copias de seguridad automáticas (diarias)",
         "Monitoreo de seguridad 24/7 y protección avanzada contra ciberataques",
         "Optimización SEO avanzada (trimestral)",
@@ -82,8 +88,102 @@ const planes = [
         "Corrección de errores técnicos y asistencia prioritaria en caso de problemas",
       ],
     },
-    color: "#F4D03F",
+    color: "#FFD700",
+  },
+  {
+    name: "Tienda Online",
+    description:
+      "Ideal para pequeñas y medianas tiendas que necesitan vender productos en línea con un sistema completo de catálogo, pagos y gestión de inventario.",
+    price: "200.000",
+    beforePrice: "400.000",
+    wspLink:
+      "https://api.whatsapp.com/send?phone=56965926195&text=Hola%2C%20me%20interesa%20el%20plan%20Tienda%20Online",
+    features: [
+      "Hosting y Dominio durante 1 año.",
+      "Sitio de hasta 3 a 5 páginas: Inicio, Tienda, Sobre nosotros y Contacto.",
+      "Diseño responsive avanzado adaptado para móviles y tablets.",
+      "Tienda online con carrito de compras y pagos integrados (WebPay, PayPal, transferencias).",
+      "Catálogo de productos ilimitado (con opción de categorías).",
+      "Gestión de inventario (con alertas de stock).",
+      "Optimización SEO para productos y categorías.",
+      "Integración con redes sociales (Facebook, Instagram).",
+      "Sistema de notificaciones de ventas y actualizaciones de pedidos.",
+      "Estadísticas de ventas con gráficos.",
+      "🎁 Regalo: Capacitación en gestión de inventario y tienda online.",
+    ],
+    mantenimiento: {
+      title: "Mantenimiento E-commerce (1 año)",
+      features: [
+        "Actualización de contenido (ilimitado dentro de las necesidades del negocio)",
+        "Copias de seguridad automáticas (semanales).",
+        "Asistencia para promociones y campañas de marketing.",
+        "Corrección de errores técnicos y mejoras en la interfaz.",
+        "Monitoreo y optimización de la velocidad de carga (mensual).",
+      ],
+    },
+    color: "#1E88E5",
+  },
+  {
+    name: "Restaurantes",
+    description:
+      "Ideal para restaurantes que desean mejorar su presencia en línea, mostrar su menú y recibir reservas o pedidos en línea.",
+    price: "250.000",
+    beforePrice: "400.000",
+    wspLink:
+      "https://api.whatsapp.com/send?phone=56965926195&text=Hola%2C%20me%20interesa%20el%20plan%20Restaurantes",
+    features: [
+      "Hosting y Dominio durante 1 año.",
+      "Sitio web de 4 a 5 páginas: Inicio, sobre nosotros, menú digital, galería de fotos, sección de reseñas y contacto.",
+      "Sistema de reservas online o integración con plataformas como OpenTable o Resmio.",
+      "Sistema de pedidos a domicilio con notificaciones automáticas.",
+      "Mapa de ubicación en Google Maps y detalles de contacto.",
+      "Optimización SEO local para mejorar visibilidad en Google.",
+      "Diseño responsive avanzado para ofrecer una experiencia perfecta en dispositivos móviles.",
+      "🎁 Regalo: Carta digitalizada con Código QR y hasta 8 fotos de alta calidad.",
+    ],
+    mantenimiento: {
+      title: "Mantenimiento gastronómico (1 año)",
+      features: [
+        "Actualización de menú y precios (hasta 1 vez al mes).",
+        "Copias de seguridad automáticas (semanales).",
+        "Actualización de promociones especiales y eventos (hasta 1 vez al mes).",
+        "Monitoreo y protección contra ataques cibernéticos.",
+        "Corrección de errores técnicos y mejoras visuales en el sitio. (hasta 1 vez al mes).",
+      ],
+    },
+    color: "#FF7043",
+  },
+  {
+    name: "Cabañas",
+    description:
+      "Pensado para cabañas y alojamientos turísticos que buscan atraer más huéspedes con un sitio web visualmente atractivo, que muestre todos los servicios y opciones de reservas.",
+    price: "200.000",
+    beforePrice: "350.000",
+    wspLink:
+      "https://api.whatsapp.com/send?phone=56965926195&text=Hola%2C%20me%20interesa%20el%20plan%20Caba%C3%B1as",
+    features: [
+      "Hosting y Dominio durante 1 año.",
+      "Sitio web de 3 a 6 páginas: inicio, sobre nosotros, galería de fotos, página de servicios (descripción de cabañas), precios y disponibilidad, y contacto.",
+      "Diseño responsive adaptado para móviles y tablets.",
+      "Mapa de ubicación en Google Maps.",
+      "Sistema de reservas online o integración con Booking/Airbnb.",
+      "Optimización SEO local para aumentar visibilidad en Google.",
+      "Integración con redes sociales (Facebook, Instagram).",
+      "🎁 Regalo: Hasta 8 fotos de alta calidad del alojamiento.",
+    ],
+    mantenimiento: {
+      title: "Mantenimiento especializado en Turismo (1 año)",
+      features: [
+        "Actualización de precios y disponibilidad (hasta 2 veces al mes).",
+        "Copias de seguridad automáticas (mensuales).",
+        "Monitoreo de seguridad y protección contra ataques cibernéticos.",
+        "Optimización SEO básica para eventos y temporada alta.",
+        "Optimización de velocidad de carga (trimestral)",
+        "Corrección de errores técnicos y mejoras visuales (hasta 2 veces al mes).",
+      ],
+    },
+    color: "#4CAF50",
   },
 ];
 
-export default planes
+export default planes;
