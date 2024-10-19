@@ -11,11 +11,12 @@ export function Inicio() {
             <ReactTyped
               backSpeed={30}
               strings={[
-                "que atraen Clientes",
                 "a precios accesibles",
+                "que atraen Clientes",
+                "para Emprendimientos",
                 "para Restaurantes",
                 "para Cabañas",
-                "para negocios en Puerto Varas y Ensenada",
+                "para Puerto Varas y Ensenada",
               ]}
               typeSpeed={50}
               backDelay={4000}
