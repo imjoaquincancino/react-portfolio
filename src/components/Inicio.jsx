@@ -13,7 +13,7 @@ export function Inicio() {
               strings={[
                 "a precios accesibles",
                 "que atraen Clientes",
-                "para Emprendimientos",
+                "para Emprendedores",
                 "para Restaurantes",
                 "para Cabañas",
                 "para Puerto Varas y Ensenada",
