@@ -20,10 +20,10 @@ const planes = [
     mantenimiento: {
       title: "Mantenimiento básico (3 meses)",
       features: [
+        "Monitoreo de seguridad contra ataques cibernéticos.",
         "Copias de seguridad automáticas (mensuales)",
         "Actualización de contenido menor (1 vez al mes)",
         "Corrección de errores técnicos (1 vez al mes).",
-        "Monitoreo de seguridad contra ataques cibernéticos.",
       ],
     },
     color: "#7F8C8D",
@@ -49,10 +49,10 @@ const planes = [
     mantenimiento: {
       title: "Mantenimiento avanzado (6 meses)",
       features: [
-        "Actualización de contenido menor (hasta 3 veces al mes).",
-        "Corrección de errores técnicos (1 vez al mes).",
-        "Copias de seguridad automáticas (semanales).",
         "Monitoreo de seguridad y protección adicional contra ataques cibernéticos.",
+        "Copias de seguridad automáticas (semanales).",
+        "Actualización de contenido menor (hasta 2 veces al mes).",
+        "Corrección de errores técnicos (1 vez al mes).",
       ],
     },
     color: "#8E44AD",
@@ -80,9 +80,9 @@ const planes = [
       "🎁 Regalo: 10 Fotos de su negocio de calidad profesional.",
     ],
     mantenimiento: {
-      title: "Mantenimiento Premium (6 meses)",
+      title: "Mantenimiento Premium (1 año)",
       features: [
-        "Actualización de contenido (hasta 6 veces al mes)",
+        "Actualización de contenido menor (hasta 4 veces al mes)",
         "Copias de seguridad automáticas (diarias)",
         "Monitoreo de seguridad y protección adicional contra ataques cibernéticos.",
         "Optimización SEO avanzada (trimestral)",
@@ -114,7 +114,7 @@ const planes = [
       "🎁 Regalo: Capacitación presencial/online en gestión de inventario y tienda online.",
     ],
     mantenimiento: {
-      title: "Mantenimiento E-commerce (1 año)",
+      title: "Mantenimiento E-commerce (6 meses)",
       features: [
         "Actualización de contenido menor (1 vez al mes)",
         "Copias de seguridad automáticas (semanales).",
@@ -144,14 +144,14 @@ const planes = [
       "🎁 Regalo: Carta digitalizada con Código QR y hasta 8 fotos de alta calidad.",
     ],
     mantenimiento: {
-      title: "Mantenimiento gastronómico (1 año)",
+      title: "Mantenimiento gastronómico (6 meses)",
       features: [
-        "Actualización de menú y precios (hasta 1 vez al mes).",
-        "Actualización de promociones especiales y eventos (hasta 1 vez al mes).",
-        "Copias de seguridad automáticas (semanales).",
         "Monitoreo de seguridad y protección adicional contra ataques cibernéticos.",
-        "Optimización de velocidad de carga (trimestral)",
+        "Optimización de velocidad de carga (trimestral).",
+        "Copias de seguridad automáticas (semanales).",
+        "Actualización de menú y precios (hasta 1 vez al mes).",
         "Corrección de errores técnicos. (hasta 1 vez al mes).",
+        "Actualización de promociones especiales y eventos (hasta 1 vez al mes).",
       ],
     },
     color: "#FF7043",
@@ -175,14 +175,14 @@ const planes = [
       "🎁 Regalo: Hasta 8 fotos de alta calidad del alojamiento.",
     ],
     mantenimiento: {
-      title: "Mantenimiento especializado en Turismo (1 año)",
+      title: "Mantenimiento especializado en Turismo (6 meses)",
       features: [
-        "Actualización de precios y disponibilidad (hasta 2 veces al mes).",
-        "Optimización SEO básica para eventos y temporada alta.",
-        "Monitoreo de seguridad y protección adicional contra ataques cibernéticos.",
         "Copias de seguridad automáticas (semanales).",
+        "Monitoreo de seguridad y protección adicional contra ataques cibernéticos.",
         "Optimización de velocidad de carga (trimestral)",
         "Corrección de errores técnicos. (hasta 1 vez al mes).",
+        "Optimización SEO básica para eventos y temporada alta.",
+        "Actualización de precios y disponibilidad (hasta 2 veces al mes).",
       ],
     },
     color: "#4CAF50",
