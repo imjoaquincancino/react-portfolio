@@ -7,7 +7,6 @@ import Home from "./pages/Home"
 import "./index.css"
 import NotFound from "./pages/NotFound";
 
-// Componente principal
 function App() {
   return (
     <Router>

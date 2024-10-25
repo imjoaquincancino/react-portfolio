@@ -6,7 +6,7 @@ export function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
   return (
-    <header className="sticky top-0 bg-gray-900 shadow-sm z-40 w-full">
+    <header className="fixed top-0 left-0 right-0 bg-gray-900 shadow-sm z-40 w-full">
       <nav className="container mx-auto px-6 py-4 flex justify-between items-center adlam-display-family">
         <a href="/">
           <img className="h-8 w-auto" src="/img/logo.png" alt="Logo" />

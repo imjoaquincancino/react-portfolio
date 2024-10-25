@@ -1,24 +1,25 @@
 const features = [
     {
-        name: "Diseño Responsivo",
-        description: "Creo sitios web que se adaptan perfectamente a cualquier dispositivo, brindando una experiencia fluida y profesional en móviles, tablets y laptops.",
-        img: "/img/emojis/mobile.svg"
+        "name": "Te encontrarán fácilmente",
+        "description": "Tu negocio aparecerá en más búsquedas online, lo que hará que más personas te encuentren y conozcan tus servicios.",
+        "img": "/img/emojis/earth.svg"
     },
     {
-        name: "Experiencia de Usuario (UX/UI)",
-        description: "Diseño intuitivo y atractivo que facilita la navegación y refleja la esencia de tu negocio, mejorando la interacción con los clientes.",
-        img: "/img/emojis/genial.svg"
+        "name": "Venderás más",
+        "description": "Con una página web enfocada en vender, que sea clara y atractiva, tus clientes podrán hacer compras o reservas fácilmente, lo que se traduce en más ingresos.",
+        "img": "/img/emojis/grafico.svg"
     },
     {
-        name: "Soluciones personalizadas",
-        description: "Cada negocio es único. Ofrezco soluciones tecnológicas a medida, desde sistemas de reservas hasta catálogos, diseñados para resolver los desafíos específicos de tu empresa en Ensenada y Puerto Varas, utilizando las últimas tecnologías.",
-        img: "/img/emojis/idea.svg"
-    },
+        "name": "Mejorarás la Imagen de tu negocio",
+        "description": "Fortalece la presentación profesional de tu negocio con un diseño moderno y atractivo, que genera confianza y deja una impresión duradera en tus clientes.",
+        "img": "/img/emojis/brillo.svg"
+    },    
     {
-        name: "Sistemas a Medida",
-        description: "Desarrollo sistemas personalizados como reservas online y catálogos de productos. Estas soluciones optimizan tus procesos y mejoran la experiencia del cliente, ideales para negocios como restaurantes y cabañas en Ensenada y Puerto Varas.",
-        img: "/img/emojis/sistemas.svg"
-    },
-];
+        "name": "Tus clientes conectarán contigo",
+        "description": "Facilita la comunicación directa con tus clientes, permitiendo que te contacten de forma rápida y sencilla para resolver dudas o hacer una compra.",
+        "img": "/img/emojis/telefono.svg"
+    }
+]
+
 
 export default features;
