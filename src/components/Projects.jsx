@@ -9,7 +9,7 @@ export function Projects () {
             background: "linear-gradient(to bottom, #008, #7610F8)",
           }}
         >
-          <h2 className="text-center text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-8 text-white adlam-display-family">
+          <h2 className="text-center text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-8 text-white">
             Mis proyectos
           </h2>
           <div className="grid gap-6 lg:grid-cols-3">

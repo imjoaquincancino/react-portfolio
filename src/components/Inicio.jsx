@@ -4,9 +4,9 @@ import { ReactTyped } from "react-typed";
 export function Inicio() {
   return (
     <section id="inicio" className="welcome-section bg-[#001]">
-      <div className="welcome-content relative text-white text-center h-screen flex flex-col items-center justify-center mx-auto">
+      <div className="welcome-content px-4 relative text-white text-center h-screen flex flex-col items-center justify-center mx-auto">
         <div className="px-5 z-20">
-          <h1 className="text-5xl md:text-6xl font-extrabold mb-6 text-white drop-shadow-lg adlam-display-family">
+          <h1 className="text-5xl md:text-6xl font-extrabold mb-6 text-white drop-shadow-lg">
             Páginas Web {" "}
             <ReactTyped
               backSpeed={30}
@@ -23,8 +23,8 @@ export function Inicio() {
               loop
             />
           </h1>
-          <p className="text-base sm:text-lg md:text-xl font-light mb-6 drop-shadow-md">
-            Joaquín Cancino: Programador y Diseñador Web
+          <p className="text-gray-300 text-xl mb-6 [&>strong]:text-yellow-200 [&>strong]:font-semibold">
+            Joaquín Cancino: <strong>Programador y Diseñador Web</strong> de Ensenada, Chile
           </p>
         </div>
         <div className="flex items-center gap-x-5 gap-y-4 justify-center flex-wrap mt-9">

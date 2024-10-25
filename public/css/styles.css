@@ -1,6 +1,19 @@
+.adlam-display-family {
+  font-family: "ADLaM Display", system-ui;
+  line-height: 1;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Onest&display=swap");
+.onest-font {
+  font-family: "Onest", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
 body {
   color: #000;
-  font-family: "europa", sans-serif;
+  font-family: "Onest", system-ui, sans-serif;
 }
 
 .welcome-section {
@@ -43,9 +56,4 @@ body {
   100% {
     transform: rotate(0deg);
   }
-}
-
-.adlam-display-family {
-  font-family: "ADLaM Display", system-ui;
-  line-height: 1;
 }

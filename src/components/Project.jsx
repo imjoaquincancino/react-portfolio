@@ -2,7 +2,7 @@
 export function Project({ name, description, url, img, targetblank }) {
   const target = targetblank ? "_blank" : "_parent";
   return (
-    <article className="rounded-lg border border-gray-700 bg-gray-900 text-gray-100 shadow-sm hover:shadow-xl hover:-translate-y-2 transition-transform duration-500">
+    <article className="rounded-2xl border border-[#111C2D] bg-[#0B1422] text-gray-100 shadow-sm hover:shadow-xl hover:-translate-y-2 transition-transform duration-500">
       <div className="p-4">
         <a href={url} target={target}>
           <img

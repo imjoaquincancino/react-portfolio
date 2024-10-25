@@ -10,7 +10,7 @@ export function Features () {
             background: "linear-gradient(to bottom, #004, #008)",
           }}
         >
-          <h2 className="text-center text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-8 text-white adlam-display-family">
+          <h2 className="text-center text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-8 text-white">
             Beneficios de mi servicio
           </h2>
           <div className="container mx-auto grid gap-10 sm:grid-cols-2">

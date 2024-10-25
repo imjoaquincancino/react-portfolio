@@ -12,7 +12,7 @@ export function About() {
       <div className="flex items-center justify-between flex-col px-6 gap-10 py-36 container w-3/4">
         <img className="size-2/4 md:size-1/4" src="/img/logo.png" alt="" />
         <aside className="grid text-center gap-6 md:gap-6 md:w-2/4">
-          <h2 className="text-3xl font-semibold text-gray-100 adlam-display-family">
+          <h2 className="text-3xl font-bold text-gray-100">
             <span className="waving-hand">👋</span> Hola, soy Joaquín.
           </h2>
           <p className="text-xl text-gray-300 leading-8">

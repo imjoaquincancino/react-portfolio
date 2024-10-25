@@ -19,10 +19,10 @@ export function Planes() {
     >
       <div className="container px-4 mx-auto">
         <div className="flex flex-col mb-14 text-center">
-          <h2 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl text-white adlam-display-family">
+          <h2 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl text-white">
             Planes de Diseño Web
           </h2>
-          <span className="text-yellow-500 font-bold mt-3 adlam-display-family">
+          <span className="text-yellow-500 font-bold mt-3">
               ¡Ofertas especiales solo por tiempo limitado!
           </span>
           {/* Botones de filtro */}
