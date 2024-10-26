@@ -3,13 +3,13 @@
   line-height: 1;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Lato&family=Onest&display=swap");
 .onest-font {
   font-family: "Onest", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 }
+
 
 body {
   color: #000;
@@ -37,7 +37,7 @@ body {
   }
   15% {
     transform: rotate(14deg);
-  } /* The following five values can be played with to make the waving more or less extreme */
+  } 
   30% {
     transform: rotate(-8deg);
   }
@@ -52,7 +52,7 @@ body {
   }
   70% {
     transform: rotate(0deg);
-  } /* Reset for the last half to pause */
+  }
   100% {
     transform: rotate(0deg);
   }

@@ -6,6 +6,7 @@ import Features from "../components/Features";
 import Projects from "../components/Projects";
 import Planes from "../components/Planes";
 import Contacto from "../components/Contacto";
+import FAQ from "../components/FAQ";
 
 export function Home() {
   return (
@@ -19,6 +20,7 @@ export function Home() {
         <Features />
         <Projects />
         <Planes />
+        <FAQ />
         <Contacto />
       </main>
     </>

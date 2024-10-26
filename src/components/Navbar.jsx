@@ -12,7 +12,7 @@ export function Navbar() {
           <img className="h-8 w-auto" src="/img/logo.png" alt="Logo" />
         </a>
         <div className="hidden md:flex space-x-4">
-          <NavLink href="#about">Sobre mí</NavLink>
+          <NavLink href="#sobre-mi">Sobre mí</NavLink>
           <NavLink href="#beneficios">Beneficios</NavLink>
           <NavLink href="#proyectos">Proyectos</NavLink>
           <NavLink href="#planes">Planes</NavLink>
@@ -31,7 +31,7 @@ export function Navbar() {
       </nav>
       {isMenuOpen && (
         <div className="md:hidden bg-gray-900 w-full py-2 flex flex-col items-center adlam-display-family">
-          <NavLink href="#about" mobile>
+          <NavLink href="#sobre-mi" mobile>
             Sobre mí
           </NavLink>
           <NavLink href="#beneficios" mobile>

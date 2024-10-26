@@ -2,7 +2,7 @@ import { ArrowDown } from "lucide-react";
 export function About() {
   return (
     <section
-      id="about"
+      id="sobre-mi"
       className="bg-[#001] text-black w-full flex justify-center"
       style={{
         background:

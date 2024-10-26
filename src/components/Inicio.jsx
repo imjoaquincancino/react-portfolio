@@ -35,7 +35,7 @@ export function Inicio() {
             Ver Planes
           </a>
           <a
-            href="/#about"
+            href="/#sobre-mi"
             className="py-2.5 px-4 justify-center rounded-[10px] font-bold border flex items-center gap-x-2.5 hover:scale-105 transition-transform duration-300 bg-transparent text-white border-white text-base md:text-xl md:px-6"
           >
             Saber más
