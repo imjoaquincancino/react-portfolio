@@ -7,7 +7,12 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        brand: '#7610F8',
+        brandlight: "#b67efc"
+      },
+    },
   },
   plugins: [
     typography,

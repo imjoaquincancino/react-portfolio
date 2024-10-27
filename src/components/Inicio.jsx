@@ -16,7 +16,6 @@ export function Inicio() {
                 "para Emprendedores",
                 "para Restaurantes",
                 "para Cabañas",
-                "para Puerto Varas y Ensenada",
               ]}
               typeSpeed={50}
               backDelay={4000}
@@ -29,7 +28,7 @@ export function Inicio() {
         </div>
         <div className="flex items-center gap-x-5 gap-y-4 justify-center flex-wrap mt-9">
           <a
-            className="py-2.5 px-4 justify-center rounded-[10px] font-bold border flex items-center gap-x-2.5 hover:scale-105 transition-transform duration-300 text-white border-[#7610F8] bg-[#7610F8] text-base md:text-xl md:px-6"
+            className="py-2.5 px-4 justify-center rounded-[10px] font-bold border flex items-center gap-x-2.5 hover:scale-105 transition-transform duration-300 text-white border-[#7610F8] bg-brand text-base md:text-xl md:px-6"
             href="/#planes"
           >
             Ver Planes
