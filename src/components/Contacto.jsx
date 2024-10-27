@@ -10,12 +10,11 @@ export function Contacto () {
           <div className="absolute inset-0 opacity-30 backdrop-blur-3xl"></div>
           <div className="container px-4 md:px-6 mx-auto relative z-10">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center mb-8 text-white adlam-display-family">
-              ¿Tienes un proyecto en mente?
+              ¿Tienes alguna duda?
             </h2>
             <div className="mx-auto max-w-lg flex flex-col justify-items-center">
               <p className="text-center text-gray-200 mb-8">
-                🚀 Contáctame para aclarar dudas o discutir tu proyecto y hacer
-                algo increible.
+                🚀 Contáctame para aclarar dudas o discutir tu proyecto.
               </p>
               <a
                 target="_blank"

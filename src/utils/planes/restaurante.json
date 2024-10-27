@@ -1,0 +1,73 @@
+{
+  "name": "Restaurantes",
+  "description": "Ideal para restaurantes que desean mejorar su presencia en línea para destacar de la competencia, mostrar su menú online y recibir reservas o pedidos a través de internet.",
+  "price": "250.000",
+  "beforePrice": "400.000",
+  "wspLink": "https://api.whatsapp.com/send?phone=56965926195&text=Hola%2C%20me%20interesa%20el%20plan%20Restaurantes.",
+  "features": [
+    {
+      "content": "Sitio web de hasta 5 páginas.",
+      "icon": "fa-pager"
+    },
+    {
+      "content": "Diseño personalizado que refleja la identidad de la marca.",
+      "icon": "fa-paint-brush"
+    },
+    {
+      "content": "Diseño responsive adaptado para móviles y tablets.",
+      "icon": "fa-mobile-alt"
+    },
+    {
+      "content": "Páginas: Inicio, Sobre Nosotros, Menú/Carta, Galería de Fotos, Sección de Reseñas y Contacto.",
+      "icon": "fa-circle-info"
+    },
+    {
+      "content": "Carta o menú digitalizado con Código QR para mesas del Restaurante.",
+      "icon": "fa-qrcode"
+    },
+    {
+      "content": "Optimización SEO local para mejorar visibilidad en Google y destacar de la competencia.",
+      "icon": "fa-search"
+    },
+    {
+      "content": "Mapa de ubicación en Google Maps.",
+      "icon": "fa-location-dot"
+    },
+    {
+      "content": "Botones de Llamado o WhatsApp.",
+      "icon": "fa-brands fa-whatsapp"
+    },
+    {
+      "content": "Integración con redes sociales (Facebook, Instagram).",
+      "icon": "fa-brands fa-instagram"
+    },
+    {
+      "content": "Hasta 5 cuentas de correo.",
+      "icon": "fa-envelope"
+    },
+    {
+      "content": "Perfil de Negocio en Google.",
+      "icon": "fa-briefcase"
+    },
+    {
+      "content": "Encriptación de Seguridad SSL (GRATIS)",
+      "icon": "fa-lock"
+    },
+    {
+      "content": "Incluye Dominio .cl o .com (GRATIS)",
+      "icon": "fa-globe"
+    }
+  ],
+  "mantenimiento": {
+    "title": "Mantenimiento Gastronómico (6 meses)",
+    "features": [
+      "Monitoreo de seguridad y protección adicional contra ataques cibernéticos.",
+      "Optimización de velocidad de carga (trimestral).",
+      "Copias de seguridad automáticas (semanales).",
+      "Actualización de menú y precios (hasta 1 vez al mes).",
+      "Corrección de errores técnicos (hasta 1 vez al mes).",
+      "Actualización de promociones especiales y eventos (hasta 1 vez al mes)."
+    ]
+  },
+  "color": "#FF7043"
+}

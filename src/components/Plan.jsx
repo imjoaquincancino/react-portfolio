@@ -21,13 +21,16 @@ export function PlanCard({
 
   return (
     <div
-      id={`plan-${name.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "")}`}
+      id={`plan-${name
+        .toLowerCase()
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")}`}
       className="relative w-full"
     >
       <div
         className="p-6 text-center items-center shadow-xl rounded-2xl flex flex-col bg-gray-900 place-content-stretch text-white w-full hover:shadow-xl hover:-translate-y-2 hover:scale-105 transition-transform duration-500"
         style={{ borderTopColor: color, borderTopWidth: "4px" }}
-        >
+      >
         {best && (
           <img
             src="/img/anual-best-discount.svg"
@@ -83,15 +86,15 @@ export function PlanCard({
         <ul className="flex flex-col">
           {features.map((feature, index) => (
             <li
-              key={index}
-              className="flex content-start items-center text-white mt-3 text-start"
-            >
-              <i
-                className="fas fa-check-circle content-center mr-2"
-                style={{ color: color }}
-              ></i>
-              {feature}
-            </li>
+            key={index}
+            className="flex content-start items-center text-white p-3 text-start"
+          >
+            <i
+              className={`fas ${feature.icon} content-center mr-3`}
+              style={{ color: color }}
+            ></i>
+            {feature.content}
+          </li>
           ))}
         </ul>
 
@@ -110,10 +113,10 @@ export function PlanCard({
               {mantenimiento.features.map((feature, index) => (
                 <li
                   key={index}
-                  className="flex content-start items-center text-white mt-3 text-start"
+                  className="flex content-start items-center text-white p-3 text-start"
                 >
                   <i
-                    className="fa-solid fa-screwdriver-wrench content-center mr-2"
+                    className="fa-solid fa-screwdriver-wrench content-center mr-3"
                     style={{ color: color }}
                   ></i>
                   {feature}

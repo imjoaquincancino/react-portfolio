@@ -1,0 +1,73 @@
+{
+  "name": "Full",
+  "description": "La opción más completa para quienes buscan una solución web altamente personalizada y funcional, con un enfoque en la experiencia del usuario.",
+  "price": "350.000",
+  "beforePrice": "400.000",
+  "wspLink": "https://api.whatsapp.com/send?phone=56965926195&text=Hola%2C%20me%20interesa%20el%20plan%20Full.",
+  "features": [
+    {
+      "content": "Sitio web de hasta 10 páginas.",
+      "icon": "fa-pager"
+    },
+    {
+      "content": "Diseño avanzado con transiciones y efectos.",
+      "icon": "fa-paint-brush"
+    },
+    {
+      "content": "Diseño responsive adaptado para móviles y tablets.",
+      "icon": "fa-mobile-alt"
+    },
+    {
+      "content": "Páginas: Inicio, Sobre Nosotros, Galería, Servicios, Contacto, y más a elección.",
+      "icon": "fa-circle-info"
+    },
+    {
+      "content": "Optimización y monitorización SEO Avanzada asegurando la mejor visibilidad en Google.",
+      "icon": "fa-search"
+    },
+    {
+      "content": "Mapa de ubicación en Google Maps.",
+      "icon": "fa-location-dot"
+    },
+    {
+      "content": "Botones de Llamado o WhatsApp.",
+      "icon": "fa-brands fa-whatsapp"
+    },
+    {
+      "content": "Integración con redes sociales (Facebook, Instagram).",
+      "icon": "fa-brands fa-instagram"
+    },
+    {
+      "content": "Hasta 10 cuentas de correo.",
+      "icon": "fa-envelope"
+    },
+    {
+      "content": "Perfil de Negocio en Google.",
+      "icon": "fa-briefcase"
+    },
+    {
+      "content": "Campaña de Publicidad en mediante Google Ads.",
+      "icon": "fa-ad"
+    },
+    {
+      "content": "Encriptación de Seguridad SSL (GRATIS)",
+      "icon": "fa-lock"
+    },
+    {
+      "content": "Incluye Dominio .cl o .com (GRATIS)",
+      "icon": "fa-globe"
+    }
+  ],
+  "mantenimiento": {
+    "title": "Mantenimiento Premium (1 año)",
+    "features": [
+      "Actualización de contenido menor (hasta 4 veces al mes).",
+      "Copias de seguridad automáticas (diarias).",
+      "Monitoreo de seguridad y protección adicional contra ataques cibernéticos.",
+      "Optimización SEO avanzada (trimestral).",
+      "Optimización de velocidad de carga (trimestral).",
+      "Corrección de errores técnicos y asistencia prioritaria en caso de problemas."
+    ]
+  },
+  "color": "#FFD700"
+}
