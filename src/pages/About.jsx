@@ -1,10 +1,10 @@
 export default function AboutMe() {
   return (
     <>
-      <div className="animate__animated animate__fadeIn z-10 w-2/4 h-60 md:w-4/5 blur-[200px] top-0 md:h-20 rounded-full bg-[#7610F8] absolute pointer-events-none select-none"></div>
-      <section className=" text-white mx-auto container lg:max-w-4xl md:max-w-2xl">
+      <div className="z-10 w-2/4 h-60 md:w-4/5 blur-[200px] top-0 md:h-20 rounded-full bg-[#7610F8] absolute pointer-events-none select-none"></div>
+      <section className="text-white mx-auto container lg:max-w-4xl md:max-w-2xl">
         <div className="flex justify-center items-center py-16 md:py-36 h-screen w-auto">
-          <div className=" text-center h-full flex flex-col items-center justify-center px-8 max-w-xl">
+          <div className="animate__animated animate__fadeIn text-center h-full flex flex-col items-center justify-center px-8 max-w-xl">
             <div className="flex items-center gap-4 mb-4">
               <img
                 className="h-16 md:h-28 w-auto hover:scale-105 transition-all duration-300"
