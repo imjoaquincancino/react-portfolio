@@ -1,54 +1,48 @@
 {
-    "name": "Básico",
-    "description":
-      "Ideal para quienes buscan establecer una presencia online de manera rápida y asequible, sin sacrificar calidad ni diseño.",
-    "price": "100.000",
-    "beforePrice": "150.000",
-    "best": true,
-    "wspLink":
-      "https://api.whatsapp.com/send?phone=56965926195&text=Hola%2C%20me%20interesa%20el%20plan%20Econ%C3%B3mico.",
-    "features": [
-      {
-        "content": "Sitio web de 1 página (landing page).",
-        "icon": "fa-pager"
-      },
-      {
-        "content": "Diseño simple, profesional y moderno.",
-        "icon": "fa-paint-brush"
-      },
-      {
-        "content": "Diseño adaptado para móviles y tablets.",
-        "icon": "fa-mobile-alt"
-      },
-      {
-        "content": "Página de Inicio que incluye: Descripción, Servicios, Contacto y Ubicación.",
-        "icon": "fa-circle-info"
-      },
-      {
-        "content": "Mapa de ubicación en Google Maps.",
-        "icon": "fa-location-dot"
-      },
-      {
-        "content": "Botones de Llamado o WhatsApp.",
-        "icon": "fa-brands fa-whatsapp"
-      },
-      {
-        "content": "Encriptación de Seguridad SSL (GRATIS)",
-        "icon": "fa-lock"
-      },
-      {
-        "content": "Incluye Dominio .cl o .com (GRATIS)",
-        "icon": "fa-globe"
-      }
-    ],
-    "mantenimiento": {
-      "title": "Mantenimiento básico incluido (gratis por 3 meses)",
-      "features": [
-        "Monitoreo de seguridad contra ataques cibernéticos.",
-        "Copias de seguridad automáticas (mensuales)",
-        "Actualización de contenido menor (1 vez al mes)",
-        "Corrección de errores técnicos (1 vez al mes)."
-      ]
+  "name": "Esencial",
+  "description": "Ideal para quienes buscan establecer una presencia online de manera rápida y asequible, sin sacrificar calidad ni diseño.",
+  "price": "100.000",
+  "beforePrice": "150.000",
+  "best": true,
+  "wspLink": "https://api.whatsapp.com/send?phone=56965926195&text=Hola%2C%20me%20interesa%20el%20plan%20Econ%C3%B3mico.",
+  "features": [
+    {
+      "content": "Sitio web de 1 página (landing page).",
+      "icon": "fa-pager"
     },
-    "color": "#7F8C8D"
-  }
+    {
+      "content": "Diseño simple, profesional y moderno.",
+      "icon": "fa-paint-brush"
+    },
+    {
+      "content": "Página de Inicio que incluye: Descripción, Servicios, Contacto y Ubicación.",
+      "icon": "fa-circle-info"
+    },
+    {
+      "content": "Mapa de ubicación en Google Maps.",
+      "icon": "fa-location-dot"
+    },
+    {
+      "content": "Botones de Llamado o WhatsApp.",
+      "icon": "fa-brands fa-whatsapp"
+    },
+    {
+      "content": "Encriptación de Seguridad SSL (GRATIS)",
+      "icon": "fa-lock"
+    },
+    {
+      "content": "Incluye Dominio .cl o .com (GRATIS)",
+      "icon": "fa-globe"
+    }
+  ],
+  "mantenimiento": {
+    "title": "Mantenimiento básico incluido (gratis por 3 meses)",
+    "features": [
+      "Monitoreo de seguridad contra ataques cibernéticos.",
+      "Copias de seguridad automáticas (mensuales)",
+      "Actualización de contenido menor (1 vez al mes)",
+      "Corrección de errores técnicos (1 vez al mes)."
+    ]
+  },
+  "color": "#a3b18a"
+}

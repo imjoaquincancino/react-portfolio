@@ -1,5 +1,5 @@
 {
-  "name": "Full",
+  "name": "Corporativo",
   "description": "La opción más completa para quienes buscan una solución web altamente personalizada y funcional, con un enfoque en la experiencia del usuario.",
   "price": "350.000",
   "beforePrice": "400.000",
@@ -12,10 +12,6 @@
     {
       "content": "Diseño avanzado con transiciones y efectos.",
       "icon": "fa-paint-brush"
-    },
-    {
-      "content": "Diseño responsive adaptado para móviles y tablets.",
-      "icon": "fa-mobile-alt"
     },
     {
       "content": "Páginas: Inicio, Sobre Nosotros, Galería, Servicios, Contacto, y más a elección.",
