@@ -4,7 +4,7 @@ import faqs from "../utils/faq";
 
 const FAQItem = ({ item, isOpen, toggleOpen }) => {
   return (
-    <li className="rounded-2xl bg-[#0D1828] border border-line border-[#111c2d] w-full">
+    <li className="rounded-2xl bg-gradient-to-tr from-gray-900 to-slate-800 border border-gray-800 w-full">
       <button
         className="flex justify-between items-center w-full text-left p-4"
         onClick={toggleOpen}
@@ -34,7 +34,14 @@ const FAQItem = ({ item, isOpen, toggleOpen }) => {
         }`}
       >
         <p className="text-left max-w-xl p-4">
-          {item.answer} {item.url ? <a className="text-brandlight font-semibold" href={item.url}>Saber más...</a> : ""}
+          {item.answer}{" "}
+          {item.url ? (
+            <a className="text-brandlight font-semibold" href={item.url}>
+              Saber más...
+            </a>
+          ) : (
+            ""
+          )}
         </p>
       </div>
     </li>
@@ -48,18 +55,17 @@ export default function FAQ() {
     setOpenIndex(openIndex === index ? null : index);
   };
   return (
-    <section
-      id="faq"
-      className="w-full py-12 md:py-24 lg:py-32 "
-      style={{
-        background: "#000F1D",
-      }}
-    >
+    <section id="faq" className="mt-20 sm:mt-32 xs:p-6 mx-auto w-full max-w-screen-xl space-y-8 p-4 sm:p-12">
       <div className="px-4">
         <div className="flex flex-col mb-14 text-center">
-          <h2 className="text-3xl sm:text-4xl font-bold tracking-tighter md:text-6xl text-white">
-            Preguntas frecuentes
-          </h2>
+        <div className="space-y-1 z-10 sm:flex flex-col sm:justify-center sm:items-center">
+            <span className="bg-clip-text text-xl md:text-2xl text-transparent bg-gradient-to-br from-[#d83333] to-[#f041ff] font-semibold">
+              Resolvamos dudas
+            </span>
+            <h2 className="max-w-screen-lg text-balance text-4xl font-bold font-heading md:text-5xl md:leading-tight">
+              Preguntas Frecuentes
+            </h2>
+          </div>
           <ul className="flex flex-col gap-y-4 max-w-screen-md mx-auto mt-8">
             {faqs.map((faq, index) => (
               <FAQItem

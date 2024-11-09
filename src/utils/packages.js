@@ -9,7 +9,7 @@ const planes = [
   planBasico,
   planAvanzado,
   planFull,
-  planTienda,
+  /* planTienda, */
   planRestaurante,
   planCabañas
 ];

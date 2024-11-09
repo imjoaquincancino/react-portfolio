@@ -1,45 +1,35 @@
 import { ArrowDown } from "lucide-react";
 import { ReactTyped } from "react-typed";
-
 export function Inicio() {
   return (
-    <section id="inicio" className="welcome-section bg-[#001]">
-      <div className="welcome-content px-4 relative text-white text-center h-screen flex flex-col items-center justify-center mx-auto">
-        <div className="px-5 z-20">
-          <h1 className="text-5xl md:text-6xl font-extrabold mb-6 text-white drop-shadow-lg">
-            Páginas Web {" "}
-            <ReactTyped
-              backSpeed={30}
-              strings={[
-                "a precios accesibles",
-                "que atraen Clientes",
-                "para Emprendedores",
-                "para Restaurantes",
-                "para Cabañas",
-              ]}
-              typeSpeed={50}
-              backDelay={4000}
-              loop
-            />
-          </h1>
-          <p className="text-gray-300 text-xl mb-6 [&>strong]:text-yellow-200 [&>strong]:font-semibold">
-            Joaquín Cancino: <strong>Programador y Diseñador Web</strong> de Ensenada, Chile
-          </p>
-        </div>
-        <div className="flex items-center gap-x-5 gap-y-4 justify-center flex-wrap mt-9">
-          <a
-            className="py-2.5 px-4 justify-center rounded-[10px] font-bold border flex items-center gap-x-2.5 hover:scale-105 transition-transform duration-300 text-white border-[#7610F8] bg-brand text-base md:text-xl md:px-6"
-            href="/#planes"
-          >
-            Ver Planes
-          </a>
-          <a
-            href="/#sobre-mi"
-            className="py-2.5 px-4 justify-center rounded-[10px] font-bold border flex items-center gap-x-2.5 hover:scale-105 transition-transform duration-300 bg-transparent text-white border-white text-base md:text-xl md:px-6"
-          >
-            Saber más
-          </a>
-        </div>
+    <section className="flex h-screen items-center justify-center px-4">
+      <div className="bg-gradient-to-l from-[#4840de60] to-[#8233a960] w-3/4 max-w-xl absolute rotate-[-7deg] z-0 blur-[160px] rounded-full h-96 md:h-80"></div>
+      <div className="z-10">
+        <header className="flex flex-col items-center justify-center gap-16">
+          <span className="text-5xl sm:text-6xl md:text-7xl font-bold text-center">
+            Impulsa tu marca con{" "}
+            <h1 className="block text-center">
+              <strong className="bg-clip-text text-transparent bg-gradient-to-tr from-brand to-purple-300 font-extrabold">
+                Tu página web
+              </strong>
+            </h1>
+          </span>
+          <nav className="flex flex-col sm:flex-row gap-8 sm:gap-12">
+            <a
+              className="rounded-full bg-gradient-to-tr from-brand to-green-400 text-xl md:text-2xl font-bold py-2 px-6  hover:scale-105 transition-all duration-300 text-center"
+              href="#planes"
+            >
+              Ver Planes
+            </a>
+            <a
+              className="rounded-full border text-xl md:text-2xl font-semibold py-2 px-6 hover:scale-105 transition-all duration-300 hover:bg-white hover:bg-opacity-30 text-center"
+              href="https://wa.me/56965926195"
+              target="_blank"
+            >
+              Contactar
+            </a>
+          </nav>
+        </header>
       </div>
     </section>
   );

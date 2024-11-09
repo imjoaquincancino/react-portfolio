@@ -1,66 +1,48 @@
-/* eslint-disable react/prop-types */
-import React from "react";
-import { Menu, X } from "lucide-react";
+import React, { useState } from "react";
 
 export function Navbar() {
-  const [isMenuOpen, setIsMenuOpen] = React.useState(false);
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
 
   return (
-    <header className="fixed top-0 left-0 right-0 bg-gray-900 shadow-sm z-40 w-full">
-      <nav className="container mx-auto px-6 py-4 flex justify-between items-center adlam-display-family">
-        <a href="/">
-          <img className="h-8 w-auto" src="/img/logo.png" alt="Logo" />
-        </a>
-        <div className="hidden md:flex space-x-4">
-          <NavLink href="#sobre-mi">Sobre mí</NavLink>
-          <NavLink href="#beneficios">Beneficios</NavLink>
-          <NavLink href="#proyectos">Proyectos</NavLink>
-          <NavLink href="#planes">Planes</NavLink>
-          <NavLink href="#contacto">Contacto</NavLink>
+    <header className="w-full inset-x-0 top-0 z-20 fixed bg-black/30 backdrop-blur-xl overflow-visible">
+      <nav className="flex items-center h-20 px-8">
+        <div className="w-full flex items-center justify-between">
+          <a href="/">
+            <img className="h-10" src="/img/logo.png" alt="Logo" />
+          </a>
+
+          <div className="hidden shrink flex-row items-center gap-16 lg:flex text-base font-extralight">
+            <a href="#planes">Planes de Diseño Web</a>
+            <a href="#proyectos">Proyectos</a>
+          </div>
+
+          <div className="flex items-center gap-6">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 text-2xl text-white"
+              href="https://www.instagram.com/joaquincancino.dev/"
+            >
+              <i className="fa-brands fa-instagram"></i>
+            </a>
+            <button onClick={toggleMenu} className="text-2xl lg:hidden text-white">
+              <i className="fa-solid fa-bars"></i>
+            </button>
+          </div>
         </div>
-        <button
-          className="md:hidden"
-          onClick={() => setIsMenuOpen(!isMenuOpen)}
-        >
-          {isMenuOpen ? (
-            <X className="h-6 w-6 text-white" />
-          ) : (
-            <Menu className="h-6 w-6 text-white" />
-          )}
-        </button>
       </nav>
-      {isMenuOpen && (
-        <div className="md:hidden bg-gray-900 w-full py-2 flex flex-col items-center adlam-display-family">
-          <NavLink href="#sobre-mi" mobile>
-            Sobre mí
-          </NavLink>
-          <NavLink href="#beneficios" mobile>
-            Beneficios
-          </NavLink>
-          <NavLink href="#proyectos" mobile>
-            Proyectos
-          </NavLink>
-          <NavLink href="#planes" mobile>
-            Planes
-          </NavLink>
-          <NavLink href="#contacto" mobile>
-            Contacto
-          </NavLink>
+
+      {isOpen && (
+        <div className="lg:hidden top-20 bg-transparent left-0 right-0 backdrop-blur-xl overflow-visible text-white flex flex-col items-center gap-8 py-4 text-base ">
+          <a href="#planes">Planes de Diseño Web</a>
+          <a href="#proyectos">Proyectos</a>
         </div>
       )}
     </header>
-  );
-}
-
-function NavLink({ href, children, mobile = false }) {
-  const baseClasses =
-    "text-white hover:text-gray-300 transition-colors duration-300";
-  const mobileClasses = mobile ? "block py-2 px-4" : "";
-
-  return (
-    <a href={href} className={`${baseClasses} ${mobileClasses} ${children == "Planes" ? "font-semibold" : ""}`}>
-      {children}
-    </a>
   );
 }
 

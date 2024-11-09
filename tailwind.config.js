@@ -10,7 +10,10 @@ export default {
     extend: {
       colors: {
         brand: '#7610F8',
-        brandlight: "#b67efc"
+        brandlight: "#b67efc",
+        blackbg: "#001",
+        dark: "#060913",
+        borderdark: "#858b9833"
       },
     },
   },

@@ -27,10 +27,10 @@ function PlanCard({
         .toLowerCase()
         .normalize("NFD")
         .replace(/[\u0300-\u036f]/g, "")}`}
-      className="relative w-full"
+      className="relative md:w-2/5"
     >
       <div
-        className="p-6 text-center items-center shadow-xl rounded-2xl flex flex-col bg-gray-900 place-content-stretch text-white w-full hover:shadow-xl hover:-translate-y-2 hover:scale-105 transition-transform duration-500"
+        className="p-6 flex-grow text-center items-center shadow-xl rounded-2xl flex flex-col bg-gray-900 place-content-stretch text-white w-full hover:shadow-xl hover:-translate-y-2 hover:scale-105 transition-transform duration-500"
         style={{ borderTopColor: color, borderTopWidth: "4px" }}
       >
         {best && (
@@ -140,65 +140,64 @@ export function Planes() {
     filter === "todos" ? packages.slice(0, 3) : packages.slice(3, 6);
 
   return (
-    <section
-      id="planes"
-      className="w-full py-12 md:py-24 lg:py-32 "
-      style={{
-        background: "linear-gradient(to bottom, #7610F8, #000F1D)",
-      }}
-    >
-      <div className="container px-4 mx-auto">
-        <div className="flex flex-col mb-14 text-center">
-          <h2 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl text-white">
-            Planes de Diseño Web
-          </h2>
-          <span className="text-yellow-500 font-bold mt-3">
-            ¡Ofertas especiales solo por tiempo limitado!
-          </span>
-          {/* Botones de filtro */}
-          <div className="mt-6 flex justify-center space-x-4">
-            <button
-              className={`py-2.5 px-4 justify-center rounded-[10px] font-bold border flex items-center gap-x-2.5 transition-transform duration-300 ${
-                filter === "todos"
-                  ? "border-white text-white"
-                  : "bg-transparent border-[#7610F8] text-white"
-              }`}
-              onClick={() => setFilter("todos")}
-            >
-              Para todos
-            </button>
-            <button
-              className={`py-2.5 px-4 justify-center rounded-[10px] font-bold border flex items-center gap-x-2.5 transition-transform duration-300 ${
-                filter === "locales"
-                  ? "border-white bg-gradient-to-r from-purple-800 to-indigo-800 text-white"
-                  : "text-white border-[#7610F8]"
-              }`}
-              onClick={() => setFilter("locales")}
-            >
-              Para empresas
-            </button>
+    <section id="planes" className=" py-12 md:py-24 lg:py-32">
+      <div className="relative">
+        <div className="bg-gradient-to-l from-[#c440de54] to-[#3393a956] w-3/4 absolute -z-10 rotate-[-7deg] blur-[160px] md:blur-[300px] rounded-full h-screen"></div>
+        <div className="container px-4 mx-auto z-10">
+          <div className="space-y-1 z-10 sm:flex flex-col sm:justify-center sm:items-center">
+            <span className="bg-clip-text text-xl md:text-2xl text-transparent bg-gradient-to-br from-[#d83333] to-[#f041ff] font-semibold">
+              Los mejores precios para ti
+            </span>
+            <h2 className="max-w-screen-lg text-balance text-4xl font-bold font-heading md:text-5xl md:leading-tight">
+              Planes de Diseño Web
+            </h2>
           </div>
-        </div>
-        <div className="grid gap-8 sm:gap-10 md:gap-12 lg:gap-16 lg:grid-cols-3 md:grid-cols-1 sm:grid-cols-1">
-          {/* Mostrar planes filtrados */}
-          {filteredPackages.map((pkg) => (
-            <PlanCard
-              key={pkg.name
-                .toLowerCase()
-                .normalize("NFD")
-                .replace(/[\u0300-\u036f]/g, "")}
-              name={pkg.name}
-              beforePrice={pkg.beforePrice}
-              best={pkg.best}
-              color={pkg.color}
-              description={pkg.description}
-              example={pkg.example}
-              features={pkg.features}
-              mantenimiento={pkg.mantenimiento}
-              price={pkg.price}
-              wspLink={pkg.wspLink}
-            />
-          ))}
+          <div className="flex flex-col mb-14 text-center">
+            {/* Botones de filtro */}
+            <div className="mt-8 flex justify-center space-x-4">
+              <button
+                className={`py-2.5 px-4 justify-center rounded-[10px] font-bold border flex items-center gap-x-2.5 transition-transform duration-300 ${
+                  filter === "todos"
+                    ? "border-brand bg-gradient-to-r from-purple-800 to-indigo-800 text-white"
+                    : "bg-transparent border-[#7610F8] text-white"
+                }`}
+                onClick={() => setFilter("todos")}
+              >
+                Para todos
+              </button>
+              <button
+                className={`py-2.5 px-4 justify-center rounded-[10px] font-bold border flex items-center gap-x-2.5 transition-transform duration-300 ${
+                  filter === "locales"
+                    ? "border-brand bg-gradient-to-r from-purple-800 to-indigo-800 text-white"
+                    : "text-white border-white"
+                }`}
+                onClick={() => setFilter("locales")}
+              >
+                Para empresas
+              </button>
+            </div>
+          </div>
+          <div className="flex flex-wrap justify-center gap-8 sm:gap-10 md:gap-16 lg:gap-24 ">
+            {/* Mostrar planes filtrados */}
+            {filteredPackages.map((pkg) => (
+              <PlanCard
+                key={pkg.name
+                  .toLowerCase()
+                  .normalize("NFD")
+                  .replace(/[\u0300-\u036f]/g, "")}
+                name={pkg.name}
+                beforePrice={pkg.beforePrice}
+                best={pkg.best}
+                color={pkg.color}
+                description={pkg.description}
+                example={pkg.example}
+                features={pkg.features}
+                mantenimiento={pkg.mantenimiento}
+                price={pkg.price}
+                wspLink={pkg.wspLink}
+              />
+            ))}
+          </div>
         </div>
       </div>
     </section>

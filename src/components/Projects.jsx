@@ -46,15 +46,17 @@ export function Projects() {
   return (
     <section
       id="proyectos"
-      className="text-white w-full py-16 md:px-16 px-8"
-      style={{
-        background: "linear-gradient(to bottom, #008, #7610F8)",
-      }}
+      className="mt-20 sm:mt-32 xs:p-6 mx-auto w-full max-w-screen-xl space-y-8 p-4 sm:p-12"
     >
-      <h2 className="text-center text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-8 text-white">
-        Mis proyectos
-      </h2>
-      <div className="grid gap-6 lg:grid-cols-3">
+      <div className="space-y-1 z-10">
+        <span className="bg-clip-text md:text-lg text-transparent bg-gradient-to-br from-[#d83333] to-[#f041ff] font-semibold">
+          Algunos ya han dado el paso...
+        </span>
+        <h2 className="max-w-screen-lg text-balance text-2xl font-normal font-heading md:text-3xl xl:text-4xl md:leading-tight">
+          Ellos ya disfrutan de las <strong>ventajas</strong> de su página web
+        </h2>
+      </div>
+      <div className="grid gap-6 lg:grid-cols-3 mt-6">
         {projects.map((project) => {
           const projectKey = project.name
             .normalize("NFD")
@@ -79,7 +81,7 @@ export function Projects() {
           name="Un Proyecto Increible"
           img="/img/projects/new-web-screenshot.webp"
           targetblank={false}
-          url="/#contacto"
+          url="/#planes"
           description="¿Tienes en mente un proyecto? Hagamos algo increible y llevemos tu negocio al siguiente nivel. 🚀"
         />
       </div>
