@@ -16,8 +16,8 @@ export function Navbar() {
           </a>
 
           <div className="hidden shrink flex-row items-center gap-16 lg:flex text-base font-extralight">
-            <a href="#planes">Planes de Diseño Web</a>
-            <a href="#proyectos">Proyectos</a>
+            <a href="/">Inicio</a>
+            <a href="/nosotros">Sobre Nosotros</a>
           </div>
 
           <div className="flex items-center gap-6">
@@ -37,9 +37,9 @@ export function Navbar() {
       </nav>
 
       {isOpen && (
-        <div className="lg:hidden top-20 bg-transparent left-0 right-0 backdrop-blur-xl overflow-visible text-white flex flex-col items-center gap-8 py-4 text-base ">
-          <a href="#planes">Planes de Diseño Web</a>
-          <a href="#proyectos">Proyectos</a>
+        <div className="lg:hidden top-20 left-0 right-0 bg-black/30 backdrop-blur-xl overflow-visible text-white flex flex-col items-center gap-8 py-4 text-base ">
+          <a href="/">Inicio</a>
+          <a href="/nosotros">Sobre Nosotros</a>
         </div>
       )}
     </header>

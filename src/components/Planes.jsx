@@ -177,7 +177,7 @@ export function Planes() {
               </button>
             </div>
           </div>
-          <div className="flex flex-wrap justify-center gap-8 sm:gap-10 md:gap-16 lg:gap-24 ">
+          <div className="flex flex-wrap justify-center p-3 sm:p-0 gap-14 sm:gap-10 md:gap-16 lg:gap-24 ">
             {/* Mostrar planes filtrados */}
             {filteredPackages.map((pkg) => (
               <PlanCard
