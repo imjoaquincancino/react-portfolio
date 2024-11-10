@@ -79,10 +79,10 @@ export function Projects() {
         <ProjectCard
           key="tu-propio-sitio-web"
           name="Un Proyecto Increible"
-          img="/img/projects/new-web-screenshot.webp"
+          img="/img/projects/mockup-webnew.webp"
           targetblank={false}
           url="/#planes"
-          description="¿Tienes en mente un proyecto? Hagamos algo increible y llevemos tu negocio al siguiente nivel. 🚀"
+          description="¿Tienes en mente un proyecto? Hagamos algo increible y empieza a aumentar tus ventas. 🚀"
         />
       </div>
     </section>
