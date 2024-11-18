@@ -26,10 +26,10 @@ export function Footer() {
               >
                 <li>
                   <a
-                    href="/nosotros"
+                    href="/JC"
                     className="whitespace-nowrap text-gray-400"
                   >
-                    Quienes Somos
+                    Sobre JC
                   </a>
                 </li>
                 <li>

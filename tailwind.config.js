@@ -13,7 +13,9 @@ export default {
         brandlight: "#b67efc",
         blackbg: "#001",
         dark: "#060913",
-        borderdark: "#858b9833"
+        borderdark: "#858b9833",
+        "brand-dark-100": "#858b9833",
+        "brand-dark-800": "#0c0f19"
       },
     },
   },

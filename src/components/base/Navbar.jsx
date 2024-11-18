@@ -16,8 +16,8 @@ export function Navbar() {
           </a>
 
           <div className="hidden shrink flex-row items-center gap-16 lg:flex text-base font-extralight">
-            <a href="/">Inicio</a>
-            <a href="/nosotros">Sobre Nosotros</a>
+            <a className="hover:text-gray-200 transition-all duration-300" href="/">Inicio</a>
+            <a className="hover:text-gray-200 transition-all duration-300" href="/JC">Sobre JC</a>
           </div>
 
           <div className="flex items-center gap-6">
@@ -39,7 +39,7 @@ export function Navbar() {
       {isOpen && (
         <div className="lg:hidden top-20 left-0 right-0 bg-black/30 backdrop-blur-xl overflow-visible text-white flex flex-col items-center gap-8 py-4 text-base ">
           <a href="/">Inicio</a>
-          <a href="/nosotros">Sobre Nosotros</a>
+          <a href="/JC">Sobre JC</a>
         </div>
       )}
     </header>

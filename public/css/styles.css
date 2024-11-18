@@ -16,12 +16,6 @@ body {
   font-family: "Onest", system-ui, sans-serif;
 }
 
-.welcome-section {
-  position: relative;
-  height: 100vh;
-  overflow: hidden;
-}
-
 /* https://codepen.io/einargudnig/pen/YzNeZOG */
 .waving-hand {
   animation-name: wave-animation;

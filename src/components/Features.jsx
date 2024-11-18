@@ -10,12 +10,15 @@ function FeatureCard({ icon, title, description, color }) {
   } else if (color === "yellow") {
     borderColor = "from-[#f8e42e] to-[#ff7d54]";
     gradientColor = "from-[#f8e42e26] to-[#ff7d5426]";
+  } else if (color === "purple") {
+    borderColor = "from-[#a258f7] to-[#5a2fb3]";
+    gradientColor = "from-[#7e3ff540] to-[#7e3fef00]";
   } else {
     borderColor = "from-[#d83333] to-[#f041ff]"
     gradientColor = "from-[#d8333333] to-[#f041ff33]"
   }
   return (
-    <article className="rounded-3xl bg-gradient-to-tr from-gray-900 to-slate-800 border border-gray-800 flex flex-col items-center justify-center p-4 shadow-xl hover:scale-105 transition-all duration-300">
+    <article className="rounded-3xl bg-gradient-to-tr from-gray-900 to-slate-800 border border-gray-700 flex flex-col items-center justify-center p-4 shadow-xl hover:scale-105 transition-all duration-300">
       <div>
         <div className={`size-fit rounded-full p-0.5 lg:p-[3px] bg-gradient-to-l ${borderColor}`}>
           <div className="size-12 lg:size-14 flex flex-col items-center justify-center overflow-visible text-center bg-black text-white rounded-full">

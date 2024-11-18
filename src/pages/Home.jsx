@@ -1,4 +1,4 @@
-import ScrollTop from "../components/ScrollTop";
+import ScrollTop from "../components/base/ScrollTop";
 
 import Inicio from "../components/Inicio";
 import Features from "../components/Features";

@@ -4,7 +4,7 @@ import projects from "../utils/projects";
 function ProjectCard({ name, description, url, img, targetblank }) {
   const target = targetblank ? "_blank" : "_parent";
   return (
-    <article className="rounded-2xl border border-[#111C2D] bg-[#0B1422] text-gray-100 shadow-sm hover:shadow-xl hover:-translate-y-2 transition-transform duration-500">
+    <article className="rounded-2xl border border-[#111C2D] bg-[#0B1422] text-gray-100 shadow-sm hover:shadow-xl hover:-translate-y-2 transition-transform duration-500 max-w-sm">
       <div className="p-4">
         <a href={url} target={target}>
           <img
@@ -56,7 +56,7 @@ export function Projects() {
           Ellos ya disfrutan de las <strong>ventajas</strong> de su página web
         </h2>
       </div>
-      <div className="grid gap-6 lg:grid-cols-3 mt-6">
+      <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 mt-6">
         {projects.map((project) => {
           const projectKey = project.name
             .normalize("NFD")

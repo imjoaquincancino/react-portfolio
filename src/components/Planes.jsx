@@ -173,7 +173,7 @@ export function Planes() {
                 }`}
                 onClick={() => setFilter("locales")}
               >
-                Para empresas
+                Ofertas Pre-temporada
               </button>
             </div>
           </div>

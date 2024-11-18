@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
+import Navbar from "./components/base/Navbar";
+import Footer from "./components/base/Footer";
 
 import Home from "./pages/Home"
 
@@ -15,7 +15,7 @@ function App() {
 
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/nosotros" element={<AboutMe />} />
+          <Route path="/jc" element={<AboutMe />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
 
