@@ -60,7 +60,7 @@ export default function FAQ() {
         <div className="flex flex-col mb-14 text-center">
         <div className="space-y-1 z-10 sm:flex flex-col sm:justify-center sm:items-center">
             <span className="bg-clip-text text-xl md:text-2xl text-transparent bg-gradient-to-br from-[#d83333] to-[#f041ff] font-semibold">
-              Resolvamos dudas
+              Resolvamos tus dudas
             </span>
             <h2 className="max-w-screen-lg text-balance text-4xl font-bold font-heading md:text-5xl md:leading-tight">
               Preguntas Frecuentes

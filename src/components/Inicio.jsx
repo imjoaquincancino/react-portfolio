@@ -6,7 +6,7 @@ export function Inicio() {
       <div className="z-10 animate__animated animate__fadeIn">
         <header className="flex flex-col items-center justify-center gap-16">
           <span className="text-5xl sm:text-6xl md:text-7xl font-bold text-center">
-            Impulsa tu marca con{" "}
+            Impulsa tu negocio con{" "}
             <h1 className="block text-center">
               <strong className="bg-clip-text text-transparent bg-gradient-to-tr from-brand to-purple-300 font-extrabold">
                 Tu página web
