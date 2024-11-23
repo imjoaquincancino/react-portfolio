@@ -1,0 +1,42 @@
+{
+    "name": "Esencial (Mini Web)",
+    "description": "La mejor opción para quienes buscan tener presencia online con la esencial para vender.",
+    "price": "30.000",
+    "beforePrice": "50.000",
+    "wspLink": "https://api.whatsapp.com/send?phone=56965926195&text=Hola%2C%20me%20interesa%20el%20plan%20Esencial.",
+    "features": [
+      {
+        "content": "Página web de 1 página.",
+        "icon": "fa-pager"
+      },
+      {
+        "content": "Diseño simple, profesional y moderno.",
+        "icon": "fa-paint-brush"
+      },
+      {
+        "content": "Página estilo tarjeta de presentación y contacto.",
+        "icon": "fa-circle-info"
+      },
+      {
+        "content": "Hasta 4 botones a elección (WhatsApp, Google Maps, Llamado, etc).",
+        "icon": "fa-brands fa-whatsapp"
+      },
+      {
+        "content": "Carrusel con hasta 5 fotos de su producto o negocio.",
+        "icon": "fa-solid fa-image"
+      },
+      {
+        "content": "Encriptación de Seguridad SSL (GRATIS)",
+        "icon": "fa-lock"
+      }
+    ],
+    "mantenimiento": {
+      "title": "Mantenimiento esencial (gratis por 1 año)",
+      "features": [
+        "Monitoreo de seguridad contra ataques cibernéticos.",
+        "Copias de seguridad automáticas (mensuales)"
+      ]
+    },
+    "color": "#605EA1"
+  }
+  

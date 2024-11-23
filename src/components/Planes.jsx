@@ -137,7 +137,7 @@ export function Planes() {
   const [filter, setFilter] = useState("todos");
 
   const filteredPackages =
-    filter === "todos" ? packages.slice(0, 3) : packages.slice(3, 6);
+    filter === "todos" ? packages.slice(0, 4) : packages.slice(4, 6);
 
   return (
     <section id="planes" className=" py-12 md:py-24 lg:py-32">

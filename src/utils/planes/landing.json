@@ -1,6 +1,6 @@
 {
   "name": "Landing Page",
-  "description": "Ideal para quienes buscan establecer una presencia online de manera rápida y asequible, sin sacrificar calidad ni diseño.",
+  "description": "Ideal para quienes buscan establecer una presencia online moderna y profesional a un buen precio, sin sacrificar calidad ni diseño.",
   "price": "100.000",
   "beforePrice": "150.000",
   "best": true,
@@ -40,7 +40,7 @@
     }
   ],
   "mantenimiento": {
-    "title": "Mantenimiento básico incluido (gratis por 3 meses)",
+    "title": "Mantenimiento básico (gratis por 3 meses)",
     "features": [
       "Monitoreo de seguridad contra ataques cibernéticos.",
       "Copias de seguridad automáticas (mensuales)",
