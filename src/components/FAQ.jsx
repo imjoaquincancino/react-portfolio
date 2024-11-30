@@ -33,16 +33,10 @@ const FAQItem = ({ item, isOpen, toggleOpen }) => {
           isOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
         }`}
       >
-        <p className="text-left max-w-xl p-4">
-          {item.answer}{" "}
-          {item.url ? (
-            <a className="text-brandlight font-semibold" href={item.url}>
-              Saber más...
-            </a>
-          ) : (
-            ""
-          )}
-        </p>
+        <p
+          className="text-left prose-li:list-disc prose-li:list-inside max-w-3xl p-4"
+          dangerouslySetInnerHTML={{ __html: item.answer }}
+        ></p>
       </div>
     </li>
   );
@@ -55,10 +49,13 @@ export default function FAQ() {
     setOpenIndex(openIndex === index ? null : index);
   };
   return (
-    <section id="faq" className="mt-20 sm:mt-32 xs:p-6 mx-auto w-full max-w-screen-xl space-y-8 p-4 sm:p-12">
+    <section
+      id="faq"
+      className="mt-20 sm:mt-32 xs:p-6 mx-auto w-full max-w-screen-xl space-y-8 p-4 sm:p-12"
+    >
       <div className="px-4">
         <div className="flex flex-col mb-14 text-center">
-        <div className="space-y-1 z-10 sm:flex flex-col sm:justify-center sm:items-center">
+          <div className="space-y-1 z-10 sm:flex flex-col sm:justify-center sm:items-center">
             <span className="bg-clip-text text-xl md:text-2xl text-transparent bg-gradient-to-br from-[#d83333] to-[#f041ff] font-semibold">
               Resolvamos tus dudas
             </span>
