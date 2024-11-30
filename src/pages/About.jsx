@@ -69,7 +69,7 @@ export default function AboutMe() {
                 </h1>
               </div>
             </div>
-            <p className="mt-6 text-xl dark:[&>strong]:text-yellow-200 [&>strong]:font-semibold text-gray-300">
+            <p className="mt-6 text-xl [&>strong]:text-yellow-200 [&>strong]:font-semibold text-gray-300">
               +4 Años de experiencia.{" "}
               <strong>Programador y Diseñador Web</strong> de Ensenada, Chile.
             </p>

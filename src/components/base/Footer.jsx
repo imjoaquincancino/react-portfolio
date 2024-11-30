@@ -26,15 +26,15 @@ export function Footer() {
               >
                 <li>
                   <a
-                    href="/JC"
+                    href="/sobre-mi"
                     className="whitespace-nowrap text-gray-400"
                   >
                     Sobre JC
                   </a>
                 </li>
                 <li>
-                  <a href="/blog" className="whitespace-nowrap text-gray-400">
-                    Nuestro Blog
+                  <a href="/faq" className="whitespace-nowrap text-gray-400">
+                    Preguntas frecuentes
                   </a>
                 </li>
               </ul>
