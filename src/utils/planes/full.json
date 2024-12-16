@@ -34,15 +34,15 @@
       "icon": "fa-brands fa-instagram"
     },
     {
-      "content": "Hasta 10 cuentas de correo.",
+      "content": "Hasta 5 cuentas de correo.",
       "icon": "fa-envelope"
     },
     {
-      "content": "Perfil de Negocio en Google.",
+      "content": "Perfil de Negocio en Google Administrado.",
       "icon": "fa-briefcase"
     },
     {
-      "content": "Campaña de Publicidad mediante Google Ads.",
+      "content": "Campaña de Publicidad mediante Google Ads Administrada.",
       "icon": "fa-ad"
     },
     {
@@ -57,7 +57,7 @@
   "mantenimiento": {
     "title": "Mantenimiento Premium (gratis por 6 meses)",
     "features": [
-      "Actualización de contenido menor (hasta 4 veces al mes).",
+      "Actualización de contenido menor (hasta 2 veces al mes).",
       "Copias de seguridad automáticas (diarias).",
       "Monitoreo de seguridad y protección adicional contra ataques cibernéticos.",
       "Optimización SEO avanzada (trimestral).",
