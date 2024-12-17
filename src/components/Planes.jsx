@@ -155,18 +155,18 @@ export function Planes() {
             <span className="bg-clip-text text-xl md:text-2xl text-transparent bg-gradient-to-br from-[#d83333] to-[#f041ff] font-semibold">
               Los mejores precios para ti
             </span>
-            <h2 className="max-w-screen-lg text-balance text-4xl font-bold font-heading md:text-5xl md:leading-tight">
+            <h2 className="max-w-screen-lg text-balance text-4xl font-bold md:text-5xl md:leading-tight">
               Planes de Diseño Web
             </h2>
-            <span className="pt-4">
-              <CTAcampaign icon={"/img/icons/star.svg"} text={"¡Obtén tu página web a mitad de precio!"} />
-            </span>
+            <div className="py-4">
+              <CTAcampaign text={"¡Obtén tu página web a mitad de precio!"} />
+            </div>
           </div>
-          <div className="flex flex-col mb-14 text-center">
+          <div className="flex flex-col mt-4 mb-14 text-center">
             {/* Botones de filtro */}
-            <div className="mt-4 flex justify-center space-x-20">
+            <div className="flex justify-center space-x-20">
               <button
-                className={`py-2.5 px-4 justify-center rounded-[10px] font-bold border flex items-center gap-x-2.5 transition-transform duration-300 ${
+                className={`py-2.5 px-8 justify-center rounded-[10px] font-bold border flex text-justify items-center gap-x-2.5 transition-transform duration-300 ${
                   filter === "todos"
                     ? "border-brand bg-gradient-to-r from-purple-800 to-indigo-800 text-white"
                     : "bg-transparent border-[#7610F8] text-white"

@@ -1,7 +1,7 @@
 // eslint-disable-next-line react/prop-types
 export default function CTAcampaign({ text, icon }) {
   return (
-    <span className="relative inline-flex overflow-hidden rounded-full p-[1px] mb-6">
+    <span className="relative inline-flex overflow-hidden rounded-full p-[1px]">
       <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#7610F8_0%,#500da5_50%,#5031af_100%)]"></span>
       <a
         href="#planes"
