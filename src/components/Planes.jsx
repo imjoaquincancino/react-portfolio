@@ -1,6 +1,7 @@
 /* eslint-disable react/prop-types */
 import { useState } from "react";
 import packages from "../utils/packages";
+import CTAcampaign from "./campaign/CTAcampaign";
 
 /* Card de los Planes */
 function PlanCard({
@@ -14,6 +15,7 @@ function PlanCard({
   features,
   mantenimiento,
   best,
+  campaign,
 }) {
   const [showMaintenance, setShowMaintenance] = useState(false);
 
@@ -33,13 +35,13 @@ function PlanCard({
         className="p-6 flex-grow text-center items-center shadow-xl rounded-2xl flex flex-col bg-gray-900 place-content-stretch text-white w-full hover:shadow-xl hover:-translate-y-2 hover:scale-105 transition-transform duration-500"
         style={{ borderTopColor: color, borderTopWidth: "4px" }}
       >
-        {best && (
+        {campaign && (
           <img
-            src="/img/anual-best-discount.svg"
-            alt="Mejor Oferta"
+            src="/img/icons/descuento-50.webp"
+            alt="Descuento de Pre-temporada"
             loading="lazy"
-            width="79"
-            height="80"
+            width="70"
+            height="70"
             className="absolute -top-4 -right-4 z-10"
           />
         )}
@@ -48,8 +50,13 @@ function PlanCard({
         </h2>
 
         {example && (
-          <span style={{ color: color }} className="mt-2 font-bold underline underline-offset-4">
-            <a target="_blank" href={example}>Ver un ejemplo</a>
+          <span
+            style={{ color: color }}
+            className="mt-2 font-bold underline underline-offset-4"
+          >
+            <a target="_blank" href={example}>
+              Ver un ejemplo
+            </a>
           </span>
         )}
 
@@ -151,10 +158,13 @@ export function Planes() {
             <h2 className="max-w-screen-lg text-balance text-4xl font-bold font-heading md:text-5xl md:leading-tight">
               Planes de Diseño Web
             </h2>
+            <span className="pt-4">
+              <CTAcampaign icon={"/img/icons/star.svg"} text={"¡Obtén tu página web a mitad de precio!"} />
+            </span>
           </div>
           <div className="flex flex-col mb-14 text-center">
             {/* Botones de filtro */}
-            <div className="mt-8 flex justify-center space-x-4">
+            <div className="mt-4 flex justify-center space-x-20">
               <button
                 className={`py-2.5 px-4 justify-center rounded-[10px] font-bold border flex items-center gap-x-2.5 transition-transform duration-300 ${
                   filter === "todos"
@@ -173,7 +183,7 @@ export function Planes() {
                 }`}
                 onClick={() => setFilter("locales")}
               >
-                Ofertas Pre-temporada
+                Restaurantes y Cabañas
               </button>
             </div>
           </div>
@@ -187,7 +197,7 @@ export function Planes() {
                   .replace(/[\u0300-\u036f]/g, "")}
                 name={pkg.name}
                 beforePrice={pkg.beforePrice}
-                best={pkg.best}
+                campaign={pkg.campaign}
                 color={pkg.color}
                 description={pkg.description}
                 example={pkg.example}

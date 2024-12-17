@@ -2,7 +2,8 @@
   "name": "Restaurantes",
   "description": "Ideal para restaurantes que desean mejorar su presencia en línea para destacar de la competencia, mostrar su menú online y recibir reservas o pedidos a través de internet.",
   "price": "250.000",
-  "beforePrice": "400.000",
+  "campaign": true,
+  "beforePrice": "500.000",
   "wspLink": "https://api.whatsapp.com/send?phone=56965926195&text=Hola%2C%20me%20interesa%20el%20plan%20Restaurantes.",
   "features": [
     {

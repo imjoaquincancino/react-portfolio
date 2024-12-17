@@ -2,7 +2,8 @@
   "name": "Landing Page",
   "description": "Ideal para quienes buscan establecer una presencia online moderna y profesional a un buen precio, sin sacrificar calidad ni diseño.",
   "price": "100.000",
-  "beforePrice": "150.000",
+  "campaign": true,
+  "beforePrice": "200.000",
   "best": true,
   "wspLink": "https://api.whatsapp.com/send?phone=56965926195&text=Hola%2C%20me%20interesa%20el%20plan%20Landing.",
   "features": [
@@ -48,5 +49,5 @@
       "Corrección de errores técnicos (1 vez al mes)."
     ]
   },
-  "color": "#9EDF9C"
+  "color": "#75cb73"
 }
