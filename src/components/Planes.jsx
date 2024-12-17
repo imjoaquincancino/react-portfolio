@@ -77,7 +77,7 @@ function PlanCard({
             className="flex justify-center mb-5 font-inter font-bold text-2xl sm:text-3xl items-baseline"
             style={{ color: color }}
           >
-            {price} <span className="ml-1 font-semibold text-sm">CLP/año</span>
+            ${price} <span className="ml-1 font-semibold text-sm">CLP/año</span>
           </span>
         </span>
 
