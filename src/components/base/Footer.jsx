@@ -32,11 +32,6 @@ export function Footer() {
                     Sobre JC
                   </a>
                 </li>
-                <li>
-                  <a href="/faq" className="whitespace-nowrap text-gray-400">
-                    Preguntas frecuentes
-                  </a>
-                </li>
               </ul>
             </section>
             {/* <section className="group flex flex-col">
@@ -63,7 +58,7 @@ export function Footer() {
                 <li>
                   <a
                   target="_blank"
-                    href="mailto:cancinojoaquin12@gmail.com"
+                    href="mailto:hola@joaquincancino.dev"
                     className="whitespace-nowrap text-gray-400"
                   >
                     Correo
