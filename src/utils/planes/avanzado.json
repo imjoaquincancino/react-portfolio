@@ -2,7 +2,8 @@
   "name": "Avanzado",
   "description": "Perfecto para aquellos que desean un sitio web más completo y atractivo, optimizando su presencia online para captar la atención de más visitantes.",
   "price": "200.000",
-  "beforePrice": "300.000",
+  "beforePrice": "400.000",
+  "campaign": true,
   "wspLink": "https://api.whatsapp.com/send?phone=56965926195&text=Hola%2C%20me%20interesa%20el%20plan%20Avanzado.",
   "features": [
     {

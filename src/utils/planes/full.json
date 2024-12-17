@@ -1,8 +1,9 @@
 {
   "name": "Corporativo",
   "description": "La opción más completa para quienes buscan una solución web altamente personalizada y funcional, con un enfoque en la experiencia del usuario.",
-  "price": "350.000",
-  "beforePrice": "400.000",
+  "price": "325.000",
+  "campaign": true,
+  "beforePrice": "650.000",
   "wspLink": "https://api.whatsapp.com/send?phone=56965926195&text=Hola%2C%20me%20interesa%20el%20plan%20Full.",
   "features": [
     {
