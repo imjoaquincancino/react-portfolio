@@ -2,6 +2,7 @@
     "name": "Esencial (Mini Web)",
     "description": "La mejor opción para quienes buscan tener presencia online con la esencial para vender.",
     "price": "30.000",
+    "example": "https://dondepanchoensenada.cl",
     "beforePrice": "50.000",
     "wspLink": "https://api.whatsapp.com/send?phone=56965926195&text=Hola%2C%20me%20interesa%20el%20plan%20Esencial.",
     "features": [

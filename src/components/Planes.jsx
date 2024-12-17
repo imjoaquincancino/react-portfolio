@@ -48,8 +48,8 @@ function PlanCard({
         </h2>
 
         {example && (
-          <span style={{ color: color }} className="mt-2 font-semibold">
-            <a href={example}>Ver página de ejemplo</a>
+          <span style={{ color: color }} className="mt-2 font-bold underline underline-offset-4">
+            <a target="_blank" href={example}>Ver un ejemplo</a>
           </span>
         )}
 
