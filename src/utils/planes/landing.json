@@ -4,6 +4,7 @@
   "price": "100.000",
   "campaign": true,
   "beforePrice": "200.000",
+  "example": "https://lachocolattina.cl",
   "best": true,
   "wspLink": "https://api.whatsapp.com/send?phone=56965926195&text=Hola%2C%20me%20interesa%20el%20plan%20Landing.",
   "features": [
@@ -12,11 +13,11 @@
       "icon": "fa-pager"
     },
     {
-      "content": "Diseño simple, profesional y moderno.",
+      "content": "Diseño Avanzado, profesional y moderno.",
       "icon": "fa-paint-brush"
     },
     {
-      "content": "Página de Inicio que incluye: Descripción, Servicios, Contacto y Ubicación.",
+      "content": "Hasta 5 secciones: Inicio, Servicios/Cátalogo, Nosotros, Contacto y Ubicación.",
       "icon": "fa-circle-info"
     },
     {
@@ -30,6 +31,10 @@
     {
       "content": "Integración con redes sociales (Facebook, Instagram).",
       "icon": "fa-brands fa-instagram"
+    },
+    {
+      "content": "Hasta 20 fotos de sus productos o negocio.",
+      "icon": "fa-solid fa-image"
     },
     {
       "content": "Encriptación de Seguridad SSL (GRATIS)",

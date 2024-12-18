@@ -1,6 +1,6 @@
 {
     "name": "Esencial (Mini Web)",
-    "description": "La mejor opción para quienes buscan tener presencia online con la esencial para vender.",
+    "description": "La mejor opción para quienes buscan tener una presencia online profesional con lo esencial para aumentar sus ventas.",
     "price": "30.000",
     "example": "https://dondepanchoensenada.cl",
     "beforePrice": "60.000",
@@ -12,11 +12,11 @@
         "icon": "fa-pager"
       },
       {
-        "content": "Diseño simple, profesional y moderno.",
+        "content": "Diseño Minimalista, profesional y moderno.",
         "icon": "fa-paint-brush"
       },
       {
-        "content": "Página estilo tarjeta de presentación y contacto.",
+        "content": "Hasta 2 Secciones: Inicio y Contacto/Promoción",
         "icon": "fa-circle-info"
       },
       {
@@ -24,7 +24,7 @@
         "icon": "fa-brands fa-whatsapp"
       },
       {
-        "content": "Carrusel con hasta 5 fotos de su producto o negocio.",
+        "content": "Hasta 5 fotos de su producto o negocio.",
         "icon": "fa-solid fa-image"
       },
       {

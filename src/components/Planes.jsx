@@ -32,7 +32,7 @@ function PlanCard({
       className="relative md:w-2/5"
     >
       <div
-        className="p-6 flex-grow text-center items-center shadow-xl rounded-2xl flex flex-col bg-gray-900 place-content-stretch text-white w-full hover:shadow-xl hover:-translate-y-2 hover:scale-105 transition-transform duration-500"
+        className="p-6 flex-grow text-center items-center shadow-xl rounded-2xl flex flex-col bg-gray-900 place-content-stretch text-white w-full hover:shadow-xl hover:-translate-y-3 transition-transform duration-500"
         style={{ borderTopColor: color, borderTopWidth: "4px" }}
       >
         {campaign && (
@@ -152,7 +152,7 @@ export function Planes() {
         <div className="bg-gradient-to-l from-[#c440de54] to-[#3393a956] w-3/4 absolute -z-10 rotate-[-7deg] blur-[160px] md:blur-[300px] rounded-full h-screen"></div>
         <div className="container px-4 mx-auto z-10">
           <div className="space-y-1 z-10 sm:flex flex-col sm:justify-center sm:items-center">
-            <span className="bg-clip-text text-xl md:text-2xl text-transparent bg-gradient-to-br from-[#d83333] to-[#f041ff] font-semibold">
+            <span className="bg-clip-text text-xl md:text-2xl text-transparent bg-gradient-to-br from-[#d88333] to-[#ffc341] font-bold">
               Los mejores precios para ti
             </span>
             <h2 className="max-w-screen-lg text-balance text-4xl font-bold md:text-5xl md:leading-tight">
@@ -164,7 +164,7 @@ export function Planes() {
           </div>
           <div className="flex flex-col mt-4 mb-14 text-center">
             {/* Botones de filtro */}
-            <div className="flex justify-center space-x-20">
+            <div className="flex justify-center space-x-24">
               <button
                 className={`py-2.5 px-8 justify-center rounded-[10px] font-bold border flex text-justify items-center gap-x-2.5 transition-transform duration-300 ${
                   filter === "todos"

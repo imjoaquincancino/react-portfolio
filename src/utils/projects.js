@@ -16,7 +16,7 @@ const proyects = [
   {
     name: "Donde Pancho",
     description:
-      "Presentación Digital (Mini Web) del restaurante Donde Pancho. Con un diseño moderno, profesional y minimalista. Contiene lo esencial para marcar presencia en linea.",
+      "Mini Web del restaurante Donde Pancho Ensenada. Con un diseño moderno, profesional y minimalista. Contiene lo esencial para marcar presencia en linea.",
     url: "https://dondepanchoensenada.cl",
     img: "/img/projects/mockup-dondepancho.webp",
   }

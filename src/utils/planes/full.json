@@ -1,6 +1,6 @@
 {
   "name": "Corporativo",
-  "description": "La opción más completa para quienes buscan una solución web altamente personalizada y funcional, con un enfoque en la experiencia del usuario.",
+  "description": "La opción más completa para quienes buscan una solución web altamente personalizada y funcional, con un enfoque en la experiencia del usuario y en la identidad de marca.",
   "price": "325.000",
   "campaign": true,
   "beforePrice": "650.000",
@@ -19,7 +19,7 @@
       "icon": "fa-circle-info"
     },
     {
-      "content": "Optimización y monitorización SEO Avanzada asegurando el mejor posicionamiento en Google.",
+      "content": "Optimización avanzada de textos, imágenes, keywords para SEO en Google (incluye Reportes de estadísticas).",
       "icon": "fa-search"
     },
     {
@@ -35,16 +35,16 @@
       "icon": "fa-brands fa-instagram"
     },
     {
-      "content": "Hasta 5 cuentas de correo.",
-      "icon": "fa-envelope"
+      "content": "Hasta 60 fotos de sus productos o negocio.",
+      "icon": "fa-solid fa-image"
     },
     {
-      "content": "Perfil de Negocio en Google Administrado.",
+      "content": "Optimización de Perfil de Negocio en Google.",
       "icon": "fa-briefcase"
     },
     {
-      "content": "Campaña de Publicidad mediante Google Ads Administrada.",
-      "icon": "fa-ad"
+      "content": "Hasta 5 cuentas de correo con dominio insitucional (nombre@tudominio.cl).",
+      "icon": "fa-envelope"
     },
     {
       "content": "Encriptación de Seguridad SSL (GRATIS)",
