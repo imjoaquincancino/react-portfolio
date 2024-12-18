@@ -153,7 +153,7 @@ export function Planes() {
         <div className="container px-4 mx-auto z-10">
           <div className="space-y-1 z-10 sm:flex flex-col sm:justify-center sm:items-center">
             <span className="bg-clip-text text-xl md:text-2xl text-transparent bg-gradient-to-br from-[#d88333] to-[#ffc341] font-bold">
-              Los mejores precios para ti
+              Las mejores ofertas para ti
             </span>
             <h2 className="max-w-screen-lg text-balance text-4xl font-bold md:text-5xl md:leading-tight">
               Planes de Diseño Web
