@@ -22,7 +22,7 @@ export function Inicio() {
               className="rounded-2xl bg-gradient-to-tr from-brand to-green-400 text-2xl font-bold py-2 px-6 hover:scale-105 transition-all duration-300 text-center"
               href="#planes"
             >
-              Ver Precios
+              Ver Ofertas
             </a>
             <a
               className="rounded-2xl border text-2xl font-semibold py-2 px-6 hover:scale-105 transition-all duration-300 hover:bg-white hover:bg-opacity-30 text-center"
