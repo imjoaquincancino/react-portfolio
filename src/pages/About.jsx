@@ -69,9 +69,9 @@ export default function AboutMe() {
                 </h1>
               </div>
             </div>
-            <p className="mt-6 text-xl [&>strong]:text-yellow-200 [&>strong]:font-semibold text-gray-300">
+            <p className="mt-6 text-xl text-gray-300">
               +4 Años de experiencia.{" "}
-              <strong>Programador y Diseñador Web</strong> de Ensenada, Chile.
+              <strong className="text-yellow-200">Programador y Diseñador Web</strong> de <strong>Ensenada, Puerto Varas</strong>.
             </p>
             <nav className="flex flex-wrap items-center justify-center gap-4 mt-8">
               <a
@@ -194,26 +194,25 @@ export default function AboutMe() {
             <strong>2024:</strong> En la actualidad...
           </span>
           <h2 className="max-w-screen-lg text-balance text-2xl font-normal font-heading md:text-3xl xl:text-4xl md:leading-tight">
-            Ayudo a emprendedores y empresas locales a mejorar su{" "}
-            <strong>presencia online</strong>
+            Ayudo a <strong>emprendedores y empresas de Ensenada y Puerto Varas</strong> a mejorar su presencia online
           </h2>
           <div className="p-6 flex flex-wrap items-center justify-center gap-14">
             <FeatureCard
               color="purple"
-              title="Páginas web a un Precio Accesible"
-              description="Ofrezco páginas web de alta calidad y con las últimas tecnologías, a un precio accesible."
+              title="Páginas web a un Precio Accesible y Flexible"
+              description="Ofrezco páginas web de alta calidad y con las últimas tecnologías, a un precio accesible mediante pagos flexibles."
               icon="fa-solid fa-laptop"
             />
             <FeatureCard
               color="yellow"
               title="Campañas de Publicidad"
-              description="Gestiono campañas de publicidad para que tu negocio alcance el mayor número de personas."
+              description="Gestiono campañas de publicidad para que tu negocio alcance el mayor número de personas y así aumentar tus ventas."
               icon="fa-solid fa-ranking-star"
             />
             <FeatureCard
               color="blue"
               title="Identidad de Marca"
-              description="Ayudo a que tu negocio demuestre su personalidad, mediante una identidad de marca firme y atractiva."
+              description="Ayudo a que tu negocio demuestre su personalidad, mediante una identidad de marca firme y atractiva, destacandote de la competencia."
               icon="fa-regular fa-gem"
             />
           </div>
