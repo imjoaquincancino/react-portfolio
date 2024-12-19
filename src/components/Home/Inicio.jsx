@@ -1,5 +1,5 @@
 import { ArrowDown } from "lucide-react";
-import CTAcampaign from "../campaign/CTAcampaign";
+import CTAcampaign from "../campaign/CampaignButton";
 export function Inicio() {
   return (
     <section className="flex h-screen items-center justify-center px-4">
