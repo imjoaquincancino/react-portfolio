@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import React, { useState } from "react";
-import faqs from "../utils/faq";
+import faqs from "../../utils/faq";
 
 const FAQItem = ({ item, isOpen, toggleOpen }) => {
   return (

@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import projects from "../utils/projects";
+import projects from "../../utils/projects";
 
 function ProjectCard({ name, description, url, img, targetblank }) {
   const target = targetblank ? "_blank" : "_parent";

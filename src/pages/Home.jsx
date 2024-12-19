@@ -1,12 +1,11 @@
 import ScrollTop from "../components/base/ScrollTop";
 
-import Inicio from "../components/Inicio";
-import Features from "../components/Features";
-import Projects from "../components/Projects";
-import Planes from "../components/Planes";
-import Contacto from "../components/Contacto";
-import FAQ from "../components/FAQ";
-import CTAend from "../components/CTAend";
+import Inicio from "../components/Home/Inicio";
+import Features from "../components/Home/Features";
+import Projects from "../components/Home/Projects";
+import Planes from "../components/Home/Planes";
+import FAQ from "../components/Home/FAQ";
+import CTAend from "../components/Home/CTAend";
 
 export function Home() {
   return (

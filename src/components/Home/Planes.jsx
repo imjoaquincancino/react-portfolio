@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import { useState } from "react";
-import packages from "../utils/packages";
-import CTAcampaign from "./campaign/CTAcampaign";
+import packages from "../../utils/packages";
+import CTAcampaign from "../campaign/CTAcampaign";
 
 /* Card de los Planes */
 function PlanCard({
@@ -164,9 +164,9 @@ export function Planes() {
           </div>
           <div className="flex flex-col mt-4 mb-14 text-center">
             {/* Botones de filtro */}
-            <div className="flex justify-center space-x-24">
+            <div className="flex justify-center space-x-10 md:space-x-24">
               <button
-                className={`py-2.5 px-8 justify-center rounded-[10px] font-bold border flex text-justify items-center gap-x-2.5 transition-transform duration-300 ${
+                className={`text-center py-2.5 px-8 justify-center rounded-[10px] font-bold border flex items-center gap-x-2.5 transition-transform duration-300 ${
                   filter === "todos"
                     ? "border-brand bg-gradient-to-r from-purple-800 to-indigo-800 text-white"
                     : "bg-transparent border-[#7610F8] text-white"
@@ -176,7 +176,7 @@ export function Planes() {
                 Para todos
               </button>
               <button
-                className={`py-2.5 px-4 justify-center rounded-[10px] font-bold border flex items-center gap-x-2.5 transition-transform duration-300 ${
+                className={`text-center py-2.5 px-4 justify-center rounded-[10px] font-bold border flex items-center gap-x-2.5 transition-transform duration-300 ${
                   filter === "locales"
                     ? "border-brand bg-gradient-to-r from-purple-800 to-indigo-800 text-white"
                     : "text-white border-white"

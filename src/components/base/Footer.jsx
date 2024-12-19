@@ -75,7 +75,7 @@ export function Footer() {
         </nav>
         <div className="flex items-center justify-center">
               <span className="text-xs text-gray-600 py-1">
-                © {(new Date).getFullYear()} <a className="text-gray-500" href="https://joaquincancino.dev">Joaquín Cancino</a>. Todos los derechos reservados.
+                © {(new Date).getFullYear()} <a className="text-gray-500" href="https://joaquincancino.dev">Joaquín Cancino</a>. Ensenada, Puerto Varas. Todos los derechos reservados.
               </span>
         </div>
       </div>
