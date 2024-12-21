@@ -25,10 +25,10 @@ export default function PlanCard({
         .toLowerCase()
         .normalize("NFD")
         .replace(/[\u0300-\u036f]/g, "")}`}
-      className="relative md:w-2/5"
+      className="relative w-full"
     >
       <div
-        className="p-6 flex-grow text-center items-center shadow-xl rounded-2xl flex flex-col bg-gray-900 place-content-stretch text-white w-full hover:shadow-xl hover:-translate-y-3 transition-transform duration-500"
+        className="p-6 flex-grow text-center items-center shadow-xl rounded-2xl flex flex-col bg-gray-900 place-content-stretch text-white w-full hover:shadow-2xl transition-transform duration-500"
         style={{ borderTopColor: color, borderTopWidth: "4px" }}
       >
         {campaign && (

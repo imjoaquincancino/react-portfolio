@@ -44,7 +44,7 @@ export function Features() {
   return (
     <section
       id="beneficios"
-      className="mt-20 sm:mt-32 xs:p-6 mx-auto w-full max-w-screen-xl space-y-8 p-4 sm:p-12"
+      className="mt-20 sm:mt-32 mx-auto w-full max-w-screen-xl space-y-8 p-4 sm:p-12"
     >
       <div className="bg-gradient-to-l from-[#40d6de25] to-[#334ba94c] w-3/4  absolute -z-10 rotate-[-7deg] blur-[160px] rounded-full h-72 lg:h-80"></div>
       <div className="space-y-1 z-10">

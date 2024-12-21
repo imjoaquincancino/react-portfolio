@@ -4,7 +4,7 @@ import CTAcampaign from "../campaign/CampaignButton";
 import PlanCard from "../PlanCard";
 
 /* Sección de Planes */
-export function Planes() {
+export default function PlanesHome() {
   const [filter, setFilter] = useState("todos");
 
   const filteredPackages =
@@ -77,5 +77,3 @@ export function Planes() {
     </section>
   );
 }
-
-export default Planes;

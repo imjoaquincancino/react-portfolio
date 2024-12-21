@@ -7,7 +7,7 @@ export function Inicio() {
       <div className="z-10 animate__animated animate__fadeIn">
         <header className="flex flex-col items-center justify-center">
           <span className="mb-6">
-            <CTAcampaign icon text={"Ofertas de Pre-temporada 2025"} />
+            <CTAcampaign url={"#planes"} text={"Ofertas de Pre-temporada 2025"} />
           </span>
           <span className="text-5xl sm:text-6xl md:text-7xl font-bold text-center">
             Impulsa tu negocio con{" "}

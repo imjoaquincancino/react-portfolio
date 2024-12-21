@@ -1,6 +1,6 @@
 export function Footer() {
   return (
-    <footer className="w-full border-t border-borderdark">
+    <footer className="w-full border-t bottom-0 right-0 left-0 border-borderdark">
       <div className="w-full max-w-screen-2xl mx-auto px-4 sm:px-8">
         <nav className="flex flex-col lg:flex-row justify-center gap-12 py-8 md:py-12">
           <div className="grid grid-cols-2 gap-12 sm:flex sm:flex-wrap sm:gap-16 lg:gap-20">
