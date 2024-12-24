@@ -18,6 +18,7 @@ export function Navbar() {
           <div className="hidden shrink flex-row items-center gap-16 lg:flex text-base font-extralight">
             <a className="hover:text-gray-200 transition-all duration-300" href="/">Inicio</a>
             <a className="hover:text-gray-200 transition-all duration-300" href="/sobre-mi">Sobre JC</a>
+            <a className="font-semibold" href="/planes">Planes</a>
           </div>
 
           <div className="flex items-center gap-6">
@@ -40,6 +41,7 @@ export function Navbar() {
         <div className="lg:hidden top-20 left-0 right-0 bg-black/30 backdrop-blur-xl overflow-visible text-white flex flex-col items-center gap-8 py-4 text-base ">
           <a href="/">Inicio</a>
           <a href="/sobre-mi">Sobre JC</a>
+          <a className="font-semibold" href="/planes">Planes</a>
         </div>
       )}
     </header>

@@ -20,7 +20,7 @@ export function Inicio() {
           <nav className="mt-10 md:mt-16 flex flex-col sm:flex-row gap-8 sm:gap-36">
             <a
               className="rounded-2xl bg-gradient-to-tr from-brand to-green-400 text-2xl font-bold py-2 px-6 hover:scale-105 transition-all duration-300 text-center"
-              href="#planes"
+              href="/planes"
             >
               Ver Ofertas
             </a>

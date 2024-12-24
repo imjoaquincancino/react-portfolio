@@ -3,8 +3,7 @@ import ScrollTop from "../components/base/ScrollTop";
 import Inicio from "../components/Home/Inicio";
 import Features from "../components/Home/Features";
 import Projects from "../components/Home/Projects";
-import Planes from "../components/Home/Planes";
-import FAQ from "../components/Home/FAQ";
+import Servicios from "../components/Home/Servicios";
 import CTAend from "../components/Home/CTAend";
 
 export function Home() {
@@ -15,8 +14,7 @@ export function Home() {
         <Inicio />
         <Features />
         <Projects />
-        <Planes />
-        <FAQ />
+        <Servicios />
         <CTAend />
       </main>
     </>
