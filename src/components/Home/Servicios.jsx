@@ -60,7 +60,7 @@ export default function Servicios() {
               />
             </div>
           </div>
-          <div className="flex flex-wrap justify-center p-3 gap-14 sm:gap-10 md:gap-16 lg:gap-24 ">
+          <div className="flex flex-wrap justify-center py-6 gap-14 sm:gap-10 md:gap-16 lg:gap-24 ">
             <ServiceCard
               title={"Desarrollo Mini Web"}
               description={
