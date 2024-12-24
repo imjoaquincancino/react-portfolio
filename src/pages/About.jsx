@@ -71,7 +71,10 @@ export default function AboutMe() {
             </div>
             <p className="mt-6 text-xl text-gray-300">
               +4 Años de experiencia.{" "}
-              <strong className="text-yellow-200">Programador y Diseñador Web</strong> de <strong>Ensenada, Puerto Varas</strong>.
+              <strong className="text-yellow-200">
+                Programador y Diseñador Web
+              </strong>{" "}
+              de <strong>Ensenada, Puerto Varas</strong>.
             </p>
             <nav className="flex flex-wrap items-center justify-center gap-4 mt-8">
               <a
@@ -170,7 +173,7 @@ export default function AboutMe() {
           <div className="p-6 flex flex-wrap items-center justify-center gap-14">
             <HabilidadCard
               img={"/img/emojis/laptop.svg"}
-              title={"Diseño Web"}
+              title={"Diseño de Páginas Web"}
               description="El arte de Diseñar Interfaces Web"
             />
             <HabilidadCard
@@ -194,7 +197,9 @@ export default function AboutMe() {
             <strong>2024:</strong> En la actualidad...
           </span>
           <h2 className="max-w-screen-lg text-balance text-2xl font-normal font-heading md:text-3xl xl:text-4xl md:leading-tight">
-            Ayudo a <strong>emprendedores y empresas de Ensenada y Puerto Varas</strong> a mejorar su presencia online
+            Ayudo a{" "}
+            <strong>emprendedores y empresas de Ensenada y Puerto Varas</strong>{" "}
+            a mejorar su presencia online
           </h2>
           <div className="p-6 flex flex-wrap items-center justify-center gap-14">
             <FeatureCard
@@ -220,20 +225,26 @@ export default function AboutMe() {
       </section>
       <div className="my-4 mx-auto w-3/4 place-content-center rounded-full border-t border-borderdark"></div>
       <section className="my-20 sm:mt-36 mx-auto w-full max-w-screen-xl px-4 sm:px-8">
-      <div className="bg-gradient-to-l mt-20 from-[#4040dea9] to-[#a333a9ba] w-3/4 absolute -z-10 rotate-[-7deg] blur-[200px] rounded-full h-1/4"></div>
+        <div className="bg-gradient-to-l mt-20 from-[#4040dea9] to-[#a333a9ba] w-3/4 absolute -z-10 rotate-[-7deg] blur-[200px] rounded-full h-1/4"></div>
         <article className="flex items-center justify-center">
           <div className="overflow-hidden w-full rounded-2xl border-y-[0.5px] border-[#858b9833] bg-cover bg-center bg-[url('/img/final-cta.webp')]">
             <div className="flex flex-col items-center justify-center text-center overflow-visible h-3/4 min-h-[24rem] gap-8 lg:gap-12 p-8 md:p-20 xl:min-h-[40rem] lg:p-40 bg-black bg-opacity-40">
               <h2 className="text-balance text-2xl md:text-3xl xl:text-5xl font-heading font-bold">
                 ¿Tienes un proyecto en mente?
               </h2>
-                <a
-                  className="hover:scale-105 rounded-full shadow-xl border border-gray-600 bg-gradient-to-tr from-brand to-cyan-400 text-xl md:text-2xl font-bold py-2 px-6 transition-all duration-300 text-center"
-                  href="https://wa.me/56965926195"
-                  target="_blank"
-                >
-                  Contáctame
-                </a>
+              <a
+                className="rounded-full shadow-xl border border-gray-600 bg-gradient-to-tr from-brand to-cyan-400 text-xl md:text-2xl font-bold py-2 px-6  hover:scale-105 transition-all duration-300 text-center"
+                href="/planes"
+              >
+                Ver planes
+              </a>
+              <a
+                className="hover:scale-105 rounded-full shadow-xl border border-gray-600 bg-gradient-to-tr from-brand to-cyan-400 text-xl md:text-2xl font-bold py-2 px-6 transition-all duration-300 text-center"
+                href="https://wa.me/56965926195"
+                target="_blank"
+              >
+                Contáctame
+              </a>
             </div>
           </div>
         </article>
