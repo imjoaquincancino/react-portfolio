@@ -56,7 +56,7 @@ export default function Servicios() {
             <div className="py-4">
               <CTAcampaign
                 url={"/planes"}
-                text={"¡Obtén tu página web a mitad de precio!"}
+                text={"¡Todos nuestros planes A MITAD DE PRECIO!"}
               />
             </div>
           </div>
