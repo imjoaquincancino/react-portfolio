@@ -14,7 +14,7 @@ export default function CTAend() {
               <div className="grid grid-rows-2 gap-4">
                 <a
                   className="rounded-full shadow-xl border border-gray-600 bg-gradient-to-tr from-brand to-cyan-400 text-xl md:text-2xl font-bold py-2 px-6  hover:scale-105 transition-all duration-300 text-center"
-                  href="#planes"
+                  href="/planes"
                 >
                   Quiero dar el salto
                 </a>
