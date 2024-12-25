@@ -1,3 +1,5 @@
+import { Helmet } from "react-helmet";
+
 /* eslint-disable react/prop-types */
 function HabilidadCard({ img, title, description }) {
   return (
@@ -53,6 +55,13 @@ function FeatureCard({ icon, title, description, color }) {
 export default function AboutMe() {
   return (
     <>
+    <Helmet>
+        <title>Joaquín Cancino: Diseñador Web de Ensenada, Puerto Varas</title>
+        <meta
+          name="description"
+          content="Ayudo a emprendedores y pequeñas y medianas empresas en Ensenada y Puerto Varas a mejorar su presencia online con su propia página web a un precio accesible y flexible."
+        />
+      </Helmet>
       <div className="z-10 w-2/4 h-60 md:w-4/5 blur-[200px] top-0 md:h-20 rounded-full bg-[#7510f892] absolute pointer-events-none select-none"></div>
       <section className="text-white mx-auto container lg:max-w-4xl md:max-w-2xl">
         <div className="flex justify-center items-center py-16 md:py-36 h-screen w-auto">

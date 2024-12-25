@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import projects from "../../utils/projects";
 
-function ProjectCard({ name, description, url, img, targetblank }) {
+function ProjectCard({ name, description, url, img, targetblank, location, business }) {
   const target = targetblank ? "_blank" : "_parent";
   return (
     <article className="rounded-2xl border border-[#111C2D] bg-[#0B1422] text-gray-100 shadow-sm hover:shadow-xl hover:-translate-y-2 transition-transform duration-500 max-w-sm">
@@ -9,7 +9,7 @@ function ProjectCard({ name, description, url, img, targetblank }) {
         <a href={url} target={target}>
           <img
             src={img}
-            alt="Página Web hecha por Joaquín Cancino"
+            alt={`Página Web para ${business} en ${location}`}
             className="w-auto h-auto object-cover rounded-lg"
           />
         </a>
@@ -72,6 +72,8 @@ export function Projects() {
               description={project.description}
               url={project.url}
               targetblank={true}
+              location={project.location}
+              business={project.business}
             />
           );
         })}
@@ -83,6 +85,8 @@ export function Projects() {
           targetblank={false}
           url="/planes"
           description="¿Tienes en mente un proyecto? Hagamos algo increible y empieza a aumentar tus ventas. 🚀"
+          location="Puerto Varas, Chile"
+          business={"Tu negocio"}
         />
       </div>
     </section>

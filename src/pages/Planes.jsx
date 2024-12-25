@@ -1,7 +1,7 @@
 import CTAcampaign from "../components/campaign/CampaignButton";
-import { ArrowDown } from "lucide-react";
 import packages from "../utils/packages";
 import PlanCard from "../components/PlanCard";
+import { Helmet } from "react-helmet";
 
 import { useState } from "react";
 
@@ -23,11 +23,21 @@ export default function Planes() {
 
   return (
     <main>
+      <Helmet>
+        <title>Planes de Diseño Web desde 30.000 | Joaquín Cancino</title>
+        <meta
+          name="description"
+          content="50% de descuento en todos nuestros Planes de Diseño Web. Tu página web a mitad de precio. Oferta especial para emprendedores y empresas de Puerto Varas y Ensenada."
+        />
+      </Helmet>
       <section className="h-screen flex items-center justify-center">
         <div className="bg-gradient-to-l from-[#4840de60] to-[#8233a960] w-3/4 max-w-xl absolute rotate-[-7deg] z-0 blur-[160px] rounded-full h-96 md:h-80"></div>
         <div className="mx-auto w-full p-4 sm:p-12 z-10">
           <div className="flex flex-col items-center justify-center">
-            <CTAcampaign url={"#planes"} text={"¡50% de DESCUENTO en TODOS NUESTROS PLANES!"} />
+            <CTAcampaign
+              url={"#planes"}
+              text={"¡50% de DESCUENTO en TODOS NUESTROS PLANES!"}
+            />
             <h1 className="mt-6 mb-6 text-balance text-5xl sm:text-6xl md:text-7xl font-bold text-center">
               <strong className="bg-clip-text text-transparent bg-gradient-to-r from-brand to-purple-400 font-extrabold">
                 Planes
@@ -36,16 +46,21 @@ export default function Planes() {
             </h1>
             <p className="text-xl font-semibold text-center mx-auto text-gray-300 max-w-xl [&>strong]:text-yellow-200 [&>strong]:font-semibold">
               Obtén tu propia página web <strong>Buena</strong>,{" "}
-              <strong>Bonita</strong> y <strong>Barata</strong>. Las mejores páginas web para emprendedores y empresas de Puerto Varas y Ensenada.
+              <strong>Bonita</strong> y <strong>Barata</strong>. Las mejores
+              páginas web para emprendedores y empresas de{" "}
+              <strong>Puerto Varas</strong> y <strong>Ensenada</strong>.
             </p>
+
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-32 mt-6">
               <a
+                title="Páginas Web para emprendedores y pequeñas empresas en Puerto Varas y Ensenada"
                 className="rounded-lg border-2 border-purple-800 text-lg md:text-xl font-bold py-3 px-5 hover:scale-105 bg-brand/15 transition-all duration-300 hover:bg-white hover:bg-opacity-30 text-center"
                 href="#emprendedores"
               >
                 Emprendedores
               </a>
               <a
+                title="Páginas Web para empresas medianas y corporaciones en Puerto Varas y Ensenada"
                 className="rounded-lg border-2 border-purple-800 text-lg md:text-xl font-bold py-3 px-5 hover:scale-105 bg-brand/15 transition-all duration-300 hover:bg-white hover:bg-opacity-30 text-center"
                 href="#empresas"
               >
@@ -131,10 +146,7 @@ export default function Planes() {
             })}
           </div>
         </section>
-        <section
-          id="turismo"
-          className="mt-32 md:mt-48 relative"
-        >
+        <section id="turismo" className="mt-32 md:mt-48 relative">
           <div className="bg-gradient-to-l from-[#f76b5e28] to-[#e6394728] w-3/4 absolute -z-10  blur-[160px] md:blur-[300px] rounded-full h-3/4"></div>
           <div className="space-y-1 z-10">
             <span className="bg-clip-text text-2xl text-transparent bg-gradient-to-tr from-[#f77f5e] to-[#e63939] font-semibold">
@@ -169,33 +181,33 @@ export default function Planes() {
         </section>
       </section>
       <section
-      id="faq"
-      className="mt-20 xs:p-6 mx-auto w-full max-w-screen-xl space-y-8 p-4 sm:p-12"
-    >
-      <div className="px-4">
-        <div className="flex flex-col mb-14 text-center">
-          <div className="space-y-1 z-10 sm:flex flex-col sm:justify-center sm:items-center">
-            <span className="bg-clip-text text-xl md:text-2xl text-transparent bg-gradient-to-br from-[#d83333] to-[#f041ff] font-semibold">
-              ¿Tienes alguna duda?
-            </span>
-            <h2 className="max-w-screen-lg text-balance text-4xl font-bold font-heading md:text-5xl md:leading-tight">
-              Preguntas Frecuentes
-            </h2>
+        id="faq"
+        className="mt-20 xs:p-6 mx-auto w-full max-w-screen-xl space-y-8 p-4 sm:p-12"
+      >
+        <div className="px-4">
+          <div className="flex flex-col mb-14 text-center">
+            <div className="space-y-1 z-10 sm:flex flex-col sm:justify-center sm:items-center">
+              <span className="bg-clip-text text-xl md:text-2xl text-transparent bg-gradient-to-br from-[#d83333] to-[#f041ff] font-semibold">
+                ¿Tienes alguna duda?
+              </span>
+              <h2 className="max-w-screen-lg text-balance text-4xl font-bold font-heading md:text-5xl md:leading-tight">
+                Preguntas Frecuentes
+              </h2>
+            </div>
+            <ul className="flex flex-col gap-y-4 max-w-screen-md mx-auto mt-8">
+              {faqs.map((faq, index) => (
+                <FAQItem
+                  key={index}
+                  item={faq}
+                  isOpen={openIndex === index}
+                  toggleOpen={() => toggleOpen(index)}
+                />
+              ))}
+            </ul>
           </div>
-          <ul className="flex flex-col gap-y-4 max-w-screen-md mx-auto mt-8">
-            {faqs.map((faq, index) => (
-              <FAQItem
-                key={index}
-                item={faq}
-                isOpen={openIndex === index}
-                toggleOpen={() => toggleOpen(index)}
-              />
-            ))}
-          </ul>
         </div>
-      </div>
-    </section>
-    <CTAend />
+      </section>
+      <CTAend />
     </main>
   );
 }
