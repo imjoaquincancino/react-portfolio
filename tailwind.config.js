@@ -9,10 +9,11 @@ export default {
   theme: {
     extend: {
       colors: {
-        brand: '#7610F8',
-        brandlight: "#b67efc",
-        blackbg: "#001",
-        dark: "#060913",
+        brand: '#8e3fff',
+        brandsecondary: "#214e72",
+        brandlight: "#6cc1d7",
+        blackbg: "#060913",
+        dark: "#020c21",
         borderdark: "#858b9833",
         "brand-dark-100": "#858b9833",
         "brand-dark-800": "#0c0f19"
