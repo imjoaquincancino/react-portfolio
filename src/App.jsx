@@ -5,6 +5,7 @@ import Footer from "./components/base/Footer";
 import Home from "./pages/Home"
 
 import "./index.css"
+import "animate.css";
 import NotFound from "./pages/NotFound";
 import AboutMe from "./pages/About";
 import Planes from "./pages/Planes";
