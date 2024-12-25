@@ -55,7 +55,7 @@ export default function Planes() {
           </div>
           <div className="mt-10 flex items-center justify-center">
             <a className="text-3xl" href="#emprendedores">
-              <i className="fa-solid fa-arrow-down animate-bounce"></i>
+              <i className="fa-solid fa-arrow-down"></i>
             </a>
           </div>
         </div>
