@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -28,10 +29,10 @@ export function Navbar() {
               className="flex items-center gap-2 text-2xl text-white"
               href="https://www.instagram.com/joaquincancino.dev/"
             >
-              <i className="fa-brands fa-instagram"></i>
+              <FontAwesomeIcon icon="fa-brands fa-instagram" />
             </a>
             <button onClick={toggleMenu} className="text-2xl lg:hidden text-white">
-              <i className="fa-solid fa-bars"></i>
+              <FontAwesomeIcon icon={"fa-solid fa-bars"}/>
             </button>
           </div>
         </div>

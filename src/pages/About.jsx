@@ -1,3 +1,5 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 /* eslint-disable react/prop-types */
 function HabilidadCard({ img, title, description }) {
   return (
@@ -37,7 +39,7 @@ function FeatureCard({ icon, title, description, color }) {
             <div
               className={`size-full flex flex-col items-center justify-center overflow-visible text-center bg-gradient-to-br ${gradientColor} rounded-full`}
             >
-              <i className={`${icon} text-3xl`} />
+              <FontAwesomeIcon icon={icon} className={`text-3xl`} />
             </div>
           </div>
         </div>
@@ -82,21 +84,21 @@ export default function AboutMe() {
                 href="https://www.instagram.com/joaquincancino.dev/"
                 target="_blank"
               >
-                <i className="fa-brands fa-instagram size-4" /> Instagram
+                <FontAwesomeIcon icon={"fa-brands fa-instagram"} className=" size-4" /> Instagram
               </a>
               <a
                 className="rounded-full hover:scale-105 transition-all duration-300 bg-gray-800 px-4 py-1 border border-gray-600 inline-flex items-center justify-center gap-2"
                 href="https://github.com/imjoaquincancino"
                 target="_blank"
               >
-                <i className="fa-brands fa-github size-4" /> GitHub
+                <FontAwesomeIcon icon="fa-brands fa-github" className=" size-4" /> GitHub
               </a>
               <a
                 className="rounded-full hover:scale-105 transition-all duration-300 bg-gray-800 px-4 py-1 border border-gray-600 inline-flex items-center justify-center gap-2"
                 href="https://www.linkedin.com/in/joaquincdev/"
                 target="_blank"
               >
-                <i className="fa-brands fa-linkedin size-4" /> LinkedIn
+                <FontAwesomeIcon icon={"fa-brands fa-linkedin"} className="size-4" /> LinkedIn
               </a>
             </nav>
           </div>
@@ -218,7 +220,7 @@ export default function AboutMe() {
               color="blue"
               title="Identidad de Marca"
               description="Ayudo a que tu negocio demuestre su personalidad, mediante una identidad de marca firme y atractiva, destacandote de la competencia."
-              icon="fa-regular fa-gem"
+              icon="fa-solid fa-gem"
             />
           </div>
         </div>
