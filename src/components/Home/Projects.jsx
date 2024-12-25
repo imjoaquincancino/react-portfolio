@@ -9,7 +9,7 @@ function ProjectCard({ name, description, url, img, targetblank }) {
         <a href={url} target={target}>
           <img
             src={img}
-            alt="Diseño web realizado por Joaquín Cancino"
+            alt="Página Web hecha por Joaquín Cancino"
             className="w-auto h-auto object-cover rounded-lg"
           />
         </a>
@@ -77,11 +77,11 @@ export function Projects() {
         })}
 
         <ProjectCard
-          key="tu-propio-sitio-web"
-          name="Un Proyecto Increible"
+          key="tu-pagina-web"
+          name="Tu página web"
           img="/img/projects/mockup-webnew.webp"
           targetblank={false}
-          url="/#planes"
+          url="/planes"
           description="¿Tienes en mente un proyecto? Hagamos algo increible y empieza a aumentar tus ventas. 🚀"
         />
       </div>
