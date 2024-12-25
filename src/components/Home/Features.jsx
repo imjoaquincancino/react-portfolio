@@ -1,5 +1,4 @@
 /* eslint-disable react/prop-types */
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import features from "../../utils/features";
 
 function FeatureCard({ icon, title, description, color }) {
@@ -28,7 +27,7 @@ function FeatureCard({ icon, title, description, color }) {
             <div
               className={`size-full flex flex-col items-center justify-center overflow-visible text-center bg-gradient-to-br ${gradientColor} rounded-full`}
             >
-              <FontAwesomeIcon icon={`${icon}`} className="text-3xl" />
+              <i className={`${icon} text-3xl`} />
             </div>
           </div>
         </div>
