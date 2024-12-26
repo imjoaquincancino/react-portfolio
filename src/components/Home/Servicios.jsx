@@ -2,19 +2,25 @@
 import CTAcampaign from "../campaign/CampaignButton";
 import planes from "../../utils/packages";
 
-function ServiceCard({ title, description, cta, url, color }) {
+function ServiceCard({ title, description, cta, url, color, img }) {
   return (
     <a href="/planes">
       <article
         className="rounded-2xl border border-[#111C2D] bg-[#0B1422] text-gray-100 shadow-sm hover:shadow-xl hover:-translate-y-2 transition-transform duration-500 max-w-sm"
         style={{ borderTopColor: color, borderTopWidth: "4px" }}
       >
-        <div className="p-4">
-          <h3 className="mt-4 text-xl font-bold">{title}</h3>
-          <p className="mt-2 text-gray-400">{description}</p>
+        <div className="p-4 flex flex-col items-center justify-center">
+        <img
+            src={img}
+            alt={`${title}`}
+            className="w-auto h-auto object-cover rounded-lg"
+          />
+          <h3 className="mt-4 text-2xl font-bold">{title}</h3>
+          <p className="mt-2 text-gray-400 text-center">{description}</p>
           <a
             href={url}
-            className="mt-4 inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none border border-gray-700 text-white hover:bg-gray-700 h-10 py-2 px-4"
+            style={{ backgroundColor: `${color}` }}
+            className={`mt-4 inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 border border-gray-700 text-white h-10 py-2 px-4`}
           >
             {cta}
             <svg
@@ -63,28 +69,31 @@ export default function Servicios() {
           <div className="flex flex-wrap justify-center py-6 gap-14 sm:gap-10 md:gap-16 lg:gap-24 ">
             <ServiceCard
               title={"Desarrollo Mini Web"}
+              img={"/img/miniweb-mockup.webp"}
               description={
-                "Desarrollamos tu Mini Web para que puedas tener presencia en internet de manera rápida y sencilla. Con un diseño simple y efectivo para que tus clientes te encuentren fácilmente."
+                "Desarrollamos tu Mini Web para que puedas tener presencia en internet de manera rápida y sencilla. Ideal para emprendedores de Puerto Varas y Ensenada."
               }
-              cta={"Saber más"}
+              cta={"Consultar planes"}
               url={"/planes"}
               color={planes.find((p) => p.name === "Esencial (Mini Web)").color}
             />
             <ServiceCard
               title={"Desarrollo Landing Page"}
+              img={"/img/landingpage-mockup.webp"}
               description={
-                "Desarrollamos tu landing page para que puedas promocionar un producto o servicio específico de manera efectiva. Asegurando que tus visitantes se conviertan en clientes."
+                "Desarrollamos tu landing page para que puedas promocionar un producto o servicio de manera más detallada. Ideal para pequeñas empresas de Puerto Varas y Ensenada."
               }
-              cta={"Saber más"}
+              cta={"Consultar planes"}
               url={"/planes"}
               color={planes.find((p) => p.name === "Landing Page").color}
             />
             <ServiceCard
               title={"Desarrollo Página Web Corporativa"}
+              img={"/img/corporativo-mockup.webp"}
               description={
-                "Desarrollamos tu página web corporativa para que puedas mostrar tus productos o servicios de manera profesional. Asegurando captar al mayor número de visitantes mediante estrategias SEO."
+                "Desarrollamos tu página web corporativa asegurando captar al mayor número de visitantes mediante estrategias SEO. Ideal para Restaurantes, Cabañas y Empresas medianas en Puerto Varas y Ensenada."
               }
-              cta={"Saber más"}
+              cta={"Consultar planes"}
               url={"/planes"}
               color={planes.find((p) => p.name === "Corporativo").color}
             />

@@ -77,17 +77,6 @@ export function Projects() {
             />
           );
         })}
-
-        <ProjectCard
-          key="tu-pagina-web"
-          name="Tu página web"
-          img="/img/projects/mockup-webnew.webp"
-          targetblank={false}
-          url="/planes"
-          description="¿Tienes en mente un proyecto? Hagamos algo increible y empieza a aumentar tus ventas. 🚀"
-          location="Puerto Varas, Chile"
-          business={"Tu negocio"}
-        />
       </div>
     </section>
   );
