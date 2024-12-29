@@ -14,13 +14,13 @@ export default function CTAend({ scroll }) {
               </h2>
               <div className="grid grid-rows-2 gap-4">
                 <a
-                  className="rounded-full shadow-xl border border-gray-600 bg-gradient-to-tr from-brand to-cyan-400 text-xl md:text-2xl font-bold py-2 px-6  hover:scale-105 transition-all duration-300 text-center"
+                  className="rounded-full shadow-xl border border-gray-600 bg-gradient-to-tr from-brand to-cyan-400 text-lg md:text-2xl font-bold py-2 px-6  hover:scale-105 transition-all duration-300 text-center flex items-center justify-center"
                   href={scroll ? "#planes" : "/planes"}
                 >
                   Aprovechar -50% de descuento
                 </a>
                 <a
-                  className="rounded-2xl border text-lg md:text-xl font-medium py-2 px-4 hover:scale-105 transition-all duration-300 hover:bg-white hover:bg-opacity-30 text-center"
+                  className="rounded-2xl border text-base md:text-xl font-medium py-2 px-4 hover:scale-105 transition-all duration-300 hover:bg-white hover:bg-opacity-30 text-center flex items-center justify-center"
                   target="_blank"
                   href="https://wa.me/56965926195"
                 >

@@ -18,10 +18,10 @@ export function Footer() {
           <div className="grid grid-cols-2 gap-12 sm:flex sm:flex-wrap sm:gap-16 lg:gap-20">
             <section className="group flex flex-col">
               <h2 className="mb-4 label-base leading-none text-white">
-                Servicios
+                Nuestros Servicios
               </h2>
               <ul className="flex flex-col gap-2">
-                <FooterItem url="/planes" text="Diseño Web" />
+                <FooterItem url="/planes" text="Diseño Mini Web" />
                 <FooterItem url="/planes" text="Diseño Landing Page" />
                 <FooterItem url="/planes" text="Diseño Web Corporativa" />
               </ul>
