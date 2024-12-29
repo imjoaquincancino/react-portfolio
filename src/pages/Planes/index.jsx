@@ -1,14 +1,14 @@
-import CTAcampaign from "../components/campaign/CampaignButton";
-import packages from "../utils/packages";
-import PlanCard from "../components/PlanCard";
+import CTAcampaign from "../../components/campaign/CampaignButton";
+import packages from "../../utils/packages";
+import PlanCard from "../../components/PlanCard";
 import { Helmet } from "react-helmet";
 
 import { useState } from "react";
 
-import faqs from "../utils/faq";
+import faqs from "../../utils/faq";
 
-import FAQItem from "../components/FAQItem";
-import CTAend from "../components/Home/CTAend";
+import FAQItem from "../../components/FAQItem";
+import CTAend from "../../components/CTAend";
 
 export default function Planes() {
   const [openIndex, setOpenIndex] = useState(null);
@@ -207,7 +207,7 @@ export default function Planes() {
           </div>
         </div>
       </section>
-      <CTAend />
+      <CTAend scroll={true}/>
     </main>
   );
 }

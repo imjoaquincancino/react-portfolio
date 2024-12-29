@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import CTAcampaign from "../campaign/CampaignButton";
+import CTAcampaign from "../../components/campaign/CampaignButton";
 import planes from "../../utils/packages";
 
 function ServiceCard({ title, description, cta, url, color, img }) {

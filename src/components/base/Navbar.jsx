@@ -41,7 +41,7 @@ export function Navbar() {
             </a>
             <a
               className="hover:text-gray-200 transition-all duration-300"
-              href="/sobre-mi"
+              href="/historia"
             >
               Sobre JC
             </a>
@@ -93,7 +93,7 @@ export function Navbar() {
             </a>
             <a
               className="hover:text-gray-200 transition-all duration-300"
-              href="/sobre-mi"
+              href="/historia"
             >
               Sobre JC
             </a>

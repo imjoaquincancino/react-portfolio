@@ -46,15 +46,15 @@ export function Projects() {
   return (
     <section
       id="proyectos"
-      className="mt-20 sm:mt-32 xs:p-6 mx-auto w-full max-w-screen-xl space-y-8 p-4 sm:p-12"
+      className="mt-20 sm:mt-32 xs:p-6 mx-auto w-full max-w-screen-xl p-4 sm:p-12"
     >
       <div className="space-y-1 z-10">
-        <span className="bg-clip-text md:text-lg text-transparent bg-gradient-to-br from-[#d83333] to-[#f041ff] font-semibold">
-          Algunos ya han dado el paso...
-        </span>
-        <h2 className="max-w-screen-lg text-balance text-2xl font-normal font-heading md:text-3xl xl:text-4xl md:leading-tight">
-          Ellos ya disfrutan de las <strong>ventajas</strong> de su página web
+        <h2 className="bg-clip-text md:text-lg text-transparent bg-gradient-to-br from-[#d83333] to-[#f041ff] font-semibold">
+          Conoce alguno de nuestros proyectos
         </h2>
+        <span className="max-w-screen-lg text-balance text-2xl font-normal font-heading md:text-3xl xl:text-4xl md:leading-tight">
+          Ellos ya disfrutan de las <strong>ventajas</strong> de tener una página web
+        </span>
       </div>
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 mt-6">
         {projects.map((project) => {
@@ -77,6 +77,9 @@ export function Projects() {
             />
           );
         })}
+      </div>
+      <div className="flex justify-center mt-10">
+        <a className="rounded-full bg-gradient-to-t from-brand to-brandlight text-lg md:text-xl font-bold py-2 px-6 hover:scale-105 transition-all duration-300 text-center" href="/planes">Quiero tener mi página web</a>
       </div>
     </section>
   );

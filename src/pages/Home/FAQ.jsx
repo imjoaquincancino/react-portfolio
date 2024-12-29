@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import faqs from "../../utils/faq";
 
-import FAQItem from "../FAQItem";
+import FAQItem from "../../components/FAQItem";
 
 export default function FAQ() {
   const [openIndex, setOpenIndex] = useState(null);
