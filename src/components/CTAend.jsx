@@ -20,7 +20,7 @@ export default function CTAend({ scroll }) {
                   Aprovechar -50% de descuento
                 </a>
                 <a
-                  className="rounded-2xl border text-base md:text-xl font-medium py-2 px-4 hover:scale-105 transition-all duration-300 hover:bg-white hover:bg-opacity-30 text-center flex items-center justify-center"
+                  className="rounded-2xl border text-lg md:text-xl font-semibold py-2 px-4 hover:scale-105 transition-all duration-300 hover:bg-white hover:bg-opacity-30 text-center flex items-center justify-center"
                   target="_blank"
                   href="https://wa.me/56965926195"
                 >
