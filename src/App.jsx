@@ -8,6 +8,7 @@ import Home from "./pages/Home"
 import NotFound from "./pages/NotFound";
 import AboutMe from "./pages/Historia";
 import Planes from "./pages/Planes";
+import Asesoria from "./pages/Asesoria";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/planes" element={<Planes />} />
+          <Route path="/asesoria" element={<Asesoria />} />
           <Route path="/historia" element={<AboutMe />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
