@@ -72,14 +72,14 @@ export default function PlanCard({
                 src="/img/icons/rocket.svg"
                 alt="Cohete"
                 loading="lazy"
-                className="max-w-[40px] max-h-[40px] w-auto h-auto"
+                className="max-w-[30px] max-h-[30px] w-auto h-auto"
               />
             ) : (
               <img
                 src="/img/icons/diamond.svg"
                 alt="Diamante"
                 loading="lazy"
-                className="max-w-[40px] max-h-[40px] w-auto h-auto"
+                className="max-w-[30px] max-h-[30px] w-auto h-auto"
               />
             )}
           </div>
