@@ -14,7 +14,7 @@ export default function PlanCard({
   mantenimiento,
   best,
   campaign,
-  icon
+  icon,
 }) {
   const [showMaintenance, setShowMaintenance] = useState(false);
 
@@ -63,15 +63,29 @@ export default function PlanCard({
         </div>
 
         <div
-          className="flex flex-row flex-nowrap items-center gap-6 p-4 my-8 bg-gray-800/50 border-l-4"
+          className="flex flex-row flex-nowrap items-center gap-4 p-4 my-8 bg-gray-800/50 border-l-4"
           style={{ borderColor: color }}
         >
-          <i className="flex items-center justify-center size-auto mx-2">
-            {
-              icon === "rocket" ? <img src="/img/icons/rocket.svg" alt="Cohete" loading="lazy" width="60" height="60" /> : <img src="/img/icons/diamond.svg" alt="Diamante" loading="lazy" width="60" height="60" />
-            }
-          </i>
-          <p className="text-gray-300 text-start">{description}</p>
+          <div className="flex items-center justify-center flex-shrink-0 w-auto h-auto mx-2">
+            {icon === "rocket" ? (
+              <img
+                src="/img/icons/rocket.svg"
+                alt="Cohete"
+                loading="lazy"
+                className="max-w-[40px] max-h-[40px] w-auto h-auto"
+              />
+            ) : (
+              <img
+                src="/img/icons/diamond.svg"
+                alt="Diamante"
+                loading="lazy"
+                className="max-w-[40px] max-h-[40px] w-auto h-auto"
+              />
+            )}
+          </div>
+          <p className="text-gray-300 text-start text-sm md:text-base lg:text-lg">
+            {description}
+          </p>
         </div>
 
         <div className="flex flex-col gap-4 px-8">
