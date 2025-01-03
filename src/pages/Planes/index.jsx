@@ -31,17 +31,21 @@ export default function Planes() {
           name="description"
           content="Descubre nuestros planes accesibles de diseño web. Páginas web desde $30.000 al año, ideales para emprendedores, empresas y turismo en Puerto Varas y Ensenada."
         />
+        <meta
+          property="og:description"
+          content="Aprovecha nuestras Ofertas de Pre-temporada 2025: Tu página web a mitad de precio | Los mejores Planes de Diseño Web desde los $30.000 anuales | Para emprendedores y pequeñas o medianas empresas de Puerto Varas y Ensenada | Joaquín Cancino: Programador y Diseñador Web de Ensenada, Chile"
+        />
+        <meta property="og:image" content="/img/banner.jpg" />
+        <meta property="og:url" content="https://joaquincancino.dev/planes" />
       </Helmet>
       <section className="h-screen flex items-center justify-center">
         <div className="bg-gradient-to-l from-[#4840de60] to-[#8233a960] w-3/4 max-w-xl absolute rotate-[-7deg] z-0 blur-[160px] rounded-full h-96 md:h-80"></div>
         <div className="mx-auto w-full p-4 sm:p-12 z-10">
           <div className="flex flex-col items-center justify-center">
-              <CTAcampaign
-                url={"#planes"}
-                text={
-                  "¡50% de DESCUENTO en PÁGINAS WEB!"
-                }
-              />
+            <CTAcampaign
+              url={"#planes"}
+              text={"¡50% de DESCUENTO en PÁGINAS WEB!"}
+            />
             <h1 className="mt-6 mb-6 text-balance text-4xl sm:text-5xl md:text-6xl font-bold text-center">
               <strong className="bg-clip-text text-transparent bg-gradient-to-r from-brand to-purple-400 font-extrabold">
                 Páginas Web
@@ -50,8 +54,8 @@ export default function Planes() {
             </h1>
             <p className="text-xl font-semibold text-center mx-auto text-gray-300 max-w-xl [&>strong]:text-yellow-200 [&>strong]:font-semibold">
               Diseñamos páginas web <strong>profesionales</strong> y{" "}
-              <strong>accesibles</strong> en Puerto Varas y Ensenada. Aprovecha todos
-              nuestros planes con 50% de descuento.
+              <strong>accesibles</strong> en Puerto Varas y Ensenada. Aprovecha
+              todos nuestros planes con 50% de descuento.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-32 mt-6">
