@@ -36,12 +36,12 @@ export default function Planes() {
         <div className="bg-gradient-to-l from-[#4840de60] to-[#8233a960] w-3/4 max-w-xl absolute rotate-[-7deg] z-0 blur-[160px] rounded-full h-96 md:h-80"></div>
         <div className="mx-auto w-full p-4 sm:p-12 z-10">
           <div className="flex flex-col items-center justify-center">
-            <CTAcampaign
-              url={"#planes"}
-              text={
-                "¡50% de DESCUENTO en TODOS NUESTROS PLANES de PÁGINAS WEB!"
-              }
-            />
+              <CTAcampaign
+                url={"#planes"}
+                text={
+                  "¡50% de DESCUENTO en PÁGINAS WEB!"
+                }
+              />
             <h1 className="mt-6 mb-6 text-balance text-4xl sm:text-5xl md:text-6xl font-bold text-center">
               <strong className="bg-clip-text text-transparent bg-gradient-to-r from-brand to-purple-400 font-extrabold">
                 Páginas Web
@@ -50,7 +50,7 @@ export default function Planes() {
             </h1>
             <p className="text-xl font-semibold text-center mx-auto text-gray-300 max-w-xl [&>strong]:text-yellow-200 [&>strong]:font-semibold">
               Diseñamos páginas web <strong>profesionales</strong> y{" "}
-              <strong>accesibles</strong> en Puerto Varas y Ensenada. Aprovecha
+              <strong>accesibles</strong> en Puerto Varas y Ensenada. Aprovecha todos
               nuestros planes con 50% de descuento.
             </p>
 
@@ -87,7 +87,8 @@ export default function Planes() {
               <strong>Pequeñas empresas</strong>
             </h2>
             <p className="max-w-screen-lg text-balance text-2xl font-normal font-heading md:text-3xl lg:text-4xl md:leading-tight">
-              No pierdas la oportunidad, <strong>tenemos precios accesibles</strong> para ti.
+              No pierdas la oportunidad,{" "}
+              <strong>tenemos precios accesibles</strong> para ti.
             </p>
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 mt-8">
@@ -152,10 +153,12 @@ export default function Planes() {
           <div className="bg-gradient-to-l from-[#f76b5e28] to-[#e6394728] w-3/4 absolute -z-10  blur-[160px] md:blur-[300px] rounded-full h-3/4"></div>
           <div className="space-y-1 z-10">
             <span className="bg-clip-text text-2xl text-transparent bg-gradient-to-tr from-[#f77f5e] to-[#e63939] font-semibold">
-              Páginas web para <strong>Restaurantes</strong> y <strong>Cabañas</strong>
+              Páginas web para <strong>Restaurantes</strong> y{" "}
+              <strong>Cabañas</strong>
             </span>
             <h2 className="max-w-screen-lg text-balance text-2xl font-normal font-heading md:text-3xl xl:text-4xl md:leading-tight">
-              Nos especializamos en <strong>aumentar las ventas</strong> de tu negocio turístico.
+              Nos especializamos en <strong>aumentar las ventas</strong> de tu
+              negocio turístico.
             </h2>
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 mt-8">
