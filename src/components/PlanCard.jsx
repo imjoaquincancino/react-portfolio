@@ -1,4 +1,5 @@
 /* eslint-disable react/prop-types */
+import { info } from "autoprefixer";
 import { useState } from "react";
 export default function PlanCard({
   name,
@@ -8,10 +9,12 @@ export default function PlanCard({
   beforePrice,
   price,
   wspLink,
+  helpLink,
   features,
   mantenimiento,
   best,
   campaign,
+  icon
 }) {
   const [showMaintenance, setShowMaintenance] = useState(false);
 
@@ -28,7 +31,7 @@ export default function PlanCard({
       className="relative w-full"
     >
       <div
-        className="p-6 flex-grow text-center items-center shadow-xl rounded-2xl flex flex-col bg-gray-900 place-content-stretch text-white w-full hover:shadow-2xl transition-transform duration-500"
+        className="flex-grow text-center items-center shadow-xl rounded-2xl flex flex-col bg-gray-900 place-content-stretch text-white w-full hover:shadow-2xl transition-transform duration-500"
         style={{ borderTopColor: color, borderTopWidth: "4px" }}
       >
         {campaign && (
@@ -41,26 +44,57 @@ export default function PlanCard({
             className="absolute -top-4 -right-4 z-10"
           />
         )}
-        <h2 className="text-lg lg:text-2xl font-inter text-neutral-title font-bold leading-headline adlam-display-family">
-          {name}
-        </h2>
 
-        {example && (
-          <span
-            style={{ color: color }}
-            className="mt-2 font-bold underline underline-offset-4"
-          >
-            <a target="_blank" href={example}>
-              Ver un ejemplo
-            </a>
-          </span>
-        )}
+        <div className="mt-6 flex flex-col gap-2">
+          <h2 className="text-xl lg:text-3xl font-inter text-neutral-title font-bold leading-headline adlam-display-family">
+            {name}
+          </h2>
 
-        <div className="flex flex-row flex-nowrap items-center mt-6 mb-4">
-          <p className="text-gray-400 ">{description}</p>
+          {example && (
+            <span
+              style={{ color: color }}
+              className="font-bold underline underline-offset-4"
+            >
+              <a target="_blank" href={example}>
+                Ver un ejemplo
+              </a>
+            </span>
+          )}
         </div>
 
-        <span>
+        <div
+          className="flex flex-row flex-nowrap items-center gap-6 p-4 my-8 bg-gray-800/50 border-l-4"
+          style={{ borderColor: color }}
+        >
+          <i className="flex items-center justify-center size-auto mx-2">
+            {
+              icon === "rocket" ? <img src="/img/icons/rocket.svg" alt="Cohete" loading="lazy" width="60" height="60" /> : <img src="/img/icons/diamond.svg" alt="Diamante" loading="lazy" width="60" height="60" />
+            }
+          </i>
+          <p className="text-gray-300 text-start">{description}</p>
+        </div>
+
+        <div className="flex flex-col gap-4 px-8">
+          <h3 className="text-start text-lg md:text-xl font-bold">
+            Beneficios:
+          </h3>
+          <ul className="flex flex-col gap-6">
+            {features.map((feature, index) => (
+              <li
+                key={index}
+                className="flex content-start items-center text-white text-start"
+              >
+                <i
+                  className={`fas ${feature.icon} content-center mr-3`}
+                  style={{ color: color }}
+                ></i>
+                {feature.content}
+              </li>
+            ))}
+          </ul>
+        </div>
+
+        <span className="mt-8">
           {beforePrice && (
             <del
               className="delete relative decoration-none opacity-60 leading-none"
@@ -77,34 +111,25 @@ export default function PlanCard({
           </span>
         </span>
 
-        <div className="text-center p-4 sm:p-10">
+        <div className="text-center flex flex-col gap-4 mt-4">
           <a
             target="_blank"
-            className="rounded-md inline-flex items-center justify-center text-sm font-medium w-auto h-11 px-12 sm:px-24 hover:bg-opacity-70 transition-colors duration-300 adlam-display-family"
+            className="rounded-md inline-flex items-center justify-center text-sm font-bold w-auto h-11 px-12 sm:px-24 hover:bg-opacity-70 transition-colors duration-300"
             style={{ backgroundColor: color }}
             href={wspLink}
           >
-            Consultar
+            Contratar ahora
+          </a>
+          <a
+            className="rounded-md border inline-flex items-center justify-center text-sm font-semibold w-auto h-11 px-12 sm:px-24 transition-colors duration-300"
+            href={helpLink}
+          >
+            Agendar asesoría (Gratis)
           </a>
         </div>
 
-        <ul className="flex flex-col">
-          {features.map((feature, index) => (
-            <li
-              key={index}
-              className="flex content-start items-center text-white p-3 text-start"
-            >
-              <i
-                className={`fas ${feature.icon} content-center mr-3`}
-                style={{ color: color }}
-              ></i>
-              {feature.content}
-            </li>
-          ))}
-        </ul>
-
         {/* Mantenimiento */}
-        <div className="mt-4">
+        <div className="mt-4 p-6">
           <button
             onClick={toggleMaintenance}
             className="flex items-center justify-between w-full text-left font-bold"

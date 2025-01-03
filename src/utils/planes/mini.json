@@ -3,6 +3,7 @@
     "description": "La mejor opción para quienes buscan tener una presencia online profesional con lo esencial para aumentar sus ventas.",
     "price": "30.000",
     "example": "https://dondepanchoensenada.cl",
+    "icon": "rocket",
     "beforePrice": "60.000",
     "campaign": true,
     "wspLink": "https://api.whatsapp.com/send?phone=56965926195&text=Hola%2C%20me%20interesa%20el%20plan%20Esencial.",

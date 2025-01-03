@@ -11,6 +11,8 @@ import FAQItem from "../../components/FAQItem";
 import CTAend from "../../components/CTAend";
 
 export default function Planes() {
+  let helpLink = "https://wa.me/56965926195";
+
   const [openIndex, setOpenIndex] = useState(null);
 
   const toggleOpen = (index) => {
@@ -113,6 +115,8 @@ export default function Planes() {
                   mantenimiento={pkg.mantenimiento}
                   price={pkg.price}
                   wspLink={pkg.wspLink}
+                  icon={pkg.icon}
+                  helpLink={helpLink}
                 />
               );
             })}
@@ -148,6 +152,8 @@ export default function Planes() {
                   mantenimiento={pkg.mantenimiento}
                   price={pkg.price}
                   wspLink={pkg.wspLink}
+                  icon={pkg.icon}
+                  helpLink={helpLink}
                 />
               );
             })}
@@ -183,6 +189,8 @@ export default function Planes() {
                   mantenimiento={pkg.mantenimiento}
                   price={pkg.price}
                   wspLink={pkg.wspLink}
+                  icon={pkg.icon}
+                  helpLink={helpLink}
                 />
               );
             })}
