@@ -48,7 +48,7 @@ export default function Planes() {
               url={"#planes"}
               text={"¡50% de DESCUENTO en PÁGINAS WEB!"}
             />
-            <h1 className="mt-6 mb-6 text-balance text-4xl sm:text-5xl md:text-6xl font-bold text-center">
+            <h1 className="mt-6 mb-4 text-balance text-4xl sm:text-5xl md:text-6xl font-bold text-center">
               <strong className="bg-clip-text text-transparent bg-gradient-to-r from-brand to-purple-400 font-extrabold">
                 Páginas Web
               </strong>{" "}
@@ -77,7 +77,7 @@ export default function Planes() {
               </a>
             </div>
           </div>
-          <div className="mt-10 flex items-center justify-center">
+          <div className="mt-6 flex items-center justify-center">
             <a className="text-3xl" href="#emprendedores">
               <i className="fa-solid fa-arrow-down"></i>
             </a>

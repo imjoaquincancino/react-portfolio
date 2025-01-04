@@ -22,7 +22,7 @@ export function Inicio() {
                 </strong>
               </span>
             </h1>
-            <p className="max-w-lg mb-6 lg:mb-8 text-center lg:text-left text-[#d0dbec] [&>strong]:text-yellow-200">
+            <p className="max-w-lg mb-6 text-center lg:text-left text-[#d0dbec] [&>strong]:text-yellow-200">
               ¡No te quedes fuera esta temporada de verano! Obtén una página web
               profesional con{" "}
               <strong>
