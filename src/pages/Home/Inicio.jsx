@@ -3,25 +3,7 @@ import CTAcampaign from "../../components/campaign/CampaignButton";
 export function Inicio() {
   return (
     <>
-      <Helmet>
-        <title>Páginas Web Profesionales - Desde $30.000 anual</title>
-        <meta
-          name="description"
-          content="Aprovecha un 50% de descuento en diseño web y potencia tu negocio con una página única. Descubre nuestros planes para páginas web profesionales y modernas."
-        />
-        <meta
-          name="keywords"
-          content="páginas web, diseño web, páginas web profesionales, creación de páginas web, páginas web modernas"
-        />
-        <meta property="og:title" content="Páginas Web Profesionales - Diseña tu Página Hoy" />
-        <meta
-          property="og:description"
-          content="Obtén una página web profesional y moderna con un 50% de descuento. No pierdas la oportunidad de impulsar tu negocio con una presencia online impactante."
-        />
-        <meta property="og:image" content="/img/mockup-home.webp" />
-        <meta property="og:url" content="https://joaquincancino.dev" />
-        <meta name="twitter:card" content="summary_large_image" />
-      </Helmet>
+      
       <section className="flex h-screen items-center justify-center px-4">
         <div className="bg-gradient-to-l from-brand/40 to-brandlight/20 w-3/4 max-w-xl absolute rotate-[-7deg] z-0 blur-[160px] rounded-full h-96 md:h-80"></div>
         <div className="z-10 pt-12 mx-auto px-6 lg:px-20 flex flex-col lg:flex-row items-center gap-6 lg:gap-4 xl:gap-6 relative">

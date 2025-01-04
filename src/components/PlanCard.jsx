@@ -128,14 +128,14 @@ export default function PlanCard({
         <div className="text-center flex flex-col gap-4 mt-4">
           <a
             target="_blank"
-            className="rounded-md inline-flex items-center justify-center text-sm font-bold w-auto h-11 px-12 sm:px-24 hover:bg-opacity-70 transition-colors duration-300"
+            className="rounded-md inline-flex items-center justify-center text-sm font-bold w-auto h-11 px-12 sm:px-24 hover:scale-105 transition-transform duration-300"
             style={{ backgroundColor: color }}
             href={wspLink}
           >
             Contratar ahora
           </a>
           <a
-            className="rounded-md border inline-flex items-center justify-center text-sm font-semibold w-auto h-11 px-12 sm:px-24 transition-colors duration-300"
+            className="rounded-md border inline-flex items-center justify-center text-sm font-semibold w-auto h-11 px-12 sm:px-24 hover:bg-white/20 transition-colors duration-300"
             href={helpLink}
           >
             Agendar asesoría (Gratis)
