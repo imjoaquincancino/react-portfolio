@@ -1,5 +1,5 @@
 {
-    "name": "Esencial (Mini Web)",
+    "name": "Mini Web",
     "description": "Página Web ideal para aquellos que buscan una presencia online sencilla y profesional.",
     "price": "30.000",
     "example": "https://dondepanchoensenada.cl",
@@ -34,7 +34,7 @@
       }
     ],
     "mantenimiento": {
-      "title": "Mantenimiento esencial (gratis por 1 año)",
+      "title": "Incluye seguridad y mantenimiento Esencial",
       "features": [
         "Monitoreo de seguridad contra ataques cibernéticos.",
         "Copias de seguridad automáticas (mensuales)"

@@ -24,7 +24,7 @@
       "icon": "fa-qrcode"
     },
     {
-      "content": "Optimización avanzada de textos para SEO en Google",
+      "content": "Optimización avanzada (Textos e Imágenes) para SEO en Google",
       "icon": "fa-search"
     },
     {
@@ -48,10 +48,6 @@
       "icon": "fa-briefcase"
     },
     {
-      "content": "Hasta 5 cuentas de correo con dominio insitucional (nombre@tudominio.cl).",
-      "icon": "fa-envelope"
-    },
-    {
       "content": "Encriptación de Seguridad SSL (GRATIS)",
       "icon": "fa-lock"
     },
@@ -61,14 +57,13 @@
     }
   ],
   "mantenimiento": {
-    "title": "Mantenimiento Gastronómico (6 meses)",
+    "title": "Incluye seguridad y mantenimiento",
     "features": [
       "Monitoreo de seguridad y protección adicional contra ataques cibernéticos.",
       "Optimización de velocidad de carga (trimestral).",
       "Copias de seguridad automáticas (semanales).",
-      "Actualización de menú y precios (hasta 1 vez al mes).",
       "Corrección de errores técnicos (hasta 1 vez al mes).",
-      "Actualización de promociones especiales y eventos (hasta 1 vez al mes)."
+      "Actualización de contenido menor (hasta 1 vez al mes)."
     ]
   },
   "color": "#ff8611"

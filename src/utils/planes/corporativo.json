@@ -1,6 +1,6 @@
 {
   "name": "Corporativo",
-  "description": "Ideal para empresas que necesitan una página web robusta, optimizada y profesional.",
+  "description": "Ideal para empresas que necesitan una página web robusta, optimizada y profesional, acompañada de estadísticas y reportes.",
   "price": "325.000",
   "campaign": true,
   "beforePrice": "650.000",
@@ -19,7 +19,7 @@
       "icon": "fa-circle-info"
     },
     {
-      "content": "Optimización avanzada de textos, imágenes, keywords para SEO en Google (incluye Reportes de estadísticas).",
+      "content": "Optimización avanzada de textos, imágenes, keywords para SEO en Google.",
       "icon": "fa-search"
     },
     {
@@ -43,6 +43,14 @@
       "icon": "fa-briefcase"
     },
     {
+      "content": "Integración con Google Analytics",
+      "icon": "fa-chart-simple"
+    },
+    {
+      "content": "Reportes de rendimiento en busquedas de Google",
+      "icon": "fa-file-lines"
+    },
+    {
       "content": "Hasta 5 cuentas de correo con dominio insitucional (nombre@tudominio.cl).",
       "icon": "fa-envelope"
     },
@@ -56,12 +64,11 @@
     }
   ],
   "mantenimiento": {
-    "title": "Mantenimiento Premium (gratis por 6 meses)",
+    "title": "Incluye seguridad y mantenimiento Premium",
     "features": [
-      "Actualización de contenido menor (hasta 2 veces al mes).",
-      "Copias de seguridad automáticas (diarias).",
       "Monitoreo de seguridad y protección adicional contra ataques cibernéticos.",
-      "Optimización SEO avanzada (trimestral).",
+      "Copias de seguridad automáticas (diarias).",
+      "Actualización de contenido menor (hasta 2 veces al mes).",
       "Optimización de velocidad de carga (trimestral).",
       "Corrección de errores técnicos y asistencia prioritaria en caso de problemas."
     ]

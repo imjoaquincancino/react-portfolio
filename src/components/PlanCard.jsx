@@ -146,11 +146,11 @@ export default function PlanCard({
         <div className="mt-4 p-6">
           <button
             onClick={toggleMaintenance}
-            className="flex items-center justify-between w-full text-left font-bold"
+            className="flex items-center justify-center gap-2 w-full text-center font-bold"
             style={{ color: color }}
           >
             <span>{mantenimiento.title}</span>
-            <i className="fas fa-caret-down ml-2"></i>
+            <i className={`fas fa-caret-down ml-2 transform transition-transform duration-200 ease-in-out ${showMaintenance ? "rotate-180" : ""}`}></i>
           </button>
           {showMaintenance && (
             <ul className="mt-2 list-none">
@@ -168,6 +168,11 @@ export default function PlanCard({
               ))}
             </ul>
           )}
+        </div>
+        <div className="py-1">
+          <span className="text-xs text-gray-500">
+            <a className="font-semibold" href="/tos">Términos y Condiciones del Servicio</a>
+          </span>
         </div>
       </div>
     </div>

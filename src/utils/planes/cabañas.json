@@ -48,10 +48,6 @@
       "icon": "fa-briefcase"
     },
     {
-      "content": "Hasta 5 cuentas de correo con dominio insitucional (nombre@tudominio.cl).",
-      "icon": "fa-envelope"
-    },
-    {
       "content": "Encriptación de Seguridad SSL (GRATIS)",
       "icon": "fa-lock"
     },
@@ -61,14 +57,13 @@
     }
   ],
   "mantenimiento": {
-    "title": "Mantenimiento especializado en Turismo (6 meses)",
+    "title": "Incluye seguridad y mantenimiento",
     "features": [
       "Copias de seguridad automáticas (semanales).",
       "Monitoreo de seguridad y protección adicional contra ataques cibernéticos.",
       "Optimización de velocidad de carga (trimestral).",
       "Corrección de errores técnicos (hasta 1 vez al mes).",
-      "Optimización SEO básica para eventos y temporada alta.",
-      "Actualización de precios y disponibilidad (hasta 2 veces al mes)."
+      "Actualización de contenido menor (hasta 1 vez al mes)."
     ]
   },
   "color": "#4ca4b5"
