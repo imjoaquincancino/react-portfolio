@@ -75,7 +75,7 @@ export default function Servicios() {
               }
               cta={"Consultar planes"}
               url={"/planes"}
-              color={planes.find((p) => p.name === "Esencial (Mini Web)").color}
+              color={planes.find((p) => p.name === "Mini Web").color}
             />
             <ServiceCard
               title={"Desarrollo Landing Page"}

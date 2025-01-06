@@ -60,7 +60,7 @@ export default function ToS() {
             </h2>
             <p>
               Los pagos se realizarán en las etapas acordadas previamente. El
-              cliente deberá abonar un adelanto (generalmente 1/3 o 1/2 del
+              cliente deberá abonar un adelanto (generalmente el 50% del
               total) antes de iniciar el proyecto. El saldo restante será pagado
               una vez finalizado el proyecto y antes de la entrega final.
             </p>
@@ -75,7 +75,7 @@ export default function ToS() {
               diseño y desarrollo del proyecto serán transferidos al cliente una
               vez que se haya realizado el pago completo. Nos reservamos el
               derecho de incluir capturas de pantalla del proyecto en nuestro
-              portafolio y/o redes sociales para fines promocionales.
+              portafolio y/o redes sociales para fines promocionales. Además de incluir la frase {`"Diseñado por Joaquín Cancino"`} en el pie de página. Dicha frase podrá ser retirada por un costo adicional.
             </p>
           </section>
 
