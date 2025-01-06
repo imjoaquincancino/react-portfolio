@@ -12,10 +12,10 @@ export default function ToS() {
           Términos y Condiciones del Servicio
         </h1>
 
-        <p className="text-gray-300 text-lg mb-8 text-center">
-          Bienvenido/a a nuestro servicio de Diseño Web y Marketing Digital. Por favor, lea detenidamente los
-          siguientes Términos y Condiciones antes de utilizar nuestros
-          servicios. <br />
+        <p className="text-gray-300 text-lg mb-12 text-center">
+          Bienvenido/a a nuestro servicio de Diseño Web y Marketing Digital. Por
+          favor, lea detenidamente los siguientes Términos y Condiciones antes
+          de utilizar nuestros servicios.{" "}
           <strong>
             Al contratar nuestros servicios, usted acepta estos términos en su
             totalidad.
@@ -119,6 +119,15 @@ export default function ToS() {
           </p>
         </section>
 
+        <div className="mt-20 place-items-center">
+          <img
+            className="h-28"
+            src="/img/logo-white.webp"
+            alt="Joaquín Cancino Logo"
+            loading="lazy"
+
+          />
+        </div>
         <div className="text-center mt-10 text-gray-400 italic">
           Última modificación: {lastModified}
         </div>
