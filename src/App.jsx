@@ -9,6 +9,7 @@ import NotFound from "./pages/NotFound";
 import AboutMe from "./pages/Historia";
 import Planes from "./pages/Planes";
 import Asesoria from "./pages/Asesoria";
+import ToS from "./pages/ToS";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/planes" element={<Planes />} />
           {/* <Route path="/asesoria" element={<Asesoria />} /> */}
           <Route path="/historia" element={<AboutMe />} />
+          <Route path="/tos" element={<ToS />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
 

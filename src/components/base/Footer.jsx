@@ -38,24 +38,16 @@ export function Footer() {
                 <FooterItem url="https://instagram.com/joaquincancino.dev" text={"Instagram"} targetblank={true} />
               </ul>
             </section>
-            {/* <section className="group flex flex-col">
+            <section className="group flex flex-col">
               <h2 className="mb-4 label-base leading-none text-white">Legal</h2>
               <ul className="flex flex-col gap-2">
                 <li>
-                  <a
-                    href="/privacidad"
-                    className="whitespace-nowrap text-gray-400"
-                  >
-                    Política de privacidad
-                  </a>
-                </li>
-                <li>
                   <a href="/tos" className="whitespace-nowrap text-gray-400">
-                    Términos de servicio
+                    Términos y condiciones
                   </a>
                 </li>
               </ul>
-            </section> */}
+            </section>
             <section className="group flex flex-col">
               <h2 className="mb-4 label-base leading-none text-white">
                 Contacto

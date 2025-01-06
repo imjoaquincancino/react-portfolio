@@ -11,14 +11,14 @@ export function Home() {
   return (
     <>
       <Helmet>
-        <title>Páginas Web desde $30.000 anual</title>
+        <title>Páginas Web en Puerto Varas y Ensenada | Joaquín Cancino</title>
         <meta
           name="description"
-          content="Aprovecha un 50% de descuento en diseño web y potencia tu negocio con una página única. Descubre nuestros planes para páginas web profesionales y modernas."
+          content="Páginas web desde $30.000 anual. Aprovecha un 50% de descuento en diseño web y potencia tu negocio con una página única. Descubre nuestros planes para páginas web profesionales y modernas."
         />
         <meta
           name="keywords"
-          content="páginas web, diseño web, páginas web profesionales, creación de páginas web, páginas web modernas"
+          content="páginas web, diseño web, páginas web profesionales, creación de páginas web, páginas web modernas, puerto varas, diseñador web, ensenada"
         />
         <meta
           property="og:title"
@@ -26,7 +26,7 @@ export function Home() {
         />
         <meta
           property="og:description"
-          content="Obtén una página web profesional y moderna con un 50% de descuento. No pierdas la oportunidad de impulsar tu negocio con una presencia online impactante."
+          content="Páginas web desde $30.000 anual. Obtén una página web profesional y moderna con un 50% de descuento. No pierdas la oportunidad de impulsar tu negocio con una presencia online impactante."
         />
         <meta property="og:image" content="/img/mockup-home.webp" />
         <meta property="og:url" content="https://joaquincancino.dev" />
