@@ -1,11 +1,28 @@
 const proyects = [
   {
+    name: "La Piara",
+    description: "Página Web (Mini Web) de La Piara: Hamburguesas y Pizzas en Ensenada. Cuenta con un diseño de alta calidad, moderno y profesional. Cuenta con fotos de alta calidad hechas por Joaquín Cancino.",
+    url: "https://lapiarapv.cl",
+    business: "Hamburguesería",
+    img: "/img/projects/mockup-lapiara.webp",
+    location: "Ensenada, Chile"
+  },
+  {
     name: "La Chocolattina",
     description:
       "Página web de La Chocolattina (Landing Page). Cuenta con página de inicio, vitrina interactiva de productos, implementación de servicios de Google Maps, Instagram, WhatsApp y más.",
     url: "https://lachocolattina.cl",
     business: "Chocolatería",
     img: "/img/projects/mockup-chocolattina.webp",
+    location: "Ensenada, Chile",
+  },
+  {
+    name: "Donde Pancho",
+    description:
+    "Mini Web del restaurante Donde Pancho Ensenada. Con un diseño moderno, profesional y minimalista. Contiene lo esencial para marcar presencia en linea.",
+    url: "https://dondepanchoensenada.cl",
+    business: "Restaurante",
+    img: "/img/projects/mockup-dondepancho.webp",
     location: "Ensenada, Chile",
   },
   {
@@ -17,15 +34,6 @@ const proyects = [
     img: "/img/projects/mockup-viveroensenada.webp",
     location: "Ensenada, Chile",
   },
-  {
-    name: "Donde Pancho",
-    description:
-      "Mini Web del restaurante Donde Pancho Ensenada. Con un diseño moderno, profesional y minimalista. Contiene lo esencial para marcar presencia en linea.",
-    url: "https://dondepanchoensenada.cl",
-    business: "Restaurante",
-    img: "/img/projects/mockup-dondepancho.webp",
-    location: "Ensenada, Chile",
-  }
 ];
 
 export default proyects;
