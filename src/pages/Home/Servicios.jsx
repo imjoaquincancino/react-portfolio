@@ -54,15 +54,15 @@ export default function Servicios() {
         <div className="container px-4 mx-auto z-10">
           <div className="space-y-1 z-10 sm:flex flex-col sm:justify-center sm:items-center">
             <span className="bg-clip-text text-xl md:text-2xl text-transparent bg-gradient-to-br from-[#d88333] to-[#ffc341] font-bold">
-              Queremos trabajar contigo
+              Quiero trabajar contigo
             </span>
             <h2 className="max-w-screen-lg text-balance text-4xl font-bold md:text-5xl md:leading-tight">
-              Nuestros Servicios
+              Mis Servicios
             </h2>
             <div className="py-4">
               <CTAcampaign
                 url={"/planes"}
-                text={"¡Todos nuestros planes A MITAD DE PRECIO!"}
+                text={"¡Todos mis planes A MITAD DE PRECIO!"}
               />
             </div>
           </div>
@@ -71,7 +71,7 @@ export default function Servicios() {
               title={"Desarrollo Mini Web"}
               img={"/img/miniweb-mockup.webp"}
               description={
-                "Desarrollamos tu Mini Web para que puedas tener presencia en internet de manera rápida y sencilla. Ideal para emprendedores de Puerto Varas y Ensenada."
+                "Desarrollo tu Mini Web para que puedas tener presencia en internet de manera rápida y sencilla. Ideal para emprendedores de Puerto Varas y Ensenada."
               }
               cta={"Consultar planes"}
               url={"/planes"}
@@ -81,7 +81,7 @@ export default function Servicios() {
               title={"Desarrollo Landing Page"}
               img={"/img/landingpage-mockup.webp"}
               description={
-                "Desarrollamos tu landing page para que puedas promocionar un producto o servicio de manera más detallada. Ideal para pequeñas empresas de Puerto Varas y Ensenada."
+                "Desarrollo tu landing page para que puedas promocionar un producto o servicio de manera más detallada. Ideal para pequeñas empresas de Puerto Varas y Ensenada."
               }
               cta={"Consultar planes"}
               url={"/planes"}
@@ -91,7 +91,7 @@ export default function Servicios() {
               title={"Desarrollo Página Web Corporativa"}
               img={"/img/corporativo-mockup.webp"}
               description={
-                "Desarrollamos tu página web corporativa asegurando captar al mayor número de visitantes mediante estrategias SEO. Ideal para Restaurantes, Cabañas y Empresas medianas en Puerto Varas y Ensenada."
+                "Desarrollo tu página web corporativa asegurando captar al mayor número de visitantes mediante estrategias SEO. Ideal para Restaurantes, Cabañas y Empresas medianas en Puerto Varas y Ensenada."
               }
               cta={"Consultar planes"}
               url={"/planes"}

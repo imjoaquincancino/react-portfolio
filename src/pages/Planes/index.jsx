@@ -31,11 +31,11 @@ export default function Planes() {
         </title>
         <meta
           name="description"
-          content="Descubre nuestros planes accesibles de diseño web. Páginas web desde $30.000 al año, ideales para emprendedores, empresas y turismo en Puerto Varas y Ensenada."
+          content="Descubre planes accesibles de diseño web. Páginas web desde $30.000 al año, ideales para emprendedores, empresas y turismo en Puerto Varas y Ensenada."
         />
         <meta
           property="og:description"
-          content="Aprovecha nuestras Ofertas de Pre-temporada 2025: Tu página web a mitad de precio | Los mejores Planes de Diseño Web desde los $30.000 anuales | Para emprendedores y pequeñas o medianas empresas de Puerto Varas y Ensenada | Joaquín Cancino: Programador y Diseñador Web de Ensenada, Chile"
+          content="Aprovecha las Ofertas de Temporada 2025: Tu página web a mitad de precio | Los mejores Planes de Diseño Web desde los $30.000 anuales | Para emprendedores y pequeñas o medianas empresas de Puerto Varas y Ensenada | Joaquín Cancino: Programador y Diseñador Web de Ensenada, Chile"
         />
         <meta property="og:image" content="/img/banner.jpg" />
         <meta property="og:url" content="https://joaquincancino.dev/planes" />
@@ -94,7 +94,7 @@ export default function Planes() {
             </h2>
             <p className="max-w-screen-lg text-balance text-2xl font-normal font-heading md:text-3xl lg:text-4xl md:leading-tight">
               No pierdas la oportunidad,{" "}
-              <strong>tenemos precios accesibles</strong> para ti.
+              <strong>hay precios accesibles</strong> para ti.
             </p>
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 mt-8">
@@ -130,7 +130,7 @@ export default function Planes() {
               <strong>Corporaciones</strong>
             </h2>
             <p className="max-w-screen-lg text-balance text-2xl font-normal font-heading md:text-3xl lg:text-4xl md:leading-tight">
-              Tenemos soluciones <strong>personalizadas</strong> para tu
+              Tengo soluciones <strong>personalizadas</strong> para tu
               negocio.
             </p>
           </div>
@@ -167,7 +167,7 @@ export default function Planes() {
               <strong>Cabañas</strong>
             </span>
             <h2 className="max-w-screen-lg text-balance text-2xl font-normal font-heading md:text-3xl xl:text-4xl md:leading-tight">
-              Nos especializamos en <strong>aumentar las ventas</strong> de tu
+              Opciones especializadas en <strong>aumentar las ventas</strong> de tu
               negocio turístico.
             </h2>
           </div>

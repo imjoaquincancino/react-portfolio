@@ -26,7 +26,7 @@ export function Inicio() {
               ¡No te quedes fuera esta temporada de verano! Obtén una página web
               profesional con{" "}
               <strong>
-                50% de descuento en TODOS nuestros planes de diseño web
+                50% de descuento en TODOS mis planes de diseño web
               </strong>{" "}
               y haz crecer tu negocio con una presencia online destacada.
             </p>

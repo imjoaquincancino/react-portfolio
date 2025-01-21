@@ -53,7 +53,7 @@ export function Projects() {
           Conoce alguno de nuestros proyectos
         </h2>
         <span className="max-w-screen-lg text-balance text-2xl font-normal font-heading md:text-3xl xl:text-4xl md:leading-tight">
-          Ellos ya disfrutan de las <strong>ventajas</strong> de tener una página web
+          Ellos ya disfrutan de las <strong>ventajas</strong> de tener su página web
         </span>
       </div>
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 mt-6">
