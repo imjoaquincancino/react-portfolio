@@ -51,7 +51,7 @@ export function Navbar() {
               className="hover:text-gray-200 transition-all duration-300"
               href="/historia"
             >
-              Sobre JC
+              Historia
             </a>
           </div>
 
@@ -136,7 +136,7 @@ export function Navbar() {
             className="hover:text-gray-200 transition-all duration-300"
             href="/historia"
           >
-            Sobre JC
+            Historia
           </a>
         </div>
       )}

@@ -18,7 +18,7 @@ export function Footer() {
           <div className="grid grid-cols-2 gap-12 sm:flex sm:flex-wrap sm:gap-16 lg:gap-20">
             <section className="group flex flex-col">
               <h2 className="mb-4 label-base leading-none text-white">
-                Nuestros Servicios
+                Servicios de Diseño Web
               </h2>
               <ul className="flex flex-col gap-2">
                 <FooterItem url="/planes" text="Diseño Mini Web" />
@@ -28,7 +28,7 @@ export function Footer() {
             </section>
             <section className="group flex flex-col">
               <h2 className="mb-4 label-base leading-none text-white">
-                Sobre Nosotros
+                Sobre Mí
               </h2>
               <ul
                 aria-labelledby="footerHeading3"
@@ -54,7 +54,8 @@ export function Footer() {
               </h2>
               <ul className="flex flex-col gap-2">
                 <FooterItem url="https://wa.me/56965926195" text="WhatsApp" targetblank={true} />
-                <FooterItem url="mailto:hola@joaquincancino.dev" text="Correo" targetblank={true} />
+                <FooterItem url="mailto:joaquincancino.dev@gmail.com" text="Correo" targetblank={true} />
+                <FooterItem url="tel:+56965926195" text="+56 9 6592 6195" targetblank={true} />
               </ul>
             </section>
           </div>
