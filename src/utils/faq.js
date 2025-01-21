@@ -23,10 +23,9 @@ const faqs = [
     answer:
       `<p>Dependerá del plan que elijas:</p>
        <ul>
-         <li>En el plan <strong>Esencial</strong> el hosting está incluido de manera gratuita, pero el dominio de tu página web se paga por separado (te ofrezco asesoría gratuita para adquirirlo).</li>
-         <li>En los demás planes, se incluye el <strong>dominio y hosting gratuitos por 1 año</strong>.</li>
+         <li>Solo en el plan <strong>Esencial</strong> el dominio de tu página (www.tupagina.cl) se paga por separado (te ofrezco asesoría gratuita para adquirirlo).</li>
        </ul>
-       <p>Además, todos los planes incluyen <strong>mantenimiento gratuito por tiempo limitado</strong>.</p>`,
+       <p>Todos los demás planes tienen <strong>hosting y dominio incluidos</strong>.</p>`,
   },
   {
     question: "¿Qué es el SEO y por qué es importante para mi negocio?",

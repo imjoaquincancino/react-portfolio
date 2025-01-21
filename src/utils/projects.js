@@ -1,7 +1,7 @@
 const proyects = [
   {
     name: "La Piara",
-    description: "Página Web (Mini Web) de La Piara: Hamburguesas y Pizzas en Ensenada. Cuenta con un diseño de alta calidad, moderno y profesional. Cuenta con fotos de alta calidad hechas por Joaquín Cancino.",
+    description: "Página Web (Mini Web) de La Piara: Hamburguesas y Pizzas en Ensenada. Cuenta con un diseño de alta calidad, moderno y profesional. Contiene fotos de alta calidad hechas por JC.",
     url: "https://lapiarapv.cl",
     business: "Hamburguesería",
     img: "/img/projects/mockup-lapiara.webp",
@@ -19,7 +19,7 @@ const proyects = [
   {
     name: "Donde Pancho",
     description:
-    "Mini Web del restaurante Donde Pancho Ensenada. Con un diseño moderno, profesional y minimalista. Contiene lo esencial para marcar presencia en linea.",
+    "Página Web del restaurante Donde Pancho Ensenada (Mini Web). Con un diseño moderno, profesional y minimalista. Contiene lo esencial para marcar presencia en linea.",
     url: "https://dondepanchoensenada.cl",
     business: "Restaurante",
     img: "/img/projects/mockup-dondepancho.webp",
