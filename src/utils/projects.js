@@ -1,5 +1,13 @@
 const proyects = [
   {
+    name: "Fogón Pucará",
+    description: "Sitio Web (Restaurantes) del Fogón Pucará. Diseño de alta calidad reflejando la identidad del restaurante. Estilo moderno y profesional. Contiene menú digital con Código QR, contacto, galeria, reservas y más.",
+    url: "https://fogonpucara.cl",
+    business: "Restaurante",
+    img: "/img/projects/mockup-fogonpucara.webp",
+    location: "Ensenada, Chile"
+  },
+  {
     name: "La Piara",
     description: "Página Web (Mini Web) de La Piara: Hamburguesas y Pizzas en Ensenada. Cuenta con un diseño de alta calidad, moderno y profesional. Contiene fotos de alta calidad hechas por JC.",
     url: "https://lapiarapv.cl",
