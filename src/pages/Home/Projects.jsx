@@ -11,6 +11,7 @@ function ProjectCard({ name, description, url, img, targetblank, location, busin
             src={img}
             alt={`Página Web para ${business} en ${location}`}
             className="w-auto h-auto object-cover rounded-lg"
+            loading="lazy"
           />
         </a>
         <h3 className="mt-4 text-xl font-bold">{name}</h3>
@@ -50,7 +51,7 @@ export function Projects() {
     >
       <div className="space-y-1 z-10">
         <h2 className="bg-clip-text md:text-lg text-transparent bg-gradient-to-br from-[#d83333] to-[#f041ff] font-semibold">
-          Conoce alguno de nuestros proyectos
+          Conoce algunos de mis trabajos
         </h2>
         <span className="max-w-screen-lg text-balance text-2xl font-normal font-heading md:text-3xl xl:text-4xl md:leading-tight">
           Ellos ya disfrutan de las <strong>ventajas</strong> de tener su página web

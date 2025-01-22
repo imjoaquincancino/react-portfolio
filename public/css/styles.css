@@ -12,12 +12,6 @@
   font-style: normal;
 }
 
-.adlam-display-family {
-  font-family: "ADLaM Display", system-ui;
-  line-height: 1;
-}
-
-
 body {
   color: #000;
   font-family: "Inspire", system-ui, sans-serif;

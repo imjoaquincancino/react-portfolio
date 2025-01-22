@@ -11,7 +11,7 @@ export function Inicio() {
             <span className="mb-6">
               <CTAcampaign
                 url={"/planes"}
-                text={"Ofertas de Pre-temporada 2025"}
+                text={"Ofertas de Temporada 2025"}
               />
             </span>
             <h1 className="text-4xl sm:text-6xl md:text-7xl font-bold text-center lg:text-start mb-6">
