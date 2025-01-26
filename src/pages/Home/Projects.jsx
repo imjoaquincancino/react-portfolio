@@ -1,7 +1,15 @@
 /* eslint-disable react/prop-types */
 import projects from "../../utils/projects";
 
-function ProjectCard({ name, description, url, img, targetblank, location, business }) {
+function ProjectCard({
+  name,
+  description,
+  url,
+  img,
+  targetblank,
+  location,
+  business,
+}) {
   const target = targetblank ? "_blank" : "_parent";
   return (
     <article className="rounded-2xl border border-[#111C2D] bg-[#0B1422] text-gray-100 shadow-sm hover:shadow-xl hover:-translate-y-2 transition-transform duration-500 max-w-sm">
@@ -14,8 +22,29 @@ function ProjectCard({ name, description, url, img, targetblank, location, busin
             loading="lazy"
           />
         </a>
-        <h3 className="mt-4 text-xl font-bold">{name}</h3>
-        <p className="mt-2 text-gray-400">{description}</p>
+        <div className="flex flex-col items-start justify-center ">
+          <h4 className="mt-4 text-xl font-bold">{name}</h4>
+          <span className="text-xs font-semibold flex items-center gap-1 text-gray-400/90">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="14"
+              height="14"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              className="icon icon-tabler icons-tabler-outline icon-tabler-map-pin"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
+              <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+            </svg>
+            <strong className="font-semibold">{location}</strong>
+          </span>
+        </div>
+        <p className="mt-4 text-gray-400">{description}</p>
         <a
           href={url}
           className="mt-4 inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none border border-gray-700 text-white hover:bg-gray-700 h-10 py-2 px-4"
@@ -54,7 +83,8 @@ export function Projects() {
           Conoce algunos de mis trabajos
         </h2>
         <span className="max-w-screen-lg text-balance text-2xl font-normal font-heading md:text-3xl xl:text-4xl md:leading-tight">
-          Ellos ya disfrutan de las <strong>ventajas</strong> de tener su página web
+          Ellos ya disfrutan de las <strong>ventajas</strong> de tener su página
+          web
         </span>
       </div>
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 mt-6">
@@ -80,7 +110,12 @@ export function Projects() {
         })}
       </div>
       <div className="flex justify-center mt-10">
-        <a className="rounded-full bg-gradient-to-t from-brand to-brandlight text-lg md:text-xl font-bold py-2 px-6 hover:scale-105 transition-all duration-300 text-center" href="/planes">Quiero tener mi página web</a>
+        <a
+          className="rounded-full bg-gradient-to-t from-brand to-brandlight text-lg md:text-xl font-bold py-2 px-6 hover:scale-105 transition-all duration-300 text-center"
+          href="/planes"
+        >
+          Quiero tener mi página web
+        </a>
       </div>
     </section>
   );
