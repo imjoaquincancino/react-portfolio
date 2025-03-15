@@ -1,14 +1,14 @@
 {
   "name": "Avanzado",
   "description": "Para negocios que buscan destacar con una página Web profesional, completa y optimizada.",
-  "price": "200.000",
+  "price": "400.000",
   "icon": "rocket",
-  "beforePrice": "400.000",
-  "campaign": true,
+  "beforePrice": "450.000",
+  "campaign": false,
   "wspLink": "https://api.whatsapp.com/send?phone=56965926195&text=Hola%2C%20me%20interesa%20el%20plan%20Avanzado.",
   "features": [
     {
-      "content": "Sitio web de hasta 5 páginas.",
+      "content": "Hasta 5 páginas (Website).",
       "icon": "fa-pager"
     },
     {
@@ -16,15 +16,15 @@
       "icon": "fa-paint-brush"
     },
     {
-      "content": "Páginas: Inicio, Sobre Nosotros, Galería, Servicios, Contacto.",
+      "content": "Hasta 10 secciones por página.",
       "icon": "fa-circle-info"
     },
     {
-      "content": "Optimización avanzada de textos para SEO en Google.",
+      "content": "Optimización y estrategia SEO para Google.",
       "icon": "fa-search"
     },
     {
-      "content": "Mapa de ubicación en Google Maps.",
+      "content": "Integración con Google Maps.",
       "icon": "fa-location-dot"
     },
     {
@@ -53,7 +53,6 @@
     "features": [
       "Monitoreo de seguridad y protección adicional contra ataques cibernéticos.",
       "Copias de seguridad automáticas (semanales).",
-      "Actualización de contenido menor (hasta 1 vez al mes).",
       "Corrección de errores técnicos (1 vez al mes)."
     ]
   },

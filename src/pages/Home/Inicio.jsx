@@ -11,7 +11,7 @@ export function Inicio() {
             <span className="mb-6">
               <CTAcampaign
                 url={"/planes"}
-                text={"Ofertas de Temporada 2025"}
+                text={"Consulta nuestros planes"}
               />
             </span>
             <h1 className="text-4xl sm:text-6xl md:text-7xl font-bold text-center lg:text-start mb-6">
@@ -23,10 +23,10 @@ export function Inicio() {
               </span>
             </h1>
             <p className="max-w-lg mb-6 text-center lg:text-left text-[#d0dbec] [&>strong]:text-yellow-200">
-              ¡No te quedes fuera esta temporada de verano! Obtén una página web
+              ¡No te quedes fuera del mercado digital! Obtén una página web
               profesional con{" "}
               <strong>
-                50% de descuento en TODOS mis planes de diseño web
+                descuento en TODOS mis planes de diseño web
               </strong>{" "}
               y haz crecer tu negocio con una presencia online destacada.
             </p>
@@ -35,7 +35,7 @@ export function Inicio() {
                 className="rounded-md bg-gradient-to-t from-brand to-brandlight text-xl md:text-2xl font-bold py-2 px-6 hover:scale-105 transition-all duration-300 text-center"
                 href="/planes"
               >
-                ¡Obtén tu página con -50%!
+                ¡Obtén tu página ya mismo!
               </a>
             </nav>
           </header>

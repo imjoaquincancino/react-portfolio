@@ -1,13 +1,13 @@
 {
   "name": "Corporativo",
   "description": "Ideal para empresas que necesitan una página web robusta, optimizada y profesional, acompañada de estadísticas y reportes.",
-  "price": "325.000",
+  "price": "800.000",
   "campaign": true,
-  "beforePrice": "650.000",
+  "beforePrice": "1.200.000",
   "wspLink": "https://api.whatsapp.com/send?phone=56965926195&text=Hola%2C%20me%20interesa%20el%20plan%20Full.",
   "features": [
     {
-      "content": "Sitio web de hasta 10 páginas.",
+      "content": "Hasta 10 páginas (Website).",
       "icon": "fa-pager"
     },
     {
@@ -15,15 +15,15 @@
       "icon": "fa-paint-brush"
     },
     {
-      "content": "Páginas: Inicio, Sobre Nosotros, Galería, Servicios, Contacto, y más a elección.",
+      "content": "Hasta 15 secciones por página.",
       "icon": "fa-circle-info"
     },
     {
-      "content": "Optimización avanzada de textos, imágenes, keywords para SEO en Google.",
+      "content": "Optimización y estrategia SEO para Google basado en estadísticas.",
       "icon": "fa-search"
     },
     {
-      "content": "Mapa de ubicación en Google Maps.",
+      "content": "Integración con Google Maps.",
       "icon": "fa-location-dot"
     },
     {
@@ -35,7 +35,7 @@
       "icon": "fa-brands fa-instagram"
     },
     {
-      "content": "Hasta 60 fotos de sus productos o negocio.",
+      "content": "Hasta 200 fotos de sus productos o negocio.",
       "icon": "fa-solid fa-image"
     },
     {
@@ -51,7 +51,7 @@
       "icon": "fa-file-lines"
     },
     {
-      "content": "Hasta 5 cuentas de correo con dominio insitucional (nombre@tudominio.cl).",
+      "content": "Hasta 5 cuentas de correo con dominio insitucional (nombre@tudominio.com).",
       "icon": "fa-envelope"
     },
     {
@@ -68,8 +68,8 @@
     "features": [
       "Monitoreo de seguridad y protección adicional contra ataques cibernéticos.",
       "Copias de seguridad automáticas (diarias).",
-      "Actualización de contenido menor (hasta 2 veces al mes).",
       "Optimización de velocidad de carga (trimestral).",
+      "Optimización SEO (trimestral).",
       "Corrección de errores técnicos y asistencia prioritaria en caso de problemas."
     ]
   },

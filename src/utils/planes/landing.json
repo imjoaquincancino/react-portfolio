@@ -1,15 +1,15 @@
 {
   "name": "Landing Page",
   "description": "Perfecto para negocios que necesitan una página web de presentación atractiva y funcional.",
-  "price": "100.000",
-  "campaign": true,
-  "beforePrice": "200.000",
-  "example": "https://lachocolattina.cl",
+  "price": "200.000",
+  "campaign": false,
+  "beforePrice": "350.000",
+  "example": "https://pizzasensenada.cl",
   "best": true,
   "wspLink": "https://api.whatsapp.com/send?phone=56965926195&text=Hola%2C%20me%20interesa%20el%20plan%20Landing.",
   "features": [
     {
-      "content": "Página web de 1 página (landing page).",
+      "content": "1 página (landing page).",
       "icon": "fa-pager"
     },
     {
@@ -17,11 +17,11 @@
       "icon": "fa-paint-brush"
     },
     {
-      "content": "Hasta 5 secciones: Inicio, Servicios/Cátalogo, Nosotros, Contacto y Ubicación.",
+      "content": "Hasta 5 secciones",
       "icon": "fa-circle-info"
     },
     {
-      "content": "Mapa de ubicación en Google Maps.",
+      "content": "Integración con Google Maps.",
       "icon": "fa-location-dot"
     },
     {
@@ -50,7 +50,6 @@
     "features": [
       "Monitoreo de seguridad y protección adicional contra ataques cibernéticos.",
       "Copias de seguridad automáticas (semanales).",
-      "Actualización de contenido menor (hasta 1 vez al mes).",
       "Corrección de errores técnicos (1 vez al mes)."
     ]
   },

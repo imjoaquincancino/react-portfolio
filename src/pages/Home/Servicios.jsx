@@ -62,36 +62,16 @@ export default function Servicios() {
             <div className="py-4">
               <CTAcampaign
                 url={"/planes"}
-                text={"¡Todos mis planes A MITAD DE PRECIO!"}
+                text={"¡Todos mis planes con Descuento!"}
               />
             </div>
           </div>
           <div className="flex flex-wrap justify-center py-6 gap-14 sm:gap-10 md:gap-16 lg:gap-24 ">
             <ServiceCard
-              title={"Desarrollo Mini Web"}
-              img={"/img/miniweb-mockup.webp"}
+              title={"Desarrollo de Páginas Web"}
+              img={"/img/mockup-home.webp"}
               description={
-                "Desarrollo tu Mini Web para que puedas tener presencia en internet de manera rápida y sencilla. Ideal para emprendedores de Puerto Varas y Ensenada."
-              }
-              cta={"Consultar planes"}
-              url={"/planes"}
-              color={planes.find((p) => p.name === "Mini Web").color}
-            />
-            <ServiceCard
-              title={"Desarrollo Landing Page"}
-              img={"/img/landingpage-mockup.webp"}
-              description={
-                "Desarrollo tu landing page para que puedas promocionar un producto o servicio de manera más detallada. Ideal para pequeñas empresas de Puerto Varas y Ensenada."
-              }
-              cta={"Consultar planes"}
-              url={"/planes"}
-              color={planes.find((p) => p.name === "Landing Page").color}
-            />
-            <ServiceCard
-              title={"Desarrollo Página Web Corporativa"}
-              img={"/img/corporativo-mockup.webp"}
-              description={
-                "Desarrollo tu página web corporativa asegurando captar al mayor número de visitantes mediante estrategias SEO. Ideal para Restaurantes, Cabañas y Empresas medianas en Puerto Varas y Ensenada."
+                "Desarrollo tu página web para captar al mayor número de visitantes mediante estrategias de Marketing. Ideal para Emprendedores, Restaurantes, Cabañas y Empresas en Puerto Varas y Ensenada."
               }
               cta={"Consultar planes"}
               url={"/planes"}

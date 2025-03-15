@@ -46,7 +46,7 @@ export default function Planes() {
           <div className="flex flex-col items-center justify-center">
             <CTAcampaign
               url={"#planes"}
-              text={"¡50% de DESCUENTO en PÁGINAS WEB!"}
+              text={"¡No te quedes fuera!"}
             />
             <h1 className="mt-6 mb-4 text-balance text-4xl sm:text-5xl md:text-6xl font-bold text-center">
               <strong className="bg-clip-text text-transparent bg-gradient-to-r from-brand to-purple-400 font-extrabold">
@@ -57,7 +57,7 @@ export default function Planes() {
             <p className="text-xl font-semibold text-center mx-auto text-gray-300 max-w-xl [&>strong]:text-yellow-200 [&>strong]:font-semibold">
               Diseñamos páginas web <strong>profesionales</strong> y{" "}
               <strong>accesibles</strong> en Puerto Varas y Ensenada. Aprovecha
-              todos nuestros planes con 50% de descuento.
+              todos nuestros planes con descuento.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-32 mt-6">
@@ -163,8 +163,7 @@ export default function Planes() {
           <div className="bg-gradient-to-l from-[#f76b5e28] to-[#e6394728] w-3/4 absolute -z-10  blur-[160px] md:blur-[300px] rounded-full h-3/4"></div>
           <div className="space-y-1 z-10">
             <span className="bg-clip-text text-2xl text-transparent bg-gradient-to-tr from-[#f77f5e] to-[#e63939] font-semibold">
-              Páginas web para <strong>Restaurantes</strong> y{" "}
-              <strong>Cabañas</strong>
+              Páginas web para <strong>Restaurantes</strong> con sistema de <strong>Carta Digital</strong>
             </span>
             <h2 className="max-w-screen-lg text-balance text-2xl font-normal font-heading md:text-3xl xl:text-4xl md:leading-tight">
               Opciones especializadas en <strong>aumentar las ventas</strong> de tu
